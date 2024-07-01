@@ -15,7 +15,7 @@ Cloud-Native Bootcamp is designed to provide hands-on resources that cover a wid
 - **Microservices architecture**: Build resilient, scalable microservices architectures with best practices, service mesh configurations, and more.
 - **Security and Compliance**: Stay on top of security with scripts and configurations to enhance cloud security, governance, and compliance.
 
-## Key Features
+## Key Features 
 
 - **Cloud Providers**: Google Cloud, AWS, Azure
 - **Container Orchestration**: Kubernetes, Docker
