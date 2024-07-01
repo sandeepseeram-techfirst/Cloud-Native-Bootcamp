@@ -20,3 +20,8 @@ Unpacking git (1:2.25.1-1ubuntu3.13) over (1:2.25.1-1ubuntu3.6) ...
 Setting up git (1:2.25.1-1ubuntu3.13) ...
 ubuntu $ 
 
+``` bash 
+
+ubuntu $ git --version
+git version 2.25.1
+ubuntu $ 
