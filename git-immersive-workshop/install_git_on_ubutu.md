@@ -1,6 +1,6 @@
-### apt install -y git 
+### apt install -y git
 
-
+```bash
 ubuntu $ apt install -y git
 Reading package lists... Done
 Building dependency tree       
