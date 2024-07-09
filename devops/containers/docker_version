@@ -17,3 +17,7 @@ Server:
   Built:        Wed Mar 21 23:08:35 2018
   OS/Arch:      linux/amd64
   Experimental: false
+
+
+$ docker run busybox echo hello world
+hello world
