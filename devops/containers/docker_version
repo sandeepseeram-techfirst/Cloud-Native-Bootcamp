@@ -21,3 +21,7 @@ Server:
 
 $ docker run busybox echo hello world
 hello world
+
+
+$ docker run -it ubuntu
+root@04c0bb0a6c07:/#
