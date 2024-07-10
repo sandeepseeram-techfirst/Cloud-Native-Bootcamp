@@ -62,3 +62,6 @@ $ docker inspect <containerID> | jq .
 
 $ docker inspect --format '{{ json .Created }}' <containerID>
 "2015-02-24T07:21:11.712240394Z"
+
+
+$ docker exec -ti ticktock sh
