@@ -39,3 +39,8 @@ Fri Feb 20 00:55:37 UTC 2015
 
 
 #### Follow the logs in real time
+
+$ docker logs --tail 1 --follow 068
+Fri Feb 20 00:57:12 UTC 2015
+Fri Feb 20 00:57:13 UTC 2015
+^C
