@@ -32,3 +32,9 @@ root@04c0bb0a6c07:/# figlet hello
 | '_ \ / _ \ | |/ _ \ 
 | | | |  __/ | | (_) |
 |_| |_|\___|_|_|\___/
+
+
+#### Let's check how many packages are installed there.
+
+root@04c0bb0a6c07:/# dpkg -l | wc -l
+97
