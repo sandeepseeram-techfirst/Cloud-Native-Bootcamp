@@ -35,3 +35,7 @@ $ docker logs --tail 3 068
 Fri Feb 20 00:55:35 UTC 2015
 Fri Feb 20 00:55:36 UTC 2015
 Fri Feb 20 00:55:37 UTC 2015
+
+
+
+#### Follow the logs in real time
