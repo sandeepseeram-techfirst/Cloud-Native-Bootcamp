@@ -58,3 +58,7 @@ b13c164401fb  ubuntu          ...  55 min. ago  Exited (130) 53 min. ago
 $ docker run --name ticktock jpetazzo/clock
 
 $ docker inspect <containerID> | jq .
+
+
+$ docker inspect --format '{{ json .Created }}' <containerID>
+"2015-02-24T07:21:11.712240394Z"
