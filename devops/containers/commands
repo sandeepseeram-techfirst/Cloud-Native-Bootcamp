@@ -7,7 +7,12 @@ Fri Feb 20 00:28:55 UTC 2015
 ...
 
 
-Containers can be started in the background, with the -d flag (daemon mode):
+##### Containers can be started in the background, with the -d flag (daemon mode):
 
 $ docker run -d jpetazzo/clock
 47d677dcfba4277c6cc68fcaa51f932b544cab1a187c853b7d0caf4e8debe5ad
+
+
+$ docker ps
+CONTAINER ID  IMAGE           ...  CREATED        STATUS        ...
+47d677dcfba4  jpetazzo/clock  ...  2 minutes ago  Up 2 minutes  ...
