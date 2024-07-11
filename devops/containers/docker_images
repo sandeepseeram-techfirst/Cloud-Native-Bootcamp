@@ -46,3 +46,13 @@ Pulling repository debian
 b164861940b8: Download complete
 b164861940b8: Pulling image (jessie) from debian
 d1881793a057: Download complete
+
+
+### Multi-arch images
+- An image can support multiple architectures
+
+- More precisely, a specific tag in a given repository can have either:
+
+* a single manifest referencing an image for a single architecture
+
+* a manifest list (or fat manifest) referencing multiple images
