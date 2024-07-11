@@ -1,0 +1,15 @@
+1. Image = files + metadata
+
+2. These files form the root filesystem of our container.
+
+3. The metadata can indicate a number of things, e.g.:
+
+4. the author of the image
+
+5. the command to execute in the container when starting it environment variables to be set etc.
+
+6. Images are made of layers, conceptually stacked on top of each other.
+
+7. Each layer can add, change, and remove files and/or metadata.
+
+8. Images can share layers to optimize disk usage, transfer times, and memory use.
