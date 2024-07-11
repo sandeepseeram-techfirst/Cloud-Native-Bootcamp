@@ -13,3 +13,6 @@
 7. Each layer can add, change, and remove files and/or metadata.
 
 8. Images can share layers to optimize disk usage, transfer times, and memory use.
+
+
+![Docker Image](image.png)
