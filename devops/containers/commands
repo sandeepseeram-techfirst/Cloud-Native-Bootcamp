@@ -71,3 +71,11 @@ $ docker diff <container_id>
 
 We can extract files with docker cp.
 $ docker cp <container_id>:/var/log/nginx/error.log .
+
+
+we can create a new image from the crashed container
+
+$ docker commit <container_id> debugimage
+
+Then we can run a new container from that image, with a custom entrypoint
+$ docker run -ti --entrypoint sh debugimage
