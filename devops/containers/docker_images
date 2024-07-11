@@ -31,3 +31,11 @@ debian           latest    f50f9524513f   6 days ago      125.1 MB
 busybox          latest    3240943c9ea3   2 weeks ago     1.114 MB
 training/namer   latest    902673acc741   9 months ago    289.3 MB
 jpetazzo/clock   latest    12068b93616f   12 months ago   2.433 MB
+
+
+$ docker search marathon
+NAME                     DESCRIPTION                     STARS  OFFICIAL  AUTOMATED
+mesosphere/marathon      A cluster-wide init and co...   105              [OK]
+mesoscloud/marathon      Marathon                        31               [OK]
+mesosphere/marathon-lb   Script to update haproxy b...   22               [OK]
+tobilg/mongodb-marathon  A Docker image to start a ...   4                [OK]
