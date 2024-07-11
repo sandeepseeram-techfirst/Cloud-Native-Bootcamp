@@ -65,3 +65,6 @@ $ docker inspect --format '{{ json .Created }}' <containerID>
 
 
 $ docker exec -ti ticktock sh
+
+We can use docker diff to see files that were added / changed / removed.
+docker diff <container_id>
