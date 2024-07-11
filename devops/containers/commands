@@ -70,4 +70,4 @@ We can use docker diff to see files that were added / changed / removed.
 $ docker diff <container_id>
 
 We can extract files with docker cp.
-docker cp <container_id>:/var/log/nginx/error.log .
+$ docker cp <container_id>:/var/log/nginx/error.log .
