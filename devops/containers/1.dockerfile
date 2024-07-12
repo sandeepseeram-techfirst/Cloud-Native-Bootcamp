@@ -1,7 +1,7 @@
 FROM ubuntu
 RUN apt-get update
 RUN apt-get install figlet
-
+ 
 
 
 docker build -t figlet .
