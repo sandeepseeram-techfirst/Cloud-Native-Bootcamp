@@ -1,4 +1,4 @@
-## What is Docker?
+## What is Docker? 
 
 "Installing Docker" really means "Installing the Docker Engine and CLI".
 
