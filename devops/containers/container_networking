@@ -17,3 +17,7 @@ NETWORK ID          NAME                DRIVER
 8d9c78725538        none                null
 eb0eeab782f4        host                host
 4c1ff84d6d3f        dev                 bridge
+
+
+$ docker run -d --name es --net dev elasticsearch:2
+8abb80e229ce8926c7223beb69699f5f34d6f1d438bfc5682db893e798046863
