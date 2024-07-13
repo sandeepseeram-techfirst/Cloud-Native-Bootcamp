@@ -79,3 +79,8 @@ $ docker commit <container_id> debugimage
 
 Then we can run a new container from that image, with a custom entrypoint
 $ docker run -ti --entrypoint sh debugimage
+
+
+$ docker run -d -p 80:80 nginx
+$ docker run -d -p 8000:80 nginx
+$ docker run -d -p 8080:80 -p 8888:80 nginx
