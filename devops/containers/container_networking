@@ -1,0 +1,19 @@
+$ docker network ls
+NETWORK ID          NAME                DRIVER
+6bde79dfcf70        bridge              bridge
+8d9c78725538        none                null
+eb0eeab782f4        host                host
+4c1ff84d6d3f        blog-dev            overlay
+228a4355d548        blog-prod           overlay
+
+
+$ docker network create dev
+4c1ff84d6d3f1733d3e233ee039cac276f425a9d5228a4355d54878293a889ba
+
+
+$ docker network ls
+NETWORK ID          NAME                DRIVER
+6bde79dfcf70        bridge              bridge
+8d9c78725538        none                null
+eb0eeab782f4        host                host
+4c1ff84d6d3f        dev                 bridge
