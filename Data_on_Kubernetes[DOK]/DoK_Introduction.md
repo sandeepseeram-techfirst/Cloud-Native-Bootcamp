@@ -1,0 +1,3 @@
+# Introduction
+
+Kubernetes helps ensure the high availability of big data applications through features such as self-healing and auto-restarting of failed containers.
