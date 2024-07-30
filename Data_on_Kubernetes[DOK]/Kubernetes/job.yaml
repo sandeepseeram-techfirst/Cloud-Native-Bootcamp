@@ -11,3 +11,13 @@ spec:
         command: ['sh', '-c', 'echo Hello Kubernetes! && sleep 30']
       restartPolicy: Never
     backoffLimit: 4
+----------------------------------------------------------------------------------------
+
+Explaination: 
+
+apiVersion ' batch/v1 for jobs
+kind ' Job
+metadata.name ' Name of the job
+spec.template ' Pod template defining the container(s) to run the same way we saw in the previous resource definitions
+spec.template.spec.restartPolicy ' Set to Never since jobs shouldn’t restart
+spec.backoffLimit ' Optional limit on failed job retries
