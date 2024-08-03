@@ -1,6 +1,6 @@
 # Gateway API 
 
-The Gateway API is a Kubernetes API that provides a way to dynamically configure load balancing and service mesh capabilities on Kubernetes. The Gateway API allows defining routes and policies to manage external traffic to Kubernetes services in a centralized, declarative way.
+The Gateway API is a Kubernetes API that provides a way to dynamically configure load balancing and service mesh capabilities on Kubernetes. The Gateway API allows defining routes and policies to manage external traffic to Kubernetes services in a centralized, declarative way. 
 
 ## The main resources in Gateway API are the following:
 
