@@ -23,3 +23,6 @@ Functionality: Exposes data to applications, often as APIs or queryable database
 Merges real-time insights from the speed layer with the precomputed results from the batch layer.
 
 Tools: Cassandra, HBase, or any queryable data store.
+
+
+![Lambda_Architecture](image.png)
