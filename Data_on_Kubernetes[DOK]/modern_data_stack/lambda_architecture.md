@@ -5,9 +5,9 @@ is a design pattern for building data processing systems that can handle large-s
 
 ## Batch Layer:
 Purpose: Handles large-scale data processing by processing data in batches.
-Functionality:
-Stores the immutable, raw data in its entirety (e.g., using distributed storage like HDFS or S3).
+Functionality: Stores the immutable, raw data in its entirety (e.g., using distributed storage like HDFS or S3).
 Computes pre-aggregated views or batch jobs for historical data analysis.
+
 Tools: Hadoop, Spark, or similar batch-processing frameworks.
 
 ## Speed Layer:
@@ -15,6 +15,7 @@ Purpose: Processes real-time data to provide low-latency outputs.
 Functionality:
 Ingests and processes data streams as they arrive.
 Complements the batch layer by providing up-to-the-moment results.
+
 Tools: Apache Kafka, Apache Flink, Apache Storm, or similar stream-processing systems.
 
 ## Serving Layer:
