@@ -20,7 +20,7 @@ Tools: Apache Kafka, Apache Flink, Apache Storm, or similar stream-processing sy
 
 ## Serving Layer:
 Purpose: Combines and serves data processed by both the batch and speed layers.
-Functionality:
-Exposes data to applications, often as APIs or queryable databases.
+Functionality: Exposes data to applications, often as APIs or queryable databases.
 Merges real-time insights from the speed layer with the precomputed results from the batch layer.
+
 Tools: Cassandra, HBase, or any queryable data store.
