@@ -12,8 +12,7 @@ Tools: Hadoop, Spark, or similar batch-processing frameworks.
 
 ## Speed Layer:
 Purpose: Processes real-time data to provide low-latency outputs.
-Functionality:
-Ingests and processes data streams as they arrive.
+Functionality: Ingests and processes data streams as they arrive.
 Complements the batch layer by providing up-to-the-moment results.
 
 Tools: Apache Kafka, Apache Flink, Apache Storm, or similar stream-processing systems.
