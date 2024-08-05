@@ -26,3 +26,4 @@ Tools: Cassandra, HBase, or any queryable data store.
 
 
 ![Lambda_Architecture](image.png)
+
