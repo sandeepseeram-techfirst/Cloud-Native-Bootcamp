@@ -1,4 +1,6 @@
+# Kappa Architecture 
 
+The Kappa architecture emerged more recently as an alternative approach from primarily the same creators of the Lambda architecture. The main difference in the Kappa architecture is that it aims to simplify the Lambda model by eliminating the separate batch and speed layers.
 
 
 ## Stream processing layer: 
