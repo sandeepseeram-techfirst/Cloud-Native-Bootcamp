@@ -8,3 +8,6 @@ Responsible for ingesting and processing all data as streams. This layer handles
 
 ## Serving layer: 
 Responsible for responding to queries by accessing views produced by the stream processing layer.
+
+
+![Kappa Architecture](image-1.png)
