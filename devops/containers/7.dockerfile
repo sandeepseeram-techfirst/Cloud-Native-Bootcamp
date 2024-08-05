@@ -4,7 +4,7 @@ MAINTAINER SANDEEP KUMAR SEERAM "seerams@acm.org"
 
 VOLUME ["/app/data"]
 
-# Install python, pip and basic utilities
+# Install python, pip and basic utilities 
 RUN apk add -U \
         python \
         py-pip \
