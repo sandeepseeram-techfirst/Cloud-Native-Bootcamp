@@ -52,7 +52,7 @@ transactions = [Transaction("Alice", "Bob", 50), Transaction("Bob", "Charlie", 2
 for i in range(10):
     if all([is_valid_transaction(tx) for tx in transactions]):
         new_block = proof_of_work(previous_block, transactions)
-        blockchain.append(new_block) 
+        blockchain.append(new_block)
         previous_block = new_block 
         print(f"Block #{new_block.index} has been added to the blockchain!")
         print(f"Hash: {new_block.hash}\n")
