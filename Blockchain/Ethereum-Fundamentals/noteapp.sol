@@ -9,7 +9,7 @@ contract NoteApp{
     string public note;
 
     // Constructor function initializes the state variable with initial message
-    constructor(string memory _note) { 
+    constructor(string memory _note) {
         note = _note;
     }
 
