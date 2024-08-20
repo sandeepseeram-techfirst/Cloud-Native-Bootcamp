@@ -23,9 +23,3 @@ Keras can be used to build artificial neural networks (ANNs).
 TensorFlow extends Keras with additional functionalities. It’s very performant with large and complex data structures.
 
 
-📌 NumPy → Super fast calculator 🧮
-📌 Pandas → Super table organizer 📊
-📌 Keras → AI LEGO builder 🏗️
-📌 TensorFlow → AI super trainer 💪
-📌 Scikit-learn → AI teacher 🎓
-📌 Matplotlib → Data artist 🎨
