@@ -1,3 +1,5 @@
+# Matplotlib helps you turn numbers into pictures.
+
 import matplotlib.pyplot as plt
 
 days = ["Mon", "Tue", "Wed", "Thu", "Fri"]
