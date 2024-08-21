@@ -8,6 +8,6 @@ means that we assign an object to a specific category. The result you’re looki
 #### Regression 
 is a method that can be used to predict specific numerical values. The result is a constant value. Examples include the following:
 
-- Predicting the purchase price for a specific product
+- Predicting the purchase price for a specific product. 
 
 - Determining the monthly earnings of potential customers 
