@@ -10,4 +10,4 @@ is a method that can be used to predict specific numerical values. The result is
 
 - Predicting the purchase price for a specific product. 
 
-- Determining the monthly earnings of potential customers 
+- Determining the monthly earnings of potential customers. 
