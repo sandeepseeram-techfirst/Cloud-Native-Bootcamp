@@ -6,7 +6,8 @@ means that we assign an object to a specific category. The result you’re looki
 - Evaluation in quality control (categories “good” and “bad”). 
 
 #### Regression 
-is a method that can be used to predict specific numerical values. The result is a constant value. Examples include the following:
+is a method that can be used to predict specific numerical values. The result is a constant value. 
+Examples include the following:
 
 - Predicting the purchase price for a specific product. 
 
