@@ -9,3 +9,4 @@ controlplane $ kubectl get pv
 NAME        CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
 pv-volume   2Gi        RWO            Retain           Available                                   26s
 controlplane $ 
+
