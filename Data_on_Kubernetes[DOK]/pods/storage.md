@@ -10,3 +10,6 @@ NAME        CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORA
 pv-volume   2Gi        RWO            Retain           Available                                   26s
 controlplane $ 
 
+controlplane $ kubectl create -f pvc.yaml
+persistentvolumeclaim/pv-claim created
+controlplane $ 
