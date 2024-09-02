@@ -2,7 +2,7 @@ controlplane $ kubectl get all
 NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
 service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   95s
 
-controlplane $ kubectl create -f pv.yaml 
+controlplane $ kubectl create -f pv.yaml
 persistentvolume/pv-volume created
 
 controlplane $ kubectl get pv
