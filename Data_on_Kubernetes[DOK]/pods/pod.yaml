@@ -8,7 +8,7 @@ spec:
       persistentVolumeClaim:
         claimName: pv-claim
   containers:
-    - name: pv-container 
+    - name: pv-container
       image: nginx
       ports:
         - containerPort: 80
