@@ -2,4 +2,4 @@
 
 1. Python 
 2. Jupyter Notebook - IDE (Anaconda Distribution)
-3. KNIME
+3. KNIME - KNIME Analytics Platform
