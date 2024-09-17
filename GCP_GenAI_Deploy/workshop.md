@@ -23,3 +23,10 @@ Performance evaluation is a critical aspect of deploying generative AI applicati
 - Explore how to use the Rapid Evaluation API to assess application performance.
 - Identify areas for optimization and improvement.
 
+## Key Takeaways
+By the end of this workshop, participants will have a clear understanding of:
+- How to secure generative AI applications for prototype use.
+- Best practices for unit testing AI-driven solutions.
+- Techniques for evaluating and improving application performance using the Rapid Evaluation API.
+
+This workshop is designed to equip you with the tools and knowledge needed to deploy generative AI applications securely and effectively.
