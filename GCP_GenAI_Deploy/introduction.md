@@ -32,12 +32,13 @@ Deploying, testing, and evaluating Generative AI (Gen AI) applications involves 
 - Verify that the application performs as expected for various inputs.
 - Test edge cases, such as incomplete or malformed inputs.
 
-b. Performance Testing
-Measure response time, throughput, and latency under different loads.
-Use tools like Apache JMeter or Locust for load testing.
-c. Security Testing
-Test for vulnerabilities like injection attacks, data leaks, and unauthorized access.
-Use tools like OWASP ZAP or Burp Suite.
+### b. Performance Testing
+- Measure response time, throughput, and latency under different loads.
+- Use tools like Apache JMeter or Locust for load testing.
+
+### c. Security Testing
+- Test for vulnerabilities like injection attacks, data leaks, and unauthorized access.
+- Use tools like OWASP ZAP or Burp Suite.
 d. User Acceptance Testing (UAT)
 Involve end-users to test the application in real-world scenarios.
 Gather feedback on usability, accuracy, and overall experience.
