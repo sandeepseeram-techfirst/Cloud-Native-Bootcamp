@@ -58,12 +58,12 @@ Deploying, testing, and evaluating Generative AI (Gen AI) applications involves 
 - Latency: Measure the time taken to generate outputs.
 
 ### b. Human Evaluation
-Conduct surveys or interviews to gather qualitative feedback on the application's outputs.
-Use A/B testing to compare different versions of the application.
+- Conduct surveys or interviews to gather qualitative feedback on the application's outputs.
+- Use A/B testing to compare different versions of the application.
 
 ### c. Continuous Monitoring
-Track the application’s performance in production.
-Use tools like MLflow or Weights & Biases for model monitoring and retraining.
+- Track the application’s performance in production.
+- Use tools like MLflow or Weights & Biases for model monitoring and retraining.
 
 ### d. Iterative Improvement
 Based on evaluation results, fine-tune the model or update the application.
