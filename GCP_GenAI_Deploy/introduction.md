@@ -14,12 +14,13 @@ Deploying, testing, and evaluating Generative AI (Gen AI) applications involves 
 - Use orchestration tools like Kubernetes to manage and scale deployments.
 
 ### c. Model Hosting
-Host the model using frameworks like TensorFlow Serving, TorchServe, or Hugging Face Inference API.
-For serverless options, consider AWS Lambda or Google Cloud Functions.
+- Host the model using frameworks like TensorFlow Serving, TorchServe, or Hugging Face Inference API.
+- For serverless options, consider AWS Lambda or Google Cloud Functions.
 
 ### d. API Integration
-Expose the model as an API using frameworks like FastAPI or Flask.
-Ensure the API is secure with authentication (e.g., OAuth2) and rate limiting.
-e. Monitoring and Logging
-Use tools like Prometheus and Grafana for monitoring.
-Implement logging with ELK Stack (Elasticsearch, Logstash, Kibana) or CloudWatch.
+- Expose the model as an API using frameworks like FastAPI or Flask.
+- Ensure the API is secure with authentication (e.g., OAuth2) and rate limiting.
+
+### e. Monitoring and Logging
+- Use tools like Prometheus and Grafana for monitoring.
+- Implement logging with ELK Stack (Elasticsearch, Logstash, Kibana) or CloudWatch.
