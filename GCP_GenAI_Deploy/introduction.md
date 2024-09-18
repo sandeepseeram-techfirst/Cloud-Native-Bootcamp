@@ -70,6 +70,6 @@ Deploying, testing, and evaluating Generative AI (Gen AI) applications involves 
 - Retrain the model with new data if necessary.
 
 ## Best Practices
-Version Control: Use tools like Git to manage code and model versions.
-CI/CD Pipelines: Automate deployment and testing with CI/CD tools like Jenkins or GitHub Actions.
-Ethical Considerations: Ensure the application adheres to ethical guidelines and respects user privacy.
+- Version Control: Use tools like Git to manage code and model versions.
+- CI/CD Pipelines: Automate deployment and testing with CI/CD tools like Jenkins or GitHub Actions.
+- Ethical Considerations: Ensure the application adheres to ethical guidelines and respects user privacy.
