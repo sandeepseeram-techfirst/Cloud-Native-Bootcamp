@@ -27,9 +27,11 @@ Deploying, testing, and evaluating Generative AI (Gen AI) applications involves 
 
 
 ## 2. Testing
+
 ### a. Functional Testing
-Verify that the application performs as expected for various inputs.
-Test edge cases, such as incomplete or malformed inputs.
+- Verify that the application performs as expected for various inputs.
+- Test edge cases, such as incomplete or malformed inputs.
+
 b. Performance Testing
 Measure response time, throughput, and latency under different loads.
 Use tools like Apache JMeter or Locust for load testing.
