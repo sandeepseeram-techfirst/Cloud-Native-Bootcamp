@@ -48,7 +48,8 @@ Deploying, testing, and evaluating Generative AI (Gen AI) applications involves 
 - Evaluate the model for biases in outputs, especially for sensitive applications.
 - Use tools like IBM AI Fairness 360 or Google’s What-If Tool.
 
-3. Evaluation
+## 3. Evaluation
+
 a. Metrics for Evaluation
 Accuracy: Measure how often the model produces correct outputs.
 Precision and Recall: Evaluate the model's performance for classification tasks.
