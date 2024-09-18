@@ -39,12 +39,15 @@ Deploying, testing, and evaluating Generative AI (Gen AI) applications involves 
 ### c. Security Testing
 - Test for vulnerabilities like injection attacks, data leaks, and unauthorized access.
 - Use tools like OWASP ZAP or Burp Suite.
-d. User Acceptance Testing (UAT)
-Involve end-users to test the application in real-world scenarios.
-Gather feedback on usability, accuracy, and overall experience.
-e. Bias and Fairness Testing
-Evaluate the model for biases in outputs, especially for sensitive applications.
-Use tools like IBM AI Fairness 360 or Google’s What-If Tool.
+
+### d. User Acceptance Testing (UAT)
+- Involve end-users to test the application in real-world scenarios.
+- Gather feedback on usability, accuracy, and overall experience.
+
+### e. Bias and Fairness Testing
+- Evaluate the model for biases in outputs, especially for sensitive applications.
+- Use tools like IBM AI Fairness 360 or Google’s What-If Tool.
+
 3. Evaluation
 a. Metrics for Evaluation
 Accuracy: Measure how often the model produces correct outputs.
