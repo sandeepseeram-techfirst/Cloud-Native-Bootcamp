@@ -10,8 +10,8 @@ Deploying, testing, and evaluating Generative AI (Gen AI) applications involves 
 - Edge Devices: For applications requiring low latency, deploy on edge devices.
 
 ### b. Containerization and Orchestration
-Use Docker to containerize the application for portability.
-Use orchestration tools like Kubernetes to manage and scale deployments.
+- Use Docker to containerize the application for portability.
+- Use orchestration tools like Kubernetes to manage and scale deployments.
 
 ### c. Model Hosting
 Host the model using frameworks like TensorFlow Serving, TorchServe, or Hugging Face Inference API.
