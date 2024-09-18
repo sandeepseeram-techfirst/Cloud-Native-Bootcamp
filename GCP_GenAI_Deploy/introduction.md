@@ -66,8 +66,8 @@ Deploying, testing, and evaluating Generative AI (Gen AI) applications involves 
 - Use tools like MLflow or Weights & Biases for model monitoring and retraining.
 
 ### d. Iterative Improvement
-Based on evaluation results, fine-tune the model or update the application.
-Retrain the model with new data if necessary.
+- Based on evaluation results, fine-tune the model or update the application.
+- Retrain the model with new data if necessary.
 
 ## Best Practices
 Version Control: Use tools like Git to manage code and model versions.
