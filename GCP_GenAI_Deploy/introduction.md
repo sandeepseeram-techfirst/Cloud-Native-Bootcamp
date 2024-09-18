@@ -50,22 +50,26 @@ Deploying, testing, and evaluating Generative AI (Gen AI) applications involves 
 
 ## 3. Evaluation
 
-a. Metrics for Evaluation
-Accuracy: Measure how often the model produces correct outputs.
-Precision and Recall: Evaluate the model's performance for classification tasks.
-BLEU/ROUGE Scores: Assess the quality of text generation.
-FID (Fréchet Inception Distance): Evaluate the quality of generated images.
-Latency: Measure the time taken to generate outputs.
-b. Human Evaluation
+### a. Metrics for Evaluation
+- Accuracy: Measure how often the model produces correct outputs.
+- Precision and Recall: Evaluate the model's performance for classification tasks.
+- BLEU/ROUGE Scores: Assess the quality of text generation.
+- FID (Fréchet Inception Distance): Evaluate the quality of generated images.
+- Latency: Measure the time taken to generate outputs.
+
+### b. Human Evaluation
 Conduct surveys or interviews to gather qualitative feedback on the application's outputs.
 Use A/B testing to compare different versions of the application.
-c. Continuous Monitoring
+
+### c. Continuous Monitoring
 Track the application’s performance in production.
 Use tools like MLflow or Weights & Biases for model monitoring and retraining.
-d. Iterative Improvement
+
+### d. Iterative Improvement
 Based on evaluation results, fine-tune the model or update the application.
 Retrain the model with new data if necessary.
-Best Practices
+
+## Best Practices
 Version Control: Use tools like Git to manage code and model versions.
 CI/CD Pipelines: Automate deployment and testing with CI/CD tools like Jenkins or GitHub Actions.
 Ethical Considerations: Ensure the application adheres to ethical guidelines and respects user privacy.
