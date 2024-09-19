@@ -1,0 +1,15 @@
+ gcloud storage cp -r gs://pls-resource-bucket/tldr-everything .
+Copying gs://pls-resource-bucket/tldr-everything/Dockerfile to file://./tldr-everything/Dockerfile
+Copying gs://pls-resource-bucket/tldr-everything/README.md to file://./tldr-everything/README.md
+Copying gs://pls-resource-bucket/tldr-everything/app.py to file://./tldr-everything/app.py                                                                                               
+Copying gs://pls-resource-bucket/tldr-everything/requirements.txt to file://./tldr-everything/requirements.txt
+Copying gs://pls-resource-bucket/tldr-everything/static/.DS_Store to file://./tldr-everything/static/.DS_Store
+Copying gs://pls-resource-bucket/tldr-everything/static/favicon.ico to file://./tldr-everything/static/favicon.ico
+Copying gs://pls-resource-bucket/tldr-everything/templates/base.html to file://./tldr-everything/templates/base.html
+Copying gs://pls-resource-bucket/tldr-everything/templates/index.html to file://./tldr-everything/templates/index.html
+Copying gs://pls-resource-bucket/tldr-everything/templates/pdf_results.html to file://./tldr-everything/templates/pdf_results.html
+  Completed files 9/9 | 17.1kiB/17.1kiB                                                                                                                                                  
+
+Average throughput: 14.0kiB/s
+student_01_3d7501580332@cloudshell:~ 
+
