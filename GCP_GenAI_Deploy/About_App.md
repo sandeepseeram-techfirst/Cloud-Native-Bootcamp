@@ -3,3 +3,6 @@ Bootstrap makes some default design decisions for us so you can present a nice U
 
 
 ![Architecture Design](image.png)
+
+
+Identity-Aware Proxy allows you to control access to a resource without needing to implement a sign-in screen, a forgot password flow, and other elements of a user management system. Instead you can grant access to users, Google Groups, or whole domains by assigning them the IAM role of "IAP-secured Web App User" using the Google Cloud Console.
