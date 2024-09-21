@@ -2,7 +2,7 @@
 
 Deploying, testing, and evaluating Generative AI (Gen AI) applications involves several steps to ensure the application is functional, reliable, and meets user expectations. Below is a structured guide to help you through the process.
 
-## 1. Deployment
+## 1. Deployment 
 
 ### a. Choose the Deployment Environment
 - Cloud Platforms: Use platforms like AWS, Azure, or Google Cloud for scalability and flexibility.
