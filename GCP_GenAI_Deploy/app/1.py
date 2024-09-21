@@ -6,4 +6,4 @@ FileAllowed(['pdf'], 'Please select a PDF.')],
         label="Select a PDF",
     )
     text_input = TextAreaField(label="Instructions", default="Summarize the PDF.")
-    submit = SubmitField()
+    submit = SubmitField() 
