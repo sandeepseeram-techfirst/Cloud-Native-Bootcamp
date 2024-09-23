@@ -1,0 +1,96 @@
+controlplane:~$ scp gvisor-install.sh node01:/root
+gvisor-install.sh                                                                                          100% 1977     2.5MB/s   00:00    
+controlplane:~$ ssh node01
+    sh gvisor-install.sh
+    service kubelet status
+Last login: Mon Feb 10 22:06:42 2025 from 10.244.0.131
+node01:~$     sh gvisor-install.sh
+    service kubelet status
+Hit:1 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu noble InRelease                           
+Hit:4 http://archive.ubuntu.com/ubuntu noble-updates InRelease                   
+Hit:2 https://prod-cdn.packages.k8s.io/repositories/isv:/kubernetes:/core:/stable:/v1.32/deb  InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Reading package lists... Done
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+apt-transport-https is already the newest version (2.7.14build2).
+ca-certificates is already the newest version (20240203).
+curl is already the newest version (8.5.0-2ubuntu10.6).
+software-properties-common is already the newest version (0.99.49.1).
+software-properties-common set to manually installed.
+The following package was automatically installed and is no longer required:
+  squashfs-tools
+Use 'sudo apt autoremove' to remove it.
+The following NEW packages will be installed:
+  gnupg-agent
+0 upgraded, 1 newly installed, 0 to remove and 129 not upgraded.
+Need to get 4672 B of archives.
+After this operation, 27.6 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 gnupg-agent all 2.4.4-2ubuntu17 [4672 B]
+Fetched 4672 B in 0s (13.7 kB/s)
+Selecting previously unselected package gnupg-agent.
+(Reading database ... 82292 files and directories currently installed.)
+Preparing to unpack .../gnupg-agent_2.4.4-2ubuntu17_all.deb ...
+Unpacking gnupg-agent (2.4.4-2ubuntu17) ...
+Setting up gnupg-agent (2.4.4-2ubuntu17) ...
+Scanning processes...                                                                                                                        
+Scanning linux images...                                                                                                                     
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+--2025-03-03 08:38:49--  https://storage.googleapis.com/gvisor/releases/release/20210806/x86_64/runsc
+Resolving storage.googleapis.com (storage.googleapis.com)... 142.251.42.59, 142.250.183.59, 142.250.182.251, ...
+Connecting to storage.googleapis.com (storage.googleapis.com)|142.251.42.59|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 35074107 (33M) [application/octet-stream]
+Saving to: 'runsc'
+
+runsc                               100%[================================================================>]  33.45M  10.7MB/s    in 4.0s    
+
+2025-03-03 08:38:54 (8.44 MB/s) - 'runsc' saved [35074107/35074107]
+
+--2025-03-03 08:38:54--  https://storage.googleapis.com/gvisor/releases/release/20210806/x86_64/runsc.sha512
+Reusing existing connection to storage.googleapis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 136 [application/octet-stream]
+Saving to: 'runsc.sha512'
+
+runsc.sha512                        100%[================================================================>]     136  --.-KB/s    in 0s      
+
+2025-03-03 08:38:54 (106 MB/s) - 'runsc.sha512' saved [136/136]
+
+--2025-03-03 08:38:54--  https://storage.googleapis.com/gvisor/releases/release/20210806/x86_64/containerd-shim-runsc-v1
+Reusing existing connection to storage.googleapis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 24627868 (23M) [application/octet-stream]
+Saving to: 'containerd-shim-runsc-v1'
+
+containerd-shim-runsc-v1            100%[================================================================>]  23.49M  7.24MB/s    in 3.2s    
+
+2025-03-03 08:38:58 (7.24 MB/s) - 'containerd-shim-runsc-v1' saved [24627868/24627868]
+
+--2025-03-03 08:38:58--  https://storage.googleapis.com/gvisor/releases/release/20210806/x86_64/containerd-shim-runsc-v1.sha512
+Reusing existing connection to storage.googleapis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 155 [application/octet-stream]
+Saving to: 'containerd-shim-runsc-v1.sha512'
+
+containerd-shim-runsc-v1.sha512     100%[================================================================>]     155  --.-KB/s    in 0s      
+
+2025-03-03 08:38:58 (96.6 MB/s) - 'containerd-shim-runsc-v1.sha512' saved [155/155]
+
+FINISHED --2025-03-03 08:38:58--
+Total wall clock time: 9.0s
+Downloaded: 4 files, 57M in 7.2s (7.90 MB/s)
+runsc: OK
+containerd-shim-runsc-v1: OK
+node01:~$ 
