@@ -12,7 +12,7 @@ spec:
     env:
     - name: DB_HOST
       value: {{ .Values.db_host }}
-    - name: DB_USER 
+    - name: DB_USER
       value: {{ .Values.db_user }}
     - name: DB_PASSWORD
       value: {{ .Values.db_password }}
