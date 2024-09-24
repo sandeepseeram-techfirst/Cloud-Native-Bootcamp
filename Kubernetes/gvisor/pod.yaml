@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sec
+spec:
+  runtimeClassName: gvisor
+  containers:
+    - image: nginx:1.21.5-alpine
+      name: sec
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
