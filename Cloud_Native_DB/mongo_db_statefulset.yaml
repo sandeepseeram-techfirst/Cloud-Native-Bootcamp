@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: mongodb-store
+  namespace: mongodb-store
+spec:
+  serviceName: mongodb
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mongodb-store
+  template:
+    metadata:
+      labels:
+        app: mongodb-store
+        selector: mongodb-store
+    spec:
+      containers:
+      - name: mongodb
+        image: mongo:4.0.17
