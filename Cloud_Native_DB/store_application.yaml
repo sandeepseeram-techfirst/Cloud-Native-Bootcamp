@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: store-service
+  labels:
+    app: store-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: store-service
+  template:
+    metadata:
+      labels:
+        app: store-service
+    spec:
+      containers:
+        - name: store
+          image: learncloudnative/store-service:0.1.0
+          imagePullPolicy: Always
+          env:
+            - name: MONGO_URL
+              value: mongodb://mongodb.mongodb-store:27017
+          ports:
+            - containerPort: 3000
