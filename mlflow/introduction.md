@@ -9,3 +9,4 @@ MLflow consists of four main components:
 ###### MLflow Projects: A packaging format for reproducible runs, allowing you to define and share ML code in a standardized way.
 ###### MLflow Models: A model packaging format that supports multiple frameworks, enabling easy deployment to various environments.
 ###### MLflow Registry: A centralized repository to manage the lifecycle of ML models, including versioning, staging, and deployment.
+
