@@ -12,3 +12,5 @@ MLflow consists of four main components:
 
 1. MLflow is a Python package. 
 2. The Tracking Server is composed of a web application and REST API that allows you to view and manage your experiments.
+
+3. cmd: mlflow server --host 0.0.0.0 --port 5000 
