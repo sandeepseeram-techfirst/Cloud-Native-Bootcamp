@@ -15,4 +15,4 @@ MLflow consists of four main components:
 
 3. cmd: mlflow server --host 0.0.0.0 --port 5000 
 
-Note: MLflow runs locally by default, meaning it will store experiments and run in the local filesystem.
+Note: MLflow runs locally by default, meaning it will store experiments and run in the local filesystem. However, we have the option to set up a remote Tracking Server to store the tracking data in a centralized location, which can be beneficial when working in a team or across multiple machines.
