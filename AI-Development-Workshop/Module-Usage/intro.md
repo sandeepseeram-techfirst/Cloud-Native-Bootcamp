@@ -2,7 +2,7 @@
 
 📌 **Pandas** → Super table organizer 📊  
 
-📌 **Keras** → AI LEGO builder 🏗️  
+📌 **Keras** → AI LEGO builder 🏗️ 
 
 📌 **TensorFlow** → AI super trainer 💪  
 
