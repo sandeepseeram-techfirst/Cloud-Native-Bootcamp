@@ -7,7 +7,7 @@ This is utilized for data manipulation and processing the chatbot training data 
 #### LangChain:
 This enables efficient integration of large language models into the chatbot, enhancing its ability to understand and generate human-like responses.
 
-#### Streamlit: 
+#### Streamlit:
 This facilitates the rapid development of interactive web interfaces as a prototype, allowing for the easy deployment of the chatbot as a web application.
 
 #### Hugging Face: 
