@@ -7,7 +7,7 @@ KNIME is based on Eclipse, a widely used development environment for various pro
 
 
 #### Links: 
-1. https://chatgpt.com/ 
+1. https://chatgpt.com/
 2. https://labs.openai.com/ 
 3. https://platform.openai.com/docs/overview 
 4. https://www.anaconda.com/download 
