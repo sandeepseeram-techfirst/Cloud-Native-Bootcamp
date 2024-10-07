@@ -2,4 +2,4 @@
 import numpy as np
 
 scores = np.array([80, 90, 85, 95])
-print(scores + 5)  # Adds 5 to every score 
+print(scores + 5)  # Adds 5 to every score
