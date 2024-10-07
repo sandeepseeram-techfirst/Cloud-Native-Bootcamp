@@ -14,7 +14,7 @@ spec:
       labels:
         app: mongodb-store
         selector: mongodb-store
-    spec:
+    spec: 
       containers:
       - name: mongodb
         image: mongo:4.0.17
