@@ -6,7 +6,7 @@ df = pd.read_csv(url, header=None)
 
 df["newcolumn"] = df[5].apply(lambda x: x*2)
 
-print(df.columns)
+print(df.columns) 
 
 print(df.head())
 
