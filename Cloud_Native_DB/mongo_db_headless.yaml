@@ -8,4 +8,4 @@ metadata:
 spec:
   clusterIP: None
   selector:
-    app: mongodb-store 
+    app: mongodb-store
