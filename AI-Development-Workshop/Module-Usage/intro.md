@@ -4,8 +4,8 @@
 
 📌 **Keras** → AI LEGO builder 🏗️ 
 
-📌 **TensorFlow** → AI super trainer 💪 
+📌 **TensorFlow** → AI super trainer 💪
 
-📌 **Scikit-learn** → AI teacher 🎓  
+📌 **Scikit-learn** → AI teacher 🎓 
 
-📌 **Matplotlib** → Data artist 🎨 
+📌 **Matplotlib** → Data artist 🎨
