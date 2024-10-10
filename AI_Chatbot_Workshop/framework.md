@@ -4,7 +4,7 @@ This serves as the foundational programming language for developing the chatbotâ
 #### Pandas:
 This is utilized for data manipulation and processing the chatbot training data and user inputs.
 
-#### LangChain:
+#### LangChain: 
 This enables efficient integration of large language models into the chatbot, enhancing its ability to understand and generate human-like responses.
 
 #### Streamlit:
