@@ -8,4 +8,4 @@
 
 📌 **Scikit-learn** → AI teacher 🎓  
 
-📌 **Matplotlib** → Data artist 🎨  
+📌 **Matplotlib** → Data artist 🎨 
