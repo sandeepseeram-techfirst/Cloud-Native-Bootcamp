@@ -1,0 +1,4 @@
+Step 1 - Picking a robust storage backend
+Step 2 - Setting up Oauth2 authentication
+Step 3 - Generating a secure TLS key and certificate that is signed by a certificate authority
+and other configuration options
