@@ -1,0 +1,3 @@
+### Image Registry 
+
+Image registries are the primary way that images can be shared with others. Docker Hub is the most famous of these, but there are others. Companies that need to share images internally, but do not want them to be accessible to the general public, will often set up their own internal registry for developers to utilize.
