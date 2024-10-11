@@ -10,3 +10,14 @@ Digest: sha256:a3d8aaa63ed8681a604f1dea0aa03f100d5895b6a58ace528858a7b332415373
 Status: Downloaded newer image for registry:2.8
 27f5f5afe5200c39603a95d6686d51d1a53fb85ed60a725b913458c68c5ad8ec
 ~ took 2s 
+
+
+❯ docker login 127.0.0.1:5000
+Username: admin
+Password: 
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+~ took 19s 
