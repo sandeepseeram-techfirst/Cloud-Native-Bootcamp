@@ -1,0 +1,27 @@
+❯ docker image pull docker.io/spkane/quantum-game:latest
+latest: Pulling from spkane/quantum-game
+f56be85fc22e: Pull complete 
+8f665685b215: Pull complete 
+e5fca6c395a6: Pull complete 
+561cb69653d5: Pull complete 
+2fed34382f50: Pull complete 
+4f4fb700ef54: Pull complete 
+393632346480: Pull complete 
+9db4028d6ffb: Pull complete 
+6cf0d7b790bf: Pull complete 
+9baab819518d: Pull complete 
+1f0e07a9a79a: Pull complete 
+52e9e9289574: Pull complete 
+6d2a8d0fa128: Pull complete 
+edda4bb939ae: Pull complete 
+Digest: sha256:e79181b85e34382ad5c93df5c2bc226aa8ff63c1c5f299c0d655efeedd9ecffa
+Status: Downloaded newer image for spkane/quantum-game:latest
+docker.io/spkane/quantum-game:latest
+~ took 6s 
+
+
+❯ docker image ls spkane/quantum-game
+REPOSITORY            TAG       IMAGE ID       CREATED         SIZE
+spkane/quantum-game   latest    4f6c79c07f62   20 months ago   180MB
+~ 
+❯ 
