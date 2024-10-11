@@ -1,0 +1,12 @@
+❯ docker container run -d -p 5000:5000 --restart always -v /root/storage:/var/lib/registry -v /root/auth:/auth -v /root/localhost-tls/certs:/certs --name auth-registry -e REGISTRY_HTTP_TLS_CERTIFICATE=/certs/domain.crt -e REGISTRY_HTTP_TLS_KEY=/certs/domain.key -e REGISTRY_AUTH=htpasswd -e REGISTRY_AUTH_HTPASSWD_REALM=Registry-Realm -e REGISTRY_AUTH_HTPASSWD_PATH=/auth/htpasswd registry:2.8
+Unable to find image 'registry:2.8' locally
+2.8: Pulling from library/registry
+44cf07d57ee4: Pull complete 
+bbbdd6c6894b: Pull complete 
+8e82f80af0de: Pull complete 
+3493bf46cdec: Pull complete 
+6d464ea18732: Pull complete 
+Digest: sha256:a3d8aaa63ed8681a604f1dea0aa03f100d5895b6a58ace528858a7b332415373
+Status: Downloaded newer image for registry:2.8
+27f5f5afe5200c39603a95d6686d51d1a53fb85ed60a725b913458c68c5ad8ec
+~ took 2s 
