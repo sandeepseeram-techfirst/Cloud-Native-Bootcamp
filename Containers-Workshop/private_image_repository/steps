@@ -16,4 +16,5 @@ Unpacking objects: 100% (7/7), 4.27 KiB | 2.13 MiB/s, done.
 ❯ ❯ ls /root/localhost-tls/certs
 domain.crt  domain.key
 ~ 
-❯ 
+❯
+
