@@ -6,7 +6,7 @@ and other configuration options
 
 
 ❯ git clone https://github.com/spkane/localhost-tls
-Cloning into 'localhost-tls'...
+Cloning into 'localhost-tls'... 
 remote: Enumerating objects: 7, done.
 remote: Counting objects: 100% (7/7), done.
 remote: Compressing objects: 100% (6/6), done.
