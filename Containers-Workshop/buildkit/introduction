@@ -1,1 +1,2 @@
 Due to the growing popularity of using computers that are based on non-Intel and AMD CPU architectures, like ARM, it is becoming more and more important that container images can be easily built to support any architecture that an image consumer might be utilizing.
+
