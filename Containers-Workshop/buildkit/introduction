@@ -4,3 +4,17 @@ It’s designed to improve the traditional Docker build process.
 Due to the growing popularity of using computers that are based on non-Intel and AMD CPU architectures, like ARM, it is becoming more and more important that container images can be easily built to support any architecture that an image consumer might be utilizing.
 
 
+#### How BuildKit Works:
+Parallel Execution: BuildKit can build multiple parts of your Dockerfile at the same time, instead of step-by-step. This significantly speeds up the build.
+
+Better Caching: It remembers the results of previous steps more effectively. So, if you only changed one file, BuildKit skips rebuilding the unchanged parts.
+
+Smaller Image Sizes:
+
+BuildKit reduces unnecessary layers in your image, resulting in cleaner, faster builds.
+Improved Security:
+
+It isolates steps to prevent leaking sensitive data (like environment variables or keys).
+On-Demand Dependency Loading:
+
+It only pulls the parts of a base image that are needed, reducing download time.
