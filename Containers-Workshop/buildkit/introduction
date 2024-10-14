@@ -9,12 +9,8 @@ Parallel Execution: BuildKit can build multiple parts of your Dockerfile at the 
 
 Better Caching: It remembers the results of previous steps more effectively. So, if you only changed one file, BuildKit skips rebuilding the unchanged parts.
 
-Smaller Image Sizes:
+Smaller Image Sizes: BuildKit reduces unnecessary layers in your image, resulting in cleaner, faster builds.
 
-BuildKit reduces unnecessary layers in your image, resulting in cleaner, faster builds.
-Improved Security:
+Improved Security: It isolates steps to prevent leaking sensitive data (like environment variables or keys).
 
-It isolates steps to prevent leaking sensitive data (like environment variables or keys).
-On-Demand Dependency Loading:
-
-It only pulls the parts of a base image that are needed, reducing download time.
+On-Demand Dependency Loading: It only pulls the parts of a base image that are needed, reducing download time.
