@@ -46,3 +46,12 @@ Buildkit:  v0.20.1
 Platforms: linux/amd64, linux/amd64/v2, linux/amd64/v3, linux/arm64, linux/riscv64, linux/ppc64, linux/ppc64le, linux/s390x, linux/386, linux/arm/v7, linux/arm/v6
 ~ took 5s 
 ❯ 
+
+
+❯ docker buildx ls
+NAME/NODE  DRIVER/ENDPOINT             STATUS  BUILDKIT PLATFORMS
+builder *  docker-container                             
+  builder0 unix:///var/run/docker.sock running v0.20.1  linux/amd64, linux/amd64/v2, linux/amd64/v3, linux/arm64, linux/riscv64, linux/ppc64, linux/ppc64le, linux/s390x, linux/386, linux/arm/v7, linux/arm/v6
+default    docker                                       
+  default  default                     running 23.0.1   linux/amd64, linux/amd64/v2, linux/amd64/v3, linux/386, linux/arm64, linux/riscv64, linux/ppc64le, linux/s390x, linux/mips64le, linux/mips64, linux/arm/v7, linux/arm/v6
+~ 
