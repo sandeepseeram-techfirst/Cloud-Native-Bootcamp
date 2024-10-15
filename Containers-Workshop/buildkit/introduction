@@ -19,4 +19,4 @@ On-Demand Dependency Loading: It only pulls the parts of a base image that are n
 #### With BuildKit:
 
 1. It might copy files and install dependencies in parallel — saving time.
-It will cache unchanged steps intelligently.
+2. It will cache unchanged steps intelligently.
