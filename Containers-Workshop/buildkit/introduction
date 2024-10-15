@@ -20,3 +20,6 @@ On-Demand Dependency Loading: It only pulls the parts of a base image that are n
 
 1. It might copy files and install dependencies in parallel — saving time.
 2. It will cache unchanged steps intelligently.
+
+#### To enable BuildKit in Docker, run:
+DOCKER_BUILDKIT=1 docker build .
