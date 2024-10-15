@@ -14,3 +14,9 @@ Smaller Image Sizes: BuildKit reduces unnecessary layers in your image, resultin
 Improved Security: It isolates steps to prevent leaking sensitive data (like environment variables or keys).
 
 On-Demand Dependency Loading: It only pulls the parts of a base image that are needed, reducing download time.
+
+
+#### With BuildKit:
+
+1. It might copy files and install dependencies in parallel — saving time.
+It will cache unchanged steps intelligently.
