@@ -1,6 +1,8 @@
 BuildKit is a modern build engine used by Docker to build container images faster, more efficiently, and securely. 
 It’s designed to improve the traditional Docker build process.
 
+BuildKit is a build engine that takes a configuration file (such as a Dockerfile) and converts it into a built artifact (such as a Docker image). It's faster than Docker's original build engine due to its ability to optimize your build by parallelizing build steps whenever possible and through more advanced layer caching capabilities.
+
 Due to the growing popularity of using computers that are based on non-Intel and AMD CPU architectures, like ARM, it is becoming more and more important that container images can be easily built to support any architecture that an image consumer might be utilizing.
 
 
