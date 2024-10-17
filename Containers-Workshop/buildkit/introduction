@@ -5,7 +5,6 @@ BuildKit is a build engine that takes a configuration file (such as a Dockerfile
 
 Due to the growing popularity of using computers that are based on non-Intel and AMD CPU architectures, like ARM, it is becoming more and more important that container images can be easily built to support any architecture that an image consumer might be utilizing.
 
-
 #### How BuildKit Works: 
 Parallel Execution: BuildKit can build multiple parts of your Dockerfile at the same time, instead of step-by-step. This significantly speeds up the build.
 
