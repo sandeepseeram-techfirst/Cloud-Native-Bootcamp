@@ -29,6 +29,7 @@ default * docker
 ❯ docker buildx create --name builder --driver docker-container --use
 builder
 ~ 
+
 ❯ docker buildx inspect --bootstrap
 [+] Building 5.4s (1/1) FINISHED                                                                                         
  => [internal] booting buildkit                                                                                     5.4s
@@ -45,7 +46,7 @@ Status:    running
 Buildkit:  v0.20.1
 Platforms: linux/amd64, linux/amd64/v2, linux/amd64/v3, linux/arm64, linux/riscv64, linux/ppc64, linux/ppc64le, linux/s390x, linux/386, linux/arm/v7, linux/arm/v6
 ~ took 5s 
-❯ 
+❯
 
 ❯ docker buildx ls
 NAME/NODE  DRIVER/ENDPOINT             STATUS  BUILDKIT PLATFORMS
