@@ -1,7 +1,7 @@
 #### Python:
 This serves as the foundational programming language for developing the chatbot’s core functionalities.
 
-#### Pandas: 
+#### Pandas:
 This is utilized for data manipulation and processing the chatbot training data and user inputs.
 
 #### LangChain: 
