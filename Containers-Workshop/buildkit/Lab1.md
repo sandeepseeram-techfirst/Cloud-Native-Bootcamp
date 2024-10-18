@@ -20,7 +20,6 @@ To build images for multiple architectures, it is important that we make use of 
   }
 }
 
-
 ❯ docker buildx ls
 NAME/NODE DRIVER/ENDPOINT STATUS  BUILDKIT PLATFORMS
 default * docker                           
