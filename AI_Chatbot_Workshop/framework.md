@@ -10,5 +10,5 @@ This enables efficient integration of large language models into the chatbot, en
 #### Streamlit:
 This facilitates the rapid development of interactive web interfaces as a prototype, allowing for the easy deployment of the chatbot as a web application.
 
-#### Hugging Face: 
+#### Hugging Face:
 This provides access to a repository of pretrained models and datasets, which are essential in building an AI-powered chatbot.
