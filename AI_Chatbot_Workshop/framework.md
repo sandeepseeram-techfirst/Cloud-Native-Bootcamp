@@ -1,4 +1,4 @@
-#### Python: 
+#### Python:
 This serves as the foundational programming language for developing the chatbot’s core functionalities.
 
 #### Pandas: 
