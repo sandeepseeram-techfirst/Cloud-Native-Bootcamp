@@ -11,4 +11,4 @@ Symbolic or knowledge-based AI systems typically use logic-based and/or probabil
 
 
 
-###### Note: Achieving quality in an AI system depends mostly on three aspects: the life-cycle processes, the software architecture, and the AI model.
+###### Note: Achieving quality in an AI system depends mostly on three aspects: the life-cycle processes, the software architecture, and the AI model. The quality of the AI model, in turn, depends on the data quality.
