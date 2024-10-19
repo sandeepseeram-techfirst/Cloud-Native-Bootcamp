@@ -9,7 +9,7 @@ Quality requirements for a system are formalized as quality attributes. “A qua
 
 ##### Integration testing
 
-Functional testing
+##### Functional testing
 
 Usability testing
 
