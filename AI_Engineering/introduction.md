@@ -12,3 +12,6 @@ Symbolic or knowledge-based AI systems typically use logic-based and/or probabil
 
 
 ###### Note: Achieving quality in an AI system depends mostly on three aspects: the life-cycle processes, the software architecture, and the AI model. The quality of the AI model, in turn, depends on the data quality.
+
+#### Model Development 
+The model development stage involves selecting, exploring, training, and tuning AI models to achieve optimal performance. Key tasks include model selection, hyperparameter tuning, training, and testing. The objective is to build a highly accurate and effective model. This stage can occur either in parallel with system development or before it. Effective collaboration between AI model developers and non-AI system teams is crucial for seamless integration and minimizing potential issues.
