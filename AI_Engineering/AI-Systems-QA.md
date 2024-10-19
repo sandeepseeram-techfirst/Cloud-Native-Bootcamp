@@ -3,7 +3,7 @@ Quality requirements for a system are formalized as quality attributes. “A qua
 
 ##### Regression testing
 
-Smoke testing
+##### Smoke testing
 
 Compatibility testing
 
