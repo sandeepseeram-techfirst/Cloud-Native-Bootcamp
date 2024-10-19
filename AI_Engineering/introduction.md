@@ -26,3 +26,11 @@ The model development stage involves selecting, exploring, training, and tuning 
 ##### Regression: Inferring a continuous value instead of a discrete category (e.g., predicting that a particular insurance claims process will take three more days to complete).
 
 ##### Clustering: Grouping similar data points together without prior knowledge of the groups (e.g., the behavior of customers in this group seems similar).
+
+
+#### Foundation Model
+A foundation model (FM) is a type of ML model that leverages neural networks as the core of its architecture. 
+
+It is trained on an extensive and diverse dataset, often comprising billions or even trillions of data points.
+
+The training data is largely unlabeled, unlike in traditional ML, where data is typically structured, labeled, and often numerical or categorical.
