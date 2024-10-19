@@ -17,3 +17,12 @@ Symbolic or knowledge-based AI systems typically use logic-based and/or probabil
 
 #### Model Development 
 The model development stage involves selecting, exploring, training, and tuning AI models to achieve optimal performance. Key tasks include model selection, hyperparameter tuning, training, and testing. The objective is to build a highly accurate and effective model. This stage can occur either in parallel with system development or before it. Effective collaboration between AI model developers and non-AI system teams is crucial for seamless integration and minimizing potential issues.
+
+
+#### ML Models 
+
+##### Classification: Assigning a category to an input (e.g., this picture contains a dog).
+
+##### Regression: Inferring a continuous value instead of a discrete category (e.g., predicting that a particular insurance claims process will take three more days to complete).
+
+##### Clustering: Grouping similar data points together without prior knowledge of the groups (e.g., the behavior of customers in this group seems similar).
