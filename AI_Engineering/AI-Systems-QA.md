@@ -11,7 +11,7 @@ Quality requirements for a system are formalized as quality attributes. “A qua
 
 ##### Functional testing
 
-Usability testing
+##### Usability testing
 
 Install/uninstall testing
 
