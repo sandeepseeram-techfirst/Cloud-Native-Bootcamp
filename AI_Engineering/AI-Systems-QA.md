@@ -5,7 +5,7 @@ Quality requirements for a system are formalized as quality attributes. “A qua
 
 ##### Smoke testing
 
-Compatibility testing
+##### Compatibility testing
 
 Integration testing
 
