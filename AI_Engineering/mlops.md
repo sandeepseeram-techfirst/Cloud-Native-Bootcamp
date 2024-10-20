@@ -6,9 +6,9 @@
 
 ##### Lineage tracking: Tracking the provenance of individual data items. This makes it possible to know the source of data items, how they were modified, and how they were used.
 
-Model versioning: Keeping track of different iterations of ML models to ensure reproducibility.
+##### Model versioning: Keeping track of different iterations of ML models to ensure reproducibility.
 
-Model training and retraining: Training linked to experiment tracking and data versioning; continuously improving models by retraining them with new data.
+##### Model training and retraining: Training linked to experiment tracking and data versioning; continuously improving models by retraining them with new data.
 
 Model deployment: Streamlining the process of deploying models into production environments.
 
