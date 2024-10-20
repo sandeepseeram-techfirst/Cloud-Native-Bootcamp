@@ -2,7 +2,7 @@
 
 ##### Data versioning and management: Ensuring that datasets are version-controlled, and hence that their use is reproducible.
 
-Experiment tracking: Logging experiments to compare results and build on successful models from such experiments.
+##### Experiment tracking: Logging experiments to compare results and build on successful models from such experiments.
 
 Lineage tracking: Tracking the provenance of individual data items. This makes it possible to know the source of data items, how they were modified, and how they were used.
 
