@@ -10,6 +10,6 @@
 
 ##### Model training and retraining: Training linked to experiment tracking and data versioning; continuously improving models by retraining them with new data.
 
-Model deployment: Streamlining the process of deploying models into production environments.
+##### Model deployment: Streamlining the process of deploying models into production environments.
 
 Model performance monitoring: Evaluating models in production to ensure they perform as expected.
