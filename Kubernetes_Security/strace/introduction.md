@@ -1,7 +1,7 @@
 ### strace 
+strace is a powerful diagnostic, debugging, and troubleshooting tool for Linux systems. It is primarily used to trace system calls and signals received by a process. This can be incredibly useful for debugging software, understanding program behavior, and identifying performance bottlenecks.
 
-
-controlplane:~$ strace ls 
+###### controlplane:~$ strace ls 
 execve("/usr/bin/ls", ["ls"], 0x7ffefc059650 /* 17 vars */) = 0
 brk(NULL)                               = 0x5e35e3527000
 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x6ffe066d3000
