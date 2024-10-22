@@ -8,7 +8,7 @@ Machine learning is a set of techniques that allows machines to improve their pe
 
 Machine learning (ML) uses statistical techniques to generate results. The training set for ML is the input to the training, which in turn generates the knowledge base. A data value in the training set is labeled by a collection of variables.
 
-#### Symbolic AI 
+#### Symbolic AI
 Symbolic or knowledge-based AI systems typically use logic-based and/or probabilistic representations, which may be human-generated or machine-generated. These representations rely on explicit descriptions of variables and of their interrelations. For example, a system that reasons about manufacturing processes might have variables representing factories, goods, workers, vehicles, machines, and so on.
 
 
