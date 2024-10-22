@@ -4,7 +4,7 @@
 
 ##### Experiment tracking: Logging experiments to compare results and build on successful models from such experiments.
 
-##### Lineage tracking: Tracking the provenance of individual data items. This makes it possible to know the source of data items, how they were modified, and how they were used.
+##### Lineage tracking: Tracking the provenance of individual data items. This makes it possible to know the source of data items, how they were modified, and how they were used. 
 
 ##### Model versioning: Keeping track of different iterations of ML models to ensure reproducibility.
 
