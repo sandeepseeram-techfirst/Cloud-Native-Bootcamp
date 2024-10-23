@@ -1,0 +1,5 @@
+
+kube-bench run --targets master
+
+
+kube-bench run --targets master --check 1.2.15
