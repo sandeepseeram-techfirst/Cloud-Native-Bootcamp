@@ -76,3 +76,24 @@ close(2)                                = 0
 exit_group(0)                           = ?
 +++ exited with 0 +++
 controlplane:~$ 
+
+
+First we find the Apiserver process
+
+
+ps aux | grep kube-apiserver
+
+Then we use strace and pass the PID
+
+
+strace -p 19890 -f # use your PID
+
+# we use -f for "follow forks"
+
+Well, that's a bit much. Let's count and summarise
+
+
+strace -p 19890 -f -cw # use your PID
+
+# run for a bit, then abort with Ctrl+C
+# we should see a nice list of all syscalls.
