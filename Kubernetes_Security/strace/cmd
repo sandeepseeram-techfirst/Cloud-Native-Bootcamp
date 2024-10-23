@@ -1,0 +1,19 @@
+strace kill -9 1234
+
+strace kill -9 1234 2>&1 | grep 1234
+
+# here we see: kill(1234, SIGKILL)
+
+strace kill -15 1234
+
+strace kill -15 1234 2>&1 | grep 1234
+
+# here we see: kill(1234, SIGTERM)
+
+strace uname
+
+# here we see: the syscall is also called just uname
+
+strace nc -l -p 8080 2>&1 | grep 8080
+
+# here we see: bind(3, {sa_family=AF_INET, sin_port=htons
