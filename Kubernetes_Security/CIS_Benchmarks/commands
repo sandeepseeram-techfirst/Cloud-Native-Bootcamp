@@ -1,3 +1,6 @@
+##### Kube Bench Run targeting all versions 
+
+
 controlplane:~$ kube-bench run --targets master
 
 
@@ -177,7 +180,7 @@ on the control plane node and set the below parameter.
 11 checks WARN
 0 checks INFO
 
-##### Kube Bench Run Targeting Master Version 
+##### Kube Bench Run targeting a particular Master Version 
 
 controlplane:~$ kube-bench run --targets master --check 1.2.15
 [INFO] 1 Control Plane Security Configuration
