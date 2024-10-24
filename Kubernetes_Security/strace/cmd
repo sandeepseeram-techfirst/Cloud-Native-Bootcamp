@@ -16,4 +16,4 @@ strace uname
 
 strace nc -l -p 8080 2>&1 | grep 8080
 
-# here we see: bind(3, {sa_family=AF_INET, sin_port=htons
+# here we see: bind(3, {sa_family=AF_INET, sin_port=htons 
