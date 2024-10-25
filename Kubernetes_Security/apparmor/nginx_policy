@@ -1,0 +1,14 @@
+#include <tunables/global>
+
+/usr/bin/nginx {
+    include <abstractions/base>
+
+    network inet stream,
+    network inet6 stream,
+    
+    /var/www/** r,
+    /etc/nginx/** r,
+    /var/log/nginx/** rw,
+    
+    capability net_bind_service,
+}
