@@ -176,7 +176,7 @@ on the control plane node and set the below parameter.
 
 == Summary total ==
 38 checks PASS
-10 checks FAIL
+10 checks FAIL 
 11 checks WARN
 0 checks INFO
 
