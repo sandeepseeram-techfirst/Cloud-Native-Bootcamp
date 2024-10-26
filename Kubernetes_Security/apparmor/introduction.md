@@ -9,5 +9,5 @@ It operates on a per-process basis and enforces security rules using the Linux S
 ##### Profiles: 
 
 Profiles can run in:
-Enforcing mode: Actively enforces the policy.
-Complain mode: Logs policy violations without enforcing them.
+1. Enforcing mode: Actively enforces the policy.
+2. Complain mode: Logs policy violations without enforcing them.
