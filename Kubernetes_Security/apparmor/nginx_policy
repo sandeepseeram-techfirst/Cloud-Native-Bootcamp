@@ -1,7 +1,7 @@
 #include <tunables/global>
 
 /usr/bin/nginx {
-    include <abstractions/base>
+    include <abstractions/base> 
 
     network inet stream,
     network inet6 stream,
