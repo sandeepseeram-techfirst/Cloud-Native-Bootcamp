@@ -11,3 +11,5 @@ It operates on a per-process basis and enforces security rules using the Linux S
 Profiles can run in:
 1. Enforcing mode: Actively enforces the policy.
 2. Complain mode: Logs policy violations without enforcing them.
+
+AppArmor profiles are loaded into the kernel via systemd, aa-enforce, or aa-complain.
