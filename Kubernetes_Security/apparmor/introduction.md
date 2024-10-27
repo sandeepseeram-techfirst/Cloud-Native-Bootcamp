@@ -6,7 +6,7 @@ AppArmor works by applying profiles to individual applications, defining the fil
 
 It operates on a per-process basis and enforces security rules using the Linux Security Modules (LSM) framework.
 
-##### Profiles: 
+##### Profiles:
 
 Profiles can run in:
 1. Enforcing mode: Actively enforces the policy.
