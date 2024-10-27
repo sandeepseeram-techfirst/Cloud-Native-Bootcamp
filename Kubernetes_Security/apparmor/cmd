@@ -167,3 +167,5 @@ node01:~$
 
 sudo aa-enforce /etc/apparmor.d/usr.bin.nginx
 sudo aa-complain /etc/apparmor.d/usr.bin.nginx
+
+
