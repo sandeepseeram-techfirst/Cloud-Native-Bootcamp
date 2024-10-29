@@ -159,7 +159,7 @@ apparmor module is loaded.
    /pause (2245) runc
    /pause (2256) runc
    /pause (5026) runc
-   /pause (5028) runc
+   /pause (5028) runc 
    /pause (5088) runc
 0 processes are in mixed mode.
 node01:~$ 
