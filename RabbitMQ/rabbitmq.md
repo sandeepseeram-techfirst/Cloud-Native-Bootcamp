@@ -68,3 +68,16 @@ $
 
 watch kubectl get services,statefulsets,pods --namespace rabbit 
 
+NAME                                  TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)
+      AGE
+service/my-rabbit-rabbitmq            NodePort    10.105.64.28   <none>        5672:32077/TCP,4369:30825/TCP,25672:31855/TCP,15672:31000/
+TCP   2m33s
+service/my-rabbit-rabbitmq-headless   ClusterIP   None           <none>        4369/TCP,5672/TCP,25672/TCP,15672/TCP
+      2m33s
+
+NAME                                  READY   AGE
+statefulset.apps/my-rabbit-rabbitmq   1/3     2m33s
+
+NAME                       READY   STATUS    RESTARTS   AGE
+pod/my-rabbit-rabbitmq-0   1/1     Running   0          2m33s
+pod/my-rabbit-rabbitmq-1   0/1     Running   0          92s
