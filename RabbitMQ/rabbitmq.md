@@ -61,3 +61,10 @@ WARNING: There are "resources" sections in the chart not set. Using "resourcesPr
   - resources
 +info https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
 $ 
+
+
+
+#### Watch Service 
+
+watch kubectl get services,statefulsets,pods --namespace rabbit 
+
