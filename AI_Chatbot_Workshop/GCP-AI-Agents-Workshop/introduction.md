@@ -1,6 +1,5 @@
 #### Building Multi-Agent Systems with LangGraph, EDA, and Generative AI on Google Cloud
 
-
 ##### Key Architectural Elements and Technologies:
 
 ###### Google Cloud Platform (GCP): Central to the entire system:
