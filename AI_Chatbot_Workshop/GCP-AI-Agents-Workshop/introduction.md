@@ -12,3 +12,9 @@
 ###### Secret Manager: Securely manages database credentials.
 ###### Artifact Registry: Stores Docker images for the agents.
 ###### Compute Engine: To deploy self-hosted LLM instead of relying on vendor solutions
+
+
+##### LLMs: The "brains" of the system:
+
+1. Google's Gemini models: (Gemini 1.0 Pro, Gemini 2 Flash, Gemini 2 Flash Thinking, Gemini 1.5-pro) Used for lesson planning, content generation, dynamic HTML creation, quiz explanation and combining the assignments.
+2. DeepSeek: Utilized for the specialized task of generating self-study assignments
