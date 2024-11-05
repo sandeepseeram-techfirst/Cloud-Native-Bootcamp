@@ -22,6 +22,6 @@
 
 ##### LangChain & LangGraph: Frameworks for LLM Application Development
 
-Facilitates the creation of complex multi-agent workflows.
-Enables the intelligent orchestration of tools (API calls, database queries, web searches).
-Implements event-driven architecture for system scalability and flexibility.
+1. Facilitates the creation of complex multi-agent workflows.
+2. Enables the intelligent orchestration of tools (API calls, database queries, web searches).
+3. Implements event-driven architecture for system scalability and flexibility.
