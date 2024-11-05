@@ -18,3 +18,10 @@
 
 1. Google's Gemini models: (Gemini 1.0 Pro, Gemini 2 Flash, Gemini 2 Flash Thinking, Gemini 1.5-pro) Used for lesson planning, content generation, dynamic HTML creation, quiz explanation and combining the assignments.
 2. DeepSeek: Utilized for the specialized task of generating self-study assignments
+
+
+##### LangChain & LangGraph: Frameworks for LLM Application Development
+
+Facilitates the creation of complex multi-agent workflows.
+Enables the intelligent orchestration of tools (API calls, database queries, web searches).
+Implements event-driven architecture for system scalability and flexibility.
