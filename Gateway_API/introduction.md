@@ -8,3 +8,5 @@ This is where the traffic handling happens. A Gateway is like an entry point to 
 
 ##### HTTPRoute: 
 This is where you set the rules for how HTTP traffic gets routed. It helps map traffic from the Gateway to your backend services, such as those running in Kubernetes Pods, based on things like URL paths, headers, or hosts.
+
+![Gateway API](image.png)
