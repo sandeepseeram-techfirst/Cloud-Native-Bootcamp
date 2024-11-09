@@ -1,7 +1,6 @@
 ##### The Gateway API consists of three main components:
 
 ##### GatewayClass: 
-
 Think of this as a template or a blueprint for setting up Gateways. It defines a group of Gateways that share the same configuration and are managed by a controller that follows the specifications of the class.
 
 ##### Gateway: 
