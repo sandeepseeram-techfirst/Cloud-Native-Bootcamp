@@ -4,3 +4,4 @@ CoreDNS is running at https://172.16.60.5:6443/api/v1/namespaces/kube-system/ser
 
 To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 
+#### Install the Gateway API CRDs
