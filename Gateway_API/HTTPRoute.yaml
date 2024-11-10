@@ -1,0 +1,15 @@
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: example-httproute
+spec:
+  hosts:
+    - "example.com"
+  rules:
+    - matches:
+        - path:
+            type: Prefix
+            value: /app
+      forwardTo:
+        - serviceName: app-service
+          port: 80
