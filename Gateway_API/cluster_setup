@@ -14,3 +14,10 @@ customresourcedefinition.apiextensions.k8s.io/httproutes.gateway.networking.k8s.
 customresourcedefinition.apiextensions.k8s.io/referencegrants.gateway.networking.k8s.io created
 controlplane:~$ 
 
+controlplane:~$ kubectl get crds | grep gateway
+gatewayclasses.gateway.networking.k8s.io    2025-03-28T12:28:09Z
+gateways.gateway.networking.k8s.io          2025-03-28T12:28:09Z
+grpcroutes.gateway.networking.k8s.io        2025-03-28T12:28:09Z
+httproutes.gateway.networking.k8s.io        2025-03-28T12:28:10Z
+referencegrants.gateway.networking.k8s.io   2025-03-28T12:28:10Z
+controlplane:~$ 
