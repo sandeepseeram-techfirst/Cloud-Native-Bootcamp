@@ -22,3 +22,8 @@ httproutes.gateway.networking.k8s.io        2025-03-28T12:28:10Z
 referencegrants.gateway.networking.k8s.io   2025-03-28T12:28:10Z
 controlplane:~$ 
 
+#### Deploy a Gateway Controller
+The Gateway API doesn’t come with a built-in controller. You can use an existing one like Istio, Kong, or Envoy Gateway. 
+
+Install the Istio Gateway Controller
+
