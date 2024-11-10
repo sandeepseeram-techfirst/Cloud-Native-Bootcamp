@@ -27,3 +27,6 @@ The Gateway API doesn’t come with a built-in controller. You can use an existi
 
 Install the Istio Gateway Controller
 
+istioctl install --set profile=default 
+kubectl apply -f https://github.com/istio/istio/releases/latest/download/gateway.yaml
+
