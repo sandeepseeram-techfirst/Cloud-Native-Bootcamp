@@ -30,3 +30,5 @@ Install the Istio Gateway Controller
 istioctl install --set profile=default 
 kubectl apply -f https://github.com/istio/istio/releases/latest/download/gateway.yaml
 
+
+kubectl get gateway ecommerce-gateway
