@@ -29,3 +29,22 @@ STATUS: deployed
 REVISION: 1
 TEST SUITE: None
 controlplane:~$ 
+
+
+controlplane:~$ kubectl get all 
+NAME                                       READY   STATUS    RESTARTS   AGE
+pod/mock-app-deployment-7965b9d59d-58v9r   1/1     Running   0          2m40s
+
+NAME                       TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)    AGE
+service/kubernetes         ClusterIP   10.96.0.1      <none>        443/TCP    22d
+service/mock-app-service   ClusterIP   10.96.37.255   <none>        5000/TCP   2m40s
+
+NAME                                  READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/mock-app-deployment   1/1     1            1           2m40s
+
+NAME                                             DESIRED   CURRENT   READY   AGE
+replicaset.apps/mock-app-deployment-7965b9d59d   1         1         1       2m40s
+
+NAME                                               REFERENCE                        TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/mock-app-hpa   Deployment/mock-app-deployment   cpu: <unknown>/50%   1         3         1          2m40s
+controlplane:~$ 
