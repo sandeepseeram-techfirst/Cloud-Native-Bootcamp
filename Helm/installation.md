@@ -20,6 +20,7 @@ controlplane:~$
 
 controlplane:~$ helm repo add mock-app-repo https://benmalekarim.github.io/helm-scenarios-charts/
 "mock-app-repo" has been added to your repositories
+
 controlplane:~$ helm install mock-app mock-app-repo/mock-app --version 2.1.0
 NAME: mock-app
 LAST DEPLOYED: Mon Apr 14 07:21:09 2025
