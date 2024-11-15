@@ -56,3 +56,14 @@ controlplane:~$ helm list -n dev-ns
 NAME            NAMESPACE       REVISION        UPDATED                                 STATUS          CHART           APP VERSION
 mock-app        dev-ns          1               2025-04-14 07:25:18.694322952 +0000 UTC deployed        mock-app-2.1.0  1.16.0     
 controlplane:~$ 
+
+
+##### Helm Repo - Check Chart Versions 
+
+controlplane:~$ helm search repo mock-app-repo
+NAME                                    CHART VERSION   APP VERSION     DESCRIPTION                
+mock-app-repo/gitops-addons             1.30.0          1.16.0          A Helm chart for Kubernetes
+mock-app-repo/mock-app                  2.2.0           1.16.0          A Helm chart for Kubernetes
+mock-app-repo/mock-app-blue-green       1.0.0           1.16.0          A Helm chart for Kubernetes
+mock-app-repo/mock-app-canary           1.0.0           1.16.0          A Helm chart for Kubernetes
+controlplane:~$ 
