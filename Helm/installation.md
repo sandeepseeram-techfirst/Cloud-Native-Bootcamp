@@ -67,3 +67,16 @@ mock-app-repo/mock-app                  2.2.0           1.16.0          A Helm c
 mock-app-repo/mock-app-blue-green       1.0.0           1.16.0          A Helm chart for Kubernetes
 mock-app-repo/mock-app-canary           1.0.0           1.16.0          A Helm chart for Kubernetes
 controlplane:~$ 
+
+
+##### Helm Upgrade 
+
+controlplane:~$ helm upgrade --namespace dev-ns mock-app mock-app-repo/mock-app
+Release "mock-app" has been upgraded. Happy Helming!
+NAME: mock-app
+LAST DEPLOYED: Mon Apr 14 07:31:02 2025
+NAMESPACE: dev-ns
+STATUS: deployed
+REVISION: 2
+TEST SUITE: None
+controlplane:~$ 
