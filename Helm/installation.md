@@ -10,4 +10,8 @@ Verifying checksum... Done.
 Preparing to install helm into /usr/local/bin
 helm installed into /usr/local/bin/helm
 
+##### Helm Version 
+
+controlplane:~$ helm version 
+version.BuildInfo{Version:"v3.17.3", GitCommit:"e4da49785aa6e6ee2b86efd5dd9e43400318262b", GitTreeState:"clean", GoVersion:"go1.23.7"}
 controlplane:~$ 
