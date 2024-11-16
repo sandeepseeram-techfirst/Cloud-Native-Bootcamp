@@ -23,3 +23,11 @@ replicaset.apps/mock-app-deployment-7b89fbdb7c   0         0         0       3m5
 NAME                                               REFERENCE                        TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
 horizontalpodautoscaler.autoscaling/mock-app-hpa   Deployment/mock-app-deployment   cpu: <unknown>/50%   1         3         1          3m54s
 controlplane:~$ 
+
+##### Helm History 
+
+controlplane:~$ helm history mock-app -n dev-ns
+REVISION        UPDATED                         STATUS          CHART           APP VERSION     DESCRIPTION     
+1               Mon Apr 14 07:32:40 2025        superseded      mock-app-1.9.0  1.16.0          Install complete
+2               Mon Apr 14 07:32:41 2025        deployed        mock-app-2.0.0  1.16.0          Upgrade complete
+controlplane:~$ 
