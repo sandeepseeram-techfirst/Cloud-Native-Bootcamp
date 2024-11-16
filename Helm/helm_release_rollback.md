@@ -31,3 +31,9 @@ REVISION        UPDATED                         STATUS          CHART           
 1               Mon Apr 14 07:32:40 2025        superseded      mock-app-1.9.0  1.16.0          Install complete
 2               Mon Apr 14 07:32:41 2025        deployed        mock-app-2.0.0  1.16.0          Upgrade complete
 controlplane:~$ 
+
+##### Helm Rollback 
+
+controlplane:~$ helm rollback -n dev-ns mock-app
+Rollback was a success! Happy Helming!
+controlplane:~$ 
