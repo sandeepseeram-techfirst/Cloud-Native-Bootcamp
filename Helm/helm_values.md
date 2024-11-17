@@ -27,3 +27,20 @@ image:
   tag: v1.0.0
 message: You will override this message
 controlplane:~$ 
+
+controlplane:~$ helm -n dev-ns upgrade --install mock-app /charts/mock-app-1.0.0.tgz --set message="You are overriding the message using an inline value. Good job !"
+Release "mock-app" has been upgraded. Happy Helming!
+NAME: mock-app
+LAST DEPLOYED: Mon Apr 14 08:39:15 2025
+NAMESPACE: dev-ns
+STATUS: deployed
+REVISION: 2
+TEST SUITE: None
+controlplane:~$ helm get values --all mock-app -n dev-ns
+COMPUTED VALUES:
+appName: mock-app
+image:
+  repository: benmalekarim/mock-app
+  tag: v1.0.0
+message: You are overriding the message using an inline value. Good job !
+controlplane:~$ 
