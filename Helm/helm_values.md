@@ -17,3 +17,13 @@ NAME                                             DESIRED   CURRENT   READY   AGE
 replicaset.apps/mock-app-deployment-699945d9bc   1         1         1       55s
 controlplane:~$ 
 
+##### Helm Values 
+
+controlplane:~$ helm get values --all mock-app -n dev-ns
+COMPUTED VALUES:
+appName: mock-app
+image:
+  repository: benmalekarim/mock-app
+  tag: v1.0.0
+message: You will override this message
+controlplane:~$ 
