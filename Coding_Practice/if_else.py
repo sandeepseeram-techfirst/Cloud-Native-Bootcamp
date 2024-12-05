@@ -24,3 +24,12 @@ If (condition) {
 } else if (second condition) {
   Action to perform if another condition is met
 } …
+
+
+If (It is sunny) {
+  Bring sunglasses
+} else if (It is raining) {
+  Bring an umbrella
+} else {
+  Bring a sweater
+}
