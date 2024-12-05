@@ -20,7 +20,7 @@ Send in doctor
 
 
 If (condition) {
-  Action to perform if some condition is met
+  Action to perform if some condition is met 
 } else if (second condition) {
   Action to perform if another condition is met
 } …
