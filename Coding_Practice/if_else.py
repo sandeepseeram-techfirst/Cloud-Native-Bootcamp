@@ -17,3 +17,10 @@ If (body temperature is > 99) {
     Alert doctor to fever
 }
 Send in doctor
+
+
+If (condition) {
+  Action to perform if some condition is met
+} else if (second condition) {
+  Action to perform if another condition is met
+} …
