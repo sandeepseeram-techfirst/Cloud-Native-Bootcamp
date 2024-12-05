@@ -10,3 +10,10 @@ If (room != empty) {
   Find a different room
 }
 Start meeting
+
+
+Take patient's temperature
+If (body temperature is > 99) {
+    Alert doctor to fever
+}
+Send in doctor
