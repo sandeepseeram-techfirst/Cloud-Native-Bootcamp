@@ -31,3 +31,4 @@ CREATE TABLE hotels(
  checkout_date DATE    NOT NULL,
  booked        BIT     NOT NULL
 );
+
