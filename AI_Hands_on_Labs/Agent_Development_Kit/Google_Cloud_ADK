@@ -44,3 +44,14 @@ VALUES
  (8, 'Holiday Inn Basel', 'Basel', 'Upper Midscale', '2024-04-24', '2024-04-09', B'0'),
  (9, 'Courtyard Zurich', 'Zurich', 'Upscale', '2024-04-03', '2024-04-13', B'0'),
  (10, 'Comfort Inn Bern', 'Bern', 'Midscale', '2024-04-04', '2024-04-16', B'0');
+
+
+#### MCP Toolbox for Databases 
+ MCP Toolbox for Databases is an open source MCP server for databases It was designed with enterprise-grade and production-quality in mind. It enables you to develop tools easier, faster, and more securely by handling the complexities such as connection pooling, authentication, and more.
+
+Toolbox helps you build Gen AI tools that let your agents access data in your database. Toolbox provides:
+
+1. Simplified development: Integrate tools to your agent in less than 10 lines of code, reuse tools between multiple agents or frameworks, and deploy new versions of tools more easily.
+2. Better performance: Best practices such as connection pooling, authentication, and more.
+3. Enhanced security: Integrated auth for more secure access to your data
+4. End-to-end observability: Out of the box metrics and tracing with built-in support for OpenTelemetry.
