@@ -55,3 +55,6 @@ Toolbox helps you build Gen AI tools that let your agents access data in your da
 2. Better performance: Best practices such as connection pooling, authentication, and more.
 3. Enhanced security: Integrated auth for more secure access to your data
 4. End-to-end observability: Out of the box metrics and tracing with built-in support for OpenTelemetry.
+
+
+![alt text](image.png)
