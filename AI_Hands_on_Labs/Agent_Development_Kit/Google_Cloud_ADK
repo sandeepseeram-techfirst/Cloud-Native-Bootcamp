@@ -1,0 +1,11 @@
+### Build a Travel Agent using MCP Toolbox for Databases and Agent Development Kit 
+
+gcloud services enable cloudresourcemanager.googleapis.com \
+                       servicenetworking.googleapis.com \
+                       run.googleapis.com \
+                       cloudbuild.googleapis.com \
+                       cloudfunctions.googleapis.com \
+                       aiplatform.googleapis.com \
+                       sqladmin.googleapis.com \
+                       compute.googleapis.com 
+
