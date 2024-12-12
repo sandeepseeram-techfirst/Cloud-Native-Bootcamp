@@ -9,3 +9,5 @@ gcloud services enable cloudresourcemanager.googleapis.com \
                        sqladmin.googleapis.com \
                        compute.googleapis.com 
 
+
+
