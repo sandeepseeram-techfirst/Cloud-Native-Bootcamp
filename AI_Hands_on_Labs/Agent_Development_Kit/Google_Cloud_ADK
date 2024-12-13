@@ -7,7 +7,7 @@ gcloud services enable cloudresourcemanager.googleapis.com \
                        cloudfunctions.googleapis.com \
                        aiplatform.googleapis.com \
                        sqladmin.googleapis.com \
-                       compute.googleapis.com 
+                       compute.googleapis.com  
 
 
 #### CloudSQL for PostgresSQL 
