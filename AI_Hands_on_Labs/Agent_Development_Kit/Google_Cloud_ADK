@@ -64,3 +64,19 @@ Toolbox helps you build Gen AI tools that let your agents access data in your da
 #### Installing MCP Toolbox for Databases 
 
 mkdir mcp-toolbox
+
+
+Run the MCP Toolbox for Databases Server
+Run the following command (from the mcp-toolbox folder) to start the server:
+
+
+./toolbox --tools-file "tools.yaml"
+Ideally you should see an output that the Server has been able to connect to our data sources and has loaded the toolset and tools. A sample output is given below:
+
+
+./toolbox --tools-file "tools.yaml"
+2025-04-23T14:32:29.564903079Z INFO "Initialized 1 sources." 
+2025-04-23T14:32:29.565009291Z INFO "Initialized 0 authServices." 
+2025-04-23T14:32:29.565070176Z INFO "Initialized 2 tools." 
+2025-04-23T14:32:29.565120847Z INFO "Initialized 2 toolsets." 
+2025-04-23T14:32:29.565510068Z INFO "Server ready to serve!" 
