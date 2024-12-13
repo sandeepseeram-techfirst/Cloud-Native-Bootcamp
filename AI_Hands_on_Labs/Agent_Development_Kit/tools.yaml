@@ -8,7 +8,7 @@ sources:
    user: postgres
    password: postgres
 
-tools:
+tools: 
  search-hotels-by-name:
    kind: postgres-sql
    source: my-cloud-sql-source
