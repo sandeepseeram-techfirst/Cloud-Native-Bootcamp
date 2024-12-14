@@ -21,7 +21,7 @@ tools:
  search-hotels-by-location:
    kind: postgres-sql
    source: my-cloud-sql-source
-   description: Search for hotels based on location.
+   description: Search for hotels based on location. 
    parameters:
      - name: location
        type: string
