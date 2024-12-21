@@ -10,7 +10,7 @@ The pandas module has also been developed for more complex structures and simple
 
 Matplotlib is used for visual analysis and plotting.
 
-#### scikit-learn
+#### scikit-learn 
 
 The scikit-learn module contains many machine learning (ML) algorithms that can be used very easily in your own program.
 
