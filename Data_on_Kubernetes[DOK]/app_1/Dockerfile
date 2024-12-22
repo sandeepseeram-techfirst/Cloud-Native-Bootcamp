@@ -2,7 +2,7 @@ FROM python:3.11-alpine
 
 RUN pip --no-cache-dir install fastapi uvicorn
 
-EXPOSE 8087
+EXPOSE 8087 
 
 COPY ./app /app
 
