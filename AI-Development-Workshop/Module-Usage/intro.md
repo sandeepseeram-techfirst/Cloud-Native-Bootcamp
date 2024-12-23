@@ -1,6 +1,6 @@
 📌 **NumPy** → Super fast calculator 🧮 
 
-📌 **Pandas** → Super table organizer 📊 
+📌 **Pandas** → Super table organizer 📊
 
 📌 **Keras** → AI LEGO builder 🏗️ 
 
