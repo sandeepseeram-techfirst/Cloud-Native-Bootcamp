@@ -10,6 +10,7 @@
                        [MLOps: Training | Monitoring | Versioning]
 
 
+#### AI Search Technical Workflow: 
 
 [Data Source] → [Connector] → [Document Processor + Indexer] → [Search Index]
                                                         ↓
