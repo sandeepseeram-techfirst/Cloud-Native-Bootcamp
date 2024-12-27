@@ -1,9 +1,11 @@
+#### AI Realtime Inference:
+
 [ Data Source ] → [ Preprocessing ] → [ Model Inference API ] → [ Results/Action ]
                                  ↑
               [ Model Registry ]←[ Monitoring & Retraining ]
 
 
-
+#### General AI Technical Workflow:
 
 [Data Ingestion] → [Preprocessing] → [Model Inference (ML/DL)] → [API/UX Layer]
                                               ↑
