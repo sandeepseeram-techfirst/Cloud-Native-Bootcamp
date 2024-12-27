@@ -7,3 +7,10 @@ There are many Google-provided data stores that allow your apps to query data fr
 All of these data stores provide semantic retrieval.
 
 “Semantic” means “based on the meaning”.
+
+#### What is RAG? 
+
+Technique of chunking data, searching for the relevant chunks at query time, and then building a generative response based on those chunks is called Retrieval-Augmented Generation ( or “RAG”).
+
+Data Stores automate the process of connecting to your data, splitting it into smaller sections called chunks, then generating numeric representations of your data called embeddings. Those embeddings are then typically indexed so that when a user asks a question or looks for a small piece of information, the relevant “chunk” can be retrieved quickly.
+
