@@ -7,4 +7,4 @@ For example, if you assign two-dimensional representations to a few words (“ca
 
 The embeddings in this case are the X and Y coordinates that represent each word’s position in this “embedding space”. A shorter distance between embeddings indicates greater similarity between the words represented.
 
-In practice, embeddings have more than two dimensions. Google embeddings are typically 768 dimensions. You will hear them described interchangeably as embeddings, embedding vectors, or vectors.
+In practice, embeddings have more than two dimensions. Google embeddings are typically 768 dimensions. You will hear them described interchangeably as embeddings, embedding vectors, or vectors. A very useful feature of embeddings is that multiple embeddings can be combined to represent a group of words, sentences, or even paragraphs.
