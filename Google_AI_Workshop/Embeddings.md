@@ -6,3 +6,5 @@ For example, if you assign two-dimensional representations to a few words (“ca
 
 
 The embeddings in this case are the X and Y coordinates that represent each word’s position in this “embedding space”. A shorter distance between embeddings indicates greater similarity between the words represented.
+
+In practice, embeddings have more than two dimensions.
