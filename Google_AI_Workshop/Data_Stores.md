@@ -1,4 +1,4 @@
-#### Data Stores 
+#### Data Stores
 
 Data stores allow you to easily connect your generative AI applications to many sources of data.
 
