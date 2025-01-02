@@ -17,5 +17,5 @@ An embedding model processes the chunks of data and encodes the semantic meaning
 
 
 #### AI Applications 
-AI Applications data stores are responsible for the end-to-end search and discovery process of managing Extract-Transform-Load (ETL) of documents, Optical character recognition (OCR) where needed, chunking, embedding, indexing, storing, input cleaning, schema adjustments, information retrieval, and semantic and token-based search. And AI Applications apps are responsible for serving an app experience that receives user inputs, queries and retrieves relevant chunks from one or more data stores, passes those chunks to a model for a relevant response, and then presents the response and relevant documents to the user. 
+AI Applications data stores are responsible for the end-to-end search and discovery process of managing Extract-Transform-Load (ETL) of documents, Optical character recognition (OCR) where needed, chunking, embedding, indexing, storing, input cleaning, schema adjustments, information retrieval, and semantic and token-based search. And AI Applications apps are responsible for serving an app experience that receives user inputs, queries and retrieves relevant chunks from one or more data stores, passes those chunks to a model for a relevant response, and then presents the response and relevant documents to the user.
 
