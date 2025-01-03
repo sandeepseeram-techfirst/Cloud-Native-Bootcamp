@@ -6,3 +6,4 @@ Vertex AI Search brings together the power of deep information retrieval, state-
 ##### Task 2. Create and preview a website search app
 
 ##### Task 3. Create and preview a structured data search app
+Structured data can be used to make website content more visible to search engines. A structured data search app improves the discoverability of website content and provides users with a more relevant search experience.
