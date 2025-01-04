@@ -9,3 +9,4 @@ Vertex AI Search brings together the power of deep information retrieval, state-
 Structured data can be used to make website content more visible to search engines. A structured data search app improves the discoverability of website content and provides users with a more relevant search experience.
 
 ##### Task 4. Create and Preview an unstructured data search app
+Unstructured data is data that does not have a predefined format. This type of data can be difficult to search within using traditional search engines. An unstructured data search app can be used to make this data more accessible to gain insights that can be used to improve business operations.
