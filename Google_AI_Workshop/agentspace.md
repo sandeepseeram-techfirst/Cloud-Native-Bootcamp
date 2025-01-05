@@ -6,4 +6,4 @@ Agentspace is deployed as a full web app.
 Agents are purpose-built to help you complete specific tasks.
 
 #### Use Case
-Agentspace empowers employees to find the right information at the right time by connecting content across
+Agentspace empowers employees to find the right information at the right time by connecting content across an organization, generating grounded, personalized answers from it, and perform tasks by integrating with workflow actions.
