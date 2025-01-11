@@ -9,7 +9,7 @@ Autocomplete enhances search experiences for both **structured** and **unstructu
 
 - **Suggestions** are based on:
   - Document content (for structured/unstructured engines)
-  - Search history or user events (for website search engines via API)
+  - Search history or user events (for website search engines via API) 
 
 - **Initialization Time**: 
   - Takes **1–2 days** after data import or traffic activity to start generating suggestions.
