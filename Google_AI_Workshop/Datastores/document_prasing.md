@@ -1,4 +1,4 @@
-# Using Document AI for Parsing and Chunking Documents in RAG Solutions 
+# Using Document AI for Parsing and Chunking Documents in RAG Solutions
 
 ## Overview
 Vertex AI Agent Builder integrates with **Document AI** to enable advanced document parsing and processing, useful for building RAG (Retrieval-Augmented Generation) pipelines.
