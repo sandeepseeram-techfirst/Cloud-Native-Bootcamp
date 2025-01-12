@@ -34,9 +34,9 @@ Autocomplete enhances search experiences for both **structured** and **unstructu
 
 ---
 
-## Using Autocomplete via API
+## Using Autocomplete via API 
 
-- Use the **`dataStores.completeQuery`** method.
+- Use the **`dataStores.completeQuery`** method. 
 - Optional parameters:
   - `includeTailSuggestions`: 
     - `true` → suggests completions of the last word in query.
