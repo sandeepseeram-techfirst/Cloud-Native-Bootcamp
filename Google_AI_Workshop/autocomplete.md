@@ -12,7 +12,7 @@ Autocomplete enhances search experiences for both **structured** and **unstructu
   - Search history or user events (for website search engines via API) 
 
 - **Initialization Time**: 
-  - Takes **1–2 days** after data import or traffic activity to start generating suggestions.
+  - Takes **1–2 days** after data import or traffic activity to start generating suggestions. 
 
 ---
 
