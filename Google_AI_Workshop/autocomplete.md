@@ -42,5 +42,4 @@ Autocomplete enhances search experiences for both **structured** and **unstructu
     - `true` → suggests completions of the last word in query.
     - Example: `"songs with he"` → suggestions like `"Hello World"`, `"Hello Kitty"`.
   - `autocompleteModel`: Specify the desired model (e.g., `document`, `completeable_fields`, `search_history`, `user_event`).
-
 ---
