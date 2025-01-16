@@ -5,7 +5,7 @@ Autocomplete enhances search experiences for both **structured** and **unstructu
 
 ---
 
-## How Autocomplete Works
+## How Autocomplete Works 
 
 - **Suggestions** are based on:
   - Document content (for structured/unstructured engines)
