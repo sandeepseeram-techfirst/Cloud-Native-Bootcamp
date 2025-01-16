@@ -40,6 +40,6 @@ These features can be enabled or disabled for website search engines:
 
 2. **Perform Image Search**
    - Use the `default_config.search` method within the `servingConfig` object.
-   - Provide a **text string query** to retrieve relevant images.
+   - Provide a **text string query** to retrieve relevant images. 
 
 ---
