@@ -71,7 +71,7 @@ Unstructured search engines in Vertex AI Search offer multiple ways to display s
 - **Safe Search**: Filters explicit/unsafe content.
 
 ### Facets:
-- Used to group and organize content into sections.
+- Used to group and organize content into sections. 
 - Configure by:
   - Selecting a **document field**
   - Providing a **display name** (header) for that field
