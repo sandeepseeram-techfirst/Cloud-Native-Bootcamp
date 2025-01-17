@@ -32,7 +32,7 @@ These features can be enabled or disabled for website search engines:
 - **Advanced Site Search** enables image searching on your website.
 - Available **only via APIs and SDKs** at the time of this recording.
 
-### Enabling Image Search:
+### Enabling Image Search: 
 
 1. **Enable Advanced Site Search**
    - A long-running operation.
