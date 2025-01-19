@@ -1,0 +1,38 @@
+curl -X POST \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "Content-Type: application/json" \
+  "https://discoveryengine.googleapis.com/v1alpha/projects/119717541764/locations/global/collections/default_collection/engines/cymbal-travel_1750591889699/servingConfigs/default_search:search" \
+  -d '{
+    "query": "What is the revenue for the hotels in the Maldives?",
+    "pageSize": 2,
+    "filter": "category: ANY(\"financials\")",
+    "queryExpansionSpec": {
+      "condition": "AUTO"
+    },
+    "spellCorrectionSpec": {
+      "mode": "AUTO"
+    },
+    "relevanceScoreSpec": {
+      "returnRelevanceScore": true
+    },
+    "languageCode": "en-US",
+    "contentSearchSpec": {
+      "extractiveContentSpec": {
+        "maxExtractiveAnswerCount": 1
+      }
+    },
+    "facetSpecs": [
+      {
+        "facetKey": {
+          "key": "category"
+        },
+        "limit": 30
+      }
+    ],
+    "naturalLanguageQueryUnderstandingSpec": {
+      "filterExtractionCondition": "ENABLED"
+    },
+    "userInfo": {
+      "timeZone": "Asia/Calcutta"
+    }
+}'
