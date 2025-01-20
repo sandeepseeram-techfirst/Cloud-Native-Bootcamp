@@ -1,3 +1,3 @@
-# Recommendations with AI Applications
+# Recommendations with AI Applications 
 
 Vertex AI Search allows you to create search and recommendations applications tailored towards discovery for media content like videos, articles, podcasts, and music. Create media search experiences with customized results depending upon your content's fields, including displaying thumbnail art. Generate recommendations based on all-user behavior or an individual's past engagement, and optimize results for media-specific metrics like watch duration.
