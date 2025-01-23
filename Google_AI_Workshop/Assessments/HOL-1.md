@@ -1,1 +1,1 @@
-# Configure AI Applications to Optimize Search Results
+# Configure AI Applications to Optimize Search Results 
