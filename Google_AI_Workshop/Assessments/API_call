@@ -29,7 +29,7 @@ curl -X POST \
         "limit": 30
       }
     ],
-    "naturalLanguageQueryUnderstandingSpec": {
+    "naturalLanguageQueryUnderstandingSpec": { 
       "filterExtractionCondition": "ENABLED"
     },
     "userInfo": {
