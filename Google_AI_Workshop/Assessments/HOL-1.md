@@ -35,6 +35,7 @@ cat > travel_requests_schema.json << EOF
 ]
 EOF
 
+### Create the BigQuery dataset trip and table travel_requests, using the schema defined in the travel_requests_schema.json file
 
 bq --location=US mk -d trip
 bq mk -t trip.travel_requests travel_requests_schema.json
