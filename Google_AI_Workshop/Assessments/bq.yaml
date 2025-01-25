@@ -1,0 +1,18 @@
+cat > employee_feedback_schema.json << EOF
+[
+  {
+    "name": "feedback",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "store_number",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]
+EOF
+
+
+bq --location=US mk -d feedback
+bq mk -t feedback.employee_feedback employee_feedback_schema.json
