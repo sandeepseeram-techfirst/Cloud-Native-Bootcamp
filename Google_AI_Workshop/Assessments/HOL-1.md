@@ -34,3 +34,7 @@ cat > travel_requests_schema.json << EOF
   }
 ]
 EOF
+
+
+bq --location=US mk -d trip
+bq mk -t trip.travel_requests travel_requests_schema.json
