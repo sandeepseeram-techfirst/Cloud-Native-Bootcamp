@@ -1,0 +1,49 @@
+openapi: 3.0.0
+info:
+  title: Travel Requests API
+  version: 1.0.0
+servers:
+  - url: 'https://record-travel-request-157633047917.us-central1.run.app'
+paths:
+  /:
+    post:
+      summary: Record a new travel request
+      operationId: recordTravelRequest
+      requestBody:
+        description: Travel request to add
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TravelRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "New row has been added."
+components:
+  schemas:
+    TravelRequest:
+      type: object
+      required:
+        - user
+        - travel_purpose
+      properties:
+        user:
+          type: string
+        travel_purpose:
+          type: string
+        departure_city:
+          type: string
+        destination_city:
+          type: string
+        departure_date:
+          type: string
+        return_date:
+          type: string
