@@ -1,4 +1,4 @@
-curl -X POST \
+curl -X POST \ 
   -H "Authorization: Bearer $(gcloud auth print-access-token)" \
   -H "Content-Type: application/json" \
   "https://discoveryengine.googleapis.com/v1alpha/projects/119717541764/locations/global/collections/default_collection/engines/cymbal-travel_1750591889699/servingConfigs/default_search:search" \
