@@ -4,7 +4,7 @@ cat > employee_feedback_schema.json << EOF
     "name": "feedback",
     "type": "STRING",
     "mode": "REQUIRED"
-  },
+  }, 
   {
     "name": "store_number",
     "type": "INTEGER",
