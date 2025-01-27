@@ -1,7 +1,8 @@
 ## LLM 
 Large Language Models 
 
-
+LLMs are the technology at the heart of the most recent advancements in the field of NLP.
+- Popular LLMs are GPT, PaLM, Llama, BLOOM
 
 
 #### Temperature 
