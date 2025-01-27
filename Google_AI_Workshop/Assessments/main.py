@@ -28,7 +28,7 @@ def record_travel_request(request):
         "departure_date": request_json.get("departure_date",""),
         "return_date": request_json.get("return_date",""), 
         },
-    ]
+    ] 
 
     errors = bq_client.insert_rows_json(table_id, row_to_insert)  # Make an API request.
     if errors == []:
