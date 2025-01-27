@@ -33,7 +33,7 @@ cat > travel_requests_schema.json << EOF
     "mode": "NULLABLE"
   }
 ]
-EOF
+EOF 
 
 ### Create the BigQuery dataset trip and table travel_requests, using the schema defined in the travel_requests_schema.json file
 
