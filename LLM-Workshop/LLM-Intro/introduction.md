@@ -7,6 +7,9 @@ LLMs are the technology at the heart of the most recent advancements in the fiel
 #### Language Models 
 Language models are algorithmic systems trained on a corpus of text to perform a variety of tasks relating to language such as text generation, summarization, translation, etc. Large Language Models (LLMs) are trained on large amounts of text and use neural networks to learn the underlying distribution of words in text.
 
+#### LLM's 
+LLMs have grown in performance and popularity over the last decade due to a specific type of highly efficient neural network architecture known as the transformer. Neural networks solve the problems of lack of generalizability and the curse of dimensionality by compressing the text data into a mathematical representation.
+
 
 #### Temperature 
 
