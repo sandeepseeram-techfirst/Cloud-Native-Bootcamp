@@ -12,7 +12,7 @@ controlplane $
 
 controlplane $ kubectl create -f pvc.yaml
 persistentvolumeclaim/pv-claim created
-controlplane $ 
+controlplane $
 
 controlplane $ kubectl create -f pv-pod.yaml
 pod/pv-pod created
