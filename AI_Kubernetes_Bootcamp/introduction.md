@@ -8,3 +8,5 @@ As demand for large-scale AI applications continues to grow, Kubernetes (K8s) ha
 
 ![AI, ML, DL, GenAI,](image.png)
 
+### AI 
+AI refers to a system or algorithm that is capable of performing tasks that would otherwise typically require human intelligence. These tasks include reasoning, learning, problem-solving, perception, and language understanding. AI is a broad category and can include rule-based systems, expert systems, neural networks, and GenAI algorithms. The evolution of AI algorithms has provided machines with human-like senses and capabilities, such as vision to analyze the world around them, listening and speaking to understand natural language and respond verbally, and using sensor data to understand the external environment and respond accordingly.
