@@ -16,3 +16,6 @@ Vector databases help to find similar searches in high-dimensional space using e
 
 
 ![High-Dimensional Vector Embeddings](image-1.png)
+
+
+Performance-Efficient Fine Tuning (PEFT), which only updates a small set of weights and thus reduces the compute requirements.
