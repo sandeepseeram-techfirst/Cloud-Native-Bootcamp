@@ -10,3 +10,5 @@ The mapping of input tokens retains not only their intrinsic values but also the
 ### Input Embeddings
 
 this is a key part of the transformer model, which converts input sequences/tokens into high-dimensional vector embeddings.
+In real-world applications, output embeddings from a trained model may be stored in high-dimensional vector databases, such as Elasticsearch, Milvus, or PineCone. 
+
