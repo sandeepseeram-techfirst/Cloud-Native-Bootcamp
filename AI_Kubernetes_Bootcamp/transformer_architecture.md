@@ -19,3 +19,6 @@ Vector databases help to find similar searches in high-dimensional space using e
 
 
 Performance-Efficient Fine Tuning (PEFT), which only updates a small set of weights and thus reduces the compute requirements.
+
+### LoRA 
+Low Rank Adoption (LoRA) is a very popular form of PEFT, where the original model matrix is reparametrized using a low-rank representation to significantly reduce the number of model parameters to be updated. 
