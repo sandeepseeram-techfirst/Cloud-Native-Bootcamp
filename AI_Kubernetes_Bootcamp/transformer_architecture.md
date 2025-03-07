@@ -12,3 +12,7 @@ The mapping of input tokens retains not only their intrinsic values but also the
 this is a key part of the transformer model, which converts input sequences/tokens into high-dimensional vector embeddings.
 In real-world applications, output embeddings from a trained model may be stored in high-dimensional vector databases, such as Elasticsearch, Milvus, or PineCone. 
 
+Vector databases help to find similar searches in high-dimensional space using either Euclidian distance or cosine similarity, and similar objects are assigned closer to each other in this high-dimensional vector space. 
+
+
+![High-Dimensional Vector Embeddings](image-1.png)
