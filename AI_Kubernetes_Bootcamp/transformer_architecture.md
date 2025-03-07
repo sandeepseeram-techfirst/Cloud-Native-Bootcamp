@@ -8,3 +8,5 @@ The mapping of input tokens retains not only their intrinsic values but also the
 
 
 ### Input Embeddings
+
+this is a key part of the transformer model, which converts input sequences/tokens into high-dimensional vector embeddings.
