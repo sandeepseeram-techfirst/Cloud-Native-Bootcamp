@@ -37,5 +37,5 @@ Low Rank Adoption (LoRA) is a very popular form of PEFT, where the original mode
 #### Compute Layer
 1. For compute, we can use options such as CPUs, GPUs, custom accelerators, or a combination of these.
 2. LLMs are very computationally intensive. 
-3. 
+3. GPUs offer massively parallel matrix multiplication capabilities and are mostly favored for training workloads. 
 
