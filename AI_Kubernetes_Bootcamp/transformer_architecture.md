@@ -35,5 +35,6 @@ Low Rank Adoption (LoRA) is a very popular form of PEFT, where the original mode
 ## Infrastructure Layer
 
 #### Compute Layer
-1. CPU, GPU, Custom Accelerators or a combination 
+1. For compute, we can use options such as CPUs, GPUs, custom accelerators, or a combination of these.
+2. 
 
