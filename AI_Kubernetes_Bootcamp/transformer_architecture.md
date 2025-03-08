@@ -27,7 +27,5 @@ Low Rank Adoption (LoRA) is a very popular form of PEFT, where the original mode
  Another version of LoRA is QLoRA (Quantized Lower Rank Adoption). In QLoRA, we use quantization to compress the model weights from 32-bit precision to 8-bit or 4-bit precision, which dramatically reduces the model size and makes it easier to run on GPUs with less memory.
 
 
-Orchestration Solutions: 
-k8s, JARK, OpenStack 
-
+### Deployment Stack 
 
