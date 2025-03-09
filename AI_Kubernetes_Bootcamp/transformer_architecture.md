@@ -42,5 +42,5 @@ Low Rank Adoption (LoRA) is a very popular form of PEFT, where the original mode
 5. Besides CPUs and GPUs, there are custom accelerators, such as AWS Inferentia and Trainium, which are custom silicon chips specially designed for ML and highly optimized for mathematical operations.
 
 #### Networking Layer
-
+Networking is the next critical infrastructure component. For language models that are very large, both training and inference could become a distributed system problem. 
 
