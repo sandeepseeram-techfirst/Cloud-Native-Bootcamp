@@ -45,3 +45,8 @@ Low Rank Adoption (LoRA) is a very popular form of PEFT, where the original mode
 Networking is the next critical infrastructure component. 
 For language models that are very large, both training and inference could become a distributed system problem. 
 
+
+#### Note: 
+It’s evident here that GenAI models are growing exponentially, and more parameters generally mean a more complex model that can capture more intricate patterns in data, thus requiring more computational resources for training and inference.
+
+
