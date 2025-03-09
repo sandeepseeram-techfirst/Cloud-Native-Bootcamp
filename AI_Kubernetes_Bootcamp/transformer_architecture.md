@@ -41,3 +41,6 @@ Low Rank Adoption (LoRA) is a very popular form of PEFT, where the original mode
 4. For inference, both CPUs and GPUs are used, but for LLMs with billions of model parameters, GPUs are often needed for inference as well.
 5. Besides CPUs and GPUs, there are custom accelerators, such as AWS Inferentia and Trainium, which are custom silicon chips specially designed for ML and highly optimized for mathematical operations.
 
+#### Networking Layer
+
+
