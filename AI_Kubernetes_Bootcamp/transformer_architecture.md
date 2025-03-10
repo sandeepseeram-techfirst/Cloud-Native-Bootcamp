@@ -61,3 +61,4 @@ memory coherence technology ensures that all the caches in the system have up-to
 
 
 #### Storage Layer
+Block Storage, File Storage, or Lustre
