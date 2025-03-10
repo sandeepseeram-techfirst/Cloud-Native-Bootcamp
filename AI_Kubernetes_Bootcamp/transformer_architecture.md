@@ -62,3 +62,8 @@ memory coherence technology ensures that all the caches in the system have up-to
 
 #### Storage Layer
 Block Storage, File Storage, or Lustre
+
+
+#### Lustre 
+Lustre is a popular storage system that is now gaining traction for GenAI applications and has been in use for quite some time in high-performance computing. 
+
