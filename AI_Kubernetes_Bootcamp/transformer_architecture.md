@@ -57,4 +57,6 @@ RDMA is a technology that lets nodes in a distributed system access the memory o
 
 
 #### memory coherence 
+memory coherence technology ensures that all the caches in the system have up-to-date memory information and that write operations by one node to memory are visible to all the nodes/caches that are connected coherently.
+
 
