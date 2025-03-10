@@ -50,5 +50,7 @@ For language models that are very large, both training and inference could becom
 It’s evident here that GenAI models are growing exponentially, and more parameters generally mean a more complex model that can capture more intricate patterns in data, thus requiring more computational resources for training and inference.
 if we say a model has 1 billion parameters, it usually refers to model weights after training has been completed. 
 
-East-West traffic, that is, the traffic flowing within the data center nodes or GPUs, could become a performance bottleneck for large model training or fine tuning. 
+East-West traffic, that is, the traffic flowing within the data center nodes or GPUs, could become a performance bottleneck for large model training or fine tuning. For this reason, non-blocking networking technologies such as memory coherence and Remote Direct Memory Access (RDMA) could help scale performance across nodes.
+
+
 
