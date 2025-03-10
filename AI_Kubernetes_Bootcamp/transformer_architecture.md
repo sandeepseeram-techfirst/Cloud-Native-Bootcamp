@@ -65,5 +65,6 @@ Block Storage, File Storage, or Lustre
 
 
 #### Lustre 
-Lustre is a popular storage system that is now gaining traction for GenAI applications and has been in use for quite some time in high-performance computing. 
+Lustre is a popular storage system that is now gaining traction for GenAI applications and has been in use for quite some time in high-performance computing. Lustre provides a massively parallel file storage system and can be scaled horizontally by adding more resources.
+
 
