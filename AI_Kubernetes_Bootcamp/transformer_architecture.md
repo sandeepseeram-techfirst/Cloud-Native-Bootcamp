@@ -55,3 +55,6 @@ East-West traffic, that is, the traffic flowing within the data center nodes or 
 #### Remote Direct Memory Access (RDMA)
 RDMA is a technology that lets nodes in a distributed system access the memory of other nodes without involving either the core processor or operating system.
 
+
+#### memory coherence 
+
