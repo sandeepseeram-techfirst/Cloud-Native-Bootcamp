@@ -15,3 +15,5 @@ These capabilities let containers abstract the operating system components for m
 
 # Container Terminology
 
+#### Container runtime: 
+This is a host-level process that is responsible for creating, stopping, and starting containers.
