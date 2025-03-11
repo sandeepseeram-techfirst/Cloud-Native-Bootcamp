@@ -25,3 +25,7 @@ This is a lightweight, standalone, executable package that includes everything n
 
 It is created using a Dockerfile, a plain text definition file that includes a set of instructions to install dependencies, applications, and so on. 
 
+1. Self-contained: It encapsulates everything needed to run software applications.
+2. Immutable: It is read-only in nature; any changes would require a new image.
+3. Layered: Images are built in layers, each layer representing a file system. This is what makes images highly efficient as common layers can be shared across multiple images.
+4. Portable: As the image packages the application and all its dependencies, they can be run on any system that supports a container runtime, making them highly portable in nature.
