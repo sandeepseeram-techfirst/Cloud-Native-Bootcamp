@@ -16,4 +16,6 @@ These capabilities let containers abstract the operating system components for m
 # Container Terminology
 
 #### Container runtime: 
-This is a host-level process that is responsible for creating, stopping, and starting containers.
+This is a host-level process that is responsible for creating, stopping, and starting containers. It interacts with low-level container runtimes such as runc to set up namespaces and cgroups for containers. 
+
+Popular examples include containerd, CRI-O, and so on.
