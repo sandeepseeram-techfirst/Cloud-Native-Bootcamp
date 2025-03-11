@@ -10,3 +10,4 @@ It partitions OS-level resources such that different sets of processes see a dif
 #### Cgroups
 govern the isolation and usage of system resources, such as CPU, memory, and network, for a group of processes and optionally enforce limits and constraints.
 
+These capabilities let containers abstract the operating system components for modern applications.
