@@ -13,3 +13,5 @@ govern the isolation and usage of system resources, such as CPU, memory, and net
 These capabilities let containers abstract the operating system components for modern applications.
 
 
+# Container Terminology
+
