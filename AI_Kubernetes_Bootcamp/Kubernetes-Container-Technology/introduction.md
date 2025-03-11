@@ -20,5 +20,8 @@ This is a host-level process that is responsible for creating, stopping, and sta
 
 Popular examples include containerd, CRI-O, and so on.
 
+#### Container image 
+This is a lightweight, standalone, executable package that includes everything needed to run a piece of software, including the code, runtime, libraries, environment variables, and configuration files. 
 
+It is created using a Dockerfile, a plain text definition file that includes a set of instructions to install dependencies, applications, and so on. 
 
