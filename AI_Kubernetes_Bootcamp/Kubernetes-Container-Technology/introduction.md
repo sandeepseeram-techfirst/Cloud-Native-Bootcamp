@@ -32,3 +32,4 @@ It is created using a Dockerfile, a plain text definition file that includes a s
 
 #### Container registry
 This is a tool used to manage and distribute container images. 
+
