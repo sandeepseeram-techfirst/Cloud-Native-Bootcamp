@@ -29,3 +29,6 @@ It is created using a Dockerfile, a plain text definition file that includes a s
 2. Immutable: It is read-only in nature; any changes would require a new image.
 3. Layered: Images are built in layers, each layer representing a file system. This is what makes images highly efficient as common layers can be shared across multiple images.
 4. Portable: As the image packages the application and all its dependencies, they can be run on any system that supports a container runtime, making them highly portable in nature.
+
+#### Container registry
+This is a tool used to manage and distribute container images. 
