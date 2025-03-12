@@ -33,3 +33,5 @@ It is created using a Dockerfile, a plain text definition file that includes a s
 #### Container registry
 This is a tool used to manage and distribute container images. 
 
+#### Container 
+This is a running instance or process created from the container image by the container runtime.
