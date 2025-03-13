@@ -4,3 +4,5 @@ Kubernetes, commonly referred to as K8s, is an open source container orchestrati
 
 With extensibility, Kubernetes can be extended to host AI Workloads at scale and with efficiency. 
 
+According to Garner, by 2027, more than 90% of global organizations will be running containerized applications in production.
+
