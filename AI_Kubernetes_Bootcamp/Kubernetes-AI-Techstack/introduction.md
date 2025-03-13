@@ -6,3 +6,5 @@ With extensibility, Kubernetes can be extended to host AI Workloads at scale and
 
 According to Garner, by 2027, more than 90% of global organizations will be running containerized applications in production.
 
+- K8s offers a rich set of features including automated rollouts and rollbacks, self-healing, horizontal scaling, service discovery, and load balancing. 
+
