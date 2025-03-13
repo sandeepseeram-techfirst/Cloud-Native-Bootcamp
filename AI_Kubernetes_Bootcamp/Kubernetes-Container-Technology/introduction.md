@@ -31,7 +31,7 @@ It is created using a Dockerfile, a plain text definition file that includes a s
 4. Portable: As the image packages the application and all its dependencies, they can be run on any system that supports a container runtime, making them highly portable in nature.
 
 #### Container registry
-This is a tool used to manage and distribute container images. 
+This is a tool used to manage and distribute container images.
 
 #### Container 
 This is a running instance or process created from the container image by the container runtime.
