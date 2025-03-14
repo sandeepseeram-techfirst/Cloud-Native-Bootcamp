@@ -20,3 +20,7 @@ Examples:
 
 
  ### CoreDNS
+
+ CoreDNS is an essential software add-on that provides DNS resolution within the cluster. Containers launched in K8s worker nodes automatically include this DNS server in their DNS searches.
+
+ 
