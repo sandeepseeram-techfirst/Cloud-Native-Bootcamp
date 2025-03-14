@@ -25,4 +25,4 @@ Examples:
 
  ### Device plugins
 
- 
+  Modern AI/ML apps use specialized hardware devices such as GPUs from NVIDIA, Intel, and AMD and custom accelerators from Amazon, Google, and Meta. K8s provides a device plugin framework that you can use to advertise system hardware resources to the kubelet and control plane so that you can make scheduling decisions based on their availability.
