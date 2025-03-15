@@ -14,3 +14,8 @@ According to Garner, by 2027, more than 90% of global organizations will be runn
 
 # Kubernetes AI Ecosystem 
 Growing adoption of Kubernetes-native tools and frameworks to streamline the development, training, and deployment of AI models. 
+
+
+Examples: 
+
+1. Kubeflow and MLflow for operating end-to-end ML platforms on K8s;
