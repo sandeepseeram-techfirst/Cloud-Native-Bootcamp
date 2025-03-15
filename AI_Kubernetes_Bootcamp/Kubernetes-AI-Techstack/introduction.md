@@ -9,3 +9,6 @@ According to Garner, by 2027, more than 90% of global organizations will be runn
 - K8s offers a rich set of features including automated rollouts and rollbacks, self-healing, horizontal scaling, service discovery, and load balancing. 
 
 - K8s uses a declarative approach for configuration management, allowing users to define the desired state of their applications and infrastructure using YAML or JSON files. 
+
+
+
