@@ -18,4 +18,5 @@ Growing adoption of Kubernetes-native tools and frameworks to streamline the dev
 
 Examples: 
 
-1. Kubeflow and MLflow for operating end-to-end ML platforms on K8s;
+1. Kubeflow and MLflow for operating end-to-end ML platforms on K8s. 
+2. KServe, Seldon, and RayServe for model serving and scaling. 
