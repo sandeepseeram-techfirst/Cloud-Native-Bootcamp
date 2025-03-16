@@ -9,3 +9,4 @@ Kubernetes-native workflow engine supporting DAG and step-based workflows.
 Declarative continuous delivery with a fully-loaded UI.
 
 ## Argo Rollouts
+Advanced Kubernetes deployment strategies such as Canary and Blue-Green made easy.
