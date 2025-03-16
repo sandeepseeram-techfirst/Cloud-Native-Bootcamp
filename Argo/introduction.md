@@ -10,3 +10,6 @@ Declarative continuous delivery with a fully-loaded UI.
 
 ## Argo Rollouts
 Advanced Kubernetes deployment strategies such as Canary and Blue-Green made easy.
+
+## Argo Events
+Event based dependency management for Kubernetes.
