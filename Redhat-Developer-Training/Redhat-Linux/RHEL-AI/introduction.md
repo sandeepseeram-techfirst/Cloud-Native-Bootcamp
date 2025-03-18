@@ -18,3 +18,5 @@ Pre-training refers to training a model to get a more generalized understanding 
 ### Fine-tuning
 Fine-tuning takes the model toward the next step in understanding a specific task, such as translating a sentence from one language to another, classifying the sentiment in the given text, answering questions, etc. Alignment tuning, consisting of instruction tuning and reference tuning, can also be considered phases of fine-tuning. 
 
+### Evaluation
+Once a model is fine-tuned and ready for use, the next step is to continuously evaluate the model for accuracy and performance. If the model does not perform satisfactorily, then it is likely that the data may have changed (i.e., new data has come into the picture). At this stage, we need to retrain the model. 
