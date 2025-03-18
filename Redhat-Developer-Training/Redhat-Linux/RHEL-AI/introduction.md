@@ -14,3 +14,7 @@ Large language models get their name from the vast amount of data required to tr
 
 ### Pre-training
 Pre-training refers to training a model to get a more generalized understanding of the data set and its underlying language. For example, given a word, the pre-trained model will be able to predict the next word in a sequence. This is a computationally intensive phase because the size of the data is very large and it requires a large number of accelerators to support the training.
+
+### Fine-tuning
+Fine-tuning takes the model toward the next step in understanding a specific task, such as translating a sentence from one language to another, classifying the sentiment in the given text, answering questions, etc. Alignment tuning, consisting of instruction tuning and reference tuning, can also be considered phases of fine-tuning. 
+
