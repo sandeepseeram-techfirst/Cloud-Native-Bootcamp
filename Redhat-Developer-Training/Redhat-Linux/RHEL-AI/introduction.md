@@ -11,3 +11,6 @@ Red Hat Enterprise Linux (RHEL) AI addresses this challenge by providing a low-c
 
 ### Data collection
 Large language models get their name from the vast amount of data required to train a model. This data is collected from various sources such as websites, blogs, scientific publications, books, etc. The collected data will need to be cleaned up to ensure that it is appropriate for use in training the model.
+
+### Pre-training
+Pre-training refers to training a model to get a more generalized understanding of the data set and its underlying language. For example, given a word, the pre-trained model will be able to predict the next word in a sequence. This is a computationally intensive phase because the size of the data is very large and it requires a large number of accelerators to support the training.
