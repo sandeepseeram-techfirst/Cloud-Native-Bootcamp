@@ -5,3 +5,5 @@ Red Hat Enterprise Linux (RHEL) AI addresses this challenge by providing a low-c
 # How are LLMs created?
 
 ### LLM workflow stages 
+
+![Workflow Stages](image.png)
