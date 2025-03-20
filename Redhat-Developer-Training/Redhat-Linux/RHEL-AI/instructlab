@@ -56,3 +56,14 @@ INFO 2024-07-02 19:57:16,464 server.py:206 Starting server process, press CTRL+C
 INFO 2024-07-02 19:57:16,464 server.py:207 After application startup complete see http://127.0.0.1:8000/docs for API.
 
 
+[instruct@instructlab ~]$ cd ~/instructlab
+source venv/bin/activate
+(venv) [instruct@instructlab instructlab]$ ilab chat -m models/granite-7b-lab-Q4_K_M.gguf
+╭──────────────────────── system ─────────────────────────╮
+│ Welcome to InstructLab Chat w/ MODELS/GRANITE-7B-LAB-Q4_K_M.GGUF            │
+│ (type /h for help)                                                                                                                                  │
+╰──────────────────────────────────────────────────────╯
+>>> What is openshift in 20 words or less?                                         
+╭────────────────── models/granite-7b-lab-Q4_K_M.gguf────────────────╮
+│ Openshift: A container application platform for accelerating development, deployment, and │  │ scaling of applications using Kubernetes.                                                                                                  │
+╰────────────────────────────────────────── elapsed 0.403 seconds ─╯
