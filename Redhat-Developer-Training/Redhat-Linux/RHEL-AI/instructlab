@@ -48,3 +48,11 @@ INFO 2024-07-02 19:56:17,086 file_download.py:1877 Downloading 'granite-7b-lab-Q
 granite-7b-lab-Q4_K_M.gguf: 100%|███████████████████████████| 4.08G/4.08G [00:09<00:00, 438MB/s]
 Download complete. Moving file to models/granite-7b-lab-Q4_K_M.gguf
 INFO 2024-07-02 19:56:26,483 file_download.py:1893 Download complete. Moving file to models/granite-7b-lab-Q4_K_M.gguf
+
+
+(venv) [instruct@instructlab instructlab]$ ilab serve --model-path models/granite-7b-lab-Q4_K_M.gguf
+INFO 2024-07-02 19:57:13,492 lab.py:340 Using model 'models/granite-7b-lab-Q4_K_M.gguf' with -1 gpu-layers and 4096 max context size.
+INFO 2024-07-02 19:57:16,464 server.py:206 Starting server process, press CTRL+C to shutdown server...
+INFO 2024-07-02 19:57:16,464 server.py:207 After application startup complete see http://127.0.0.1:8000/docs for API.
+
+
