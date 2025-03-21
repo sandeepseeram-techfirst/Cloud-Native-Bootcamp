@@ -67,3 +67,11 @@ source venv/bin/activate
 ╭────────────────── models/granite-7b-lab-Q4_K_M.gguf────────────────╮
 │ Openshift: A container application platform for accelerating development, deployment, and │  │ scaling of applications using Kubernetes.                                                                                                  │
 ╰────────────────────────────────────────── elapsed 0.403 seconds ─╯
+
+
+>>> What is the Instructlab project?                                               
+╭──────────────────models/granite-7b-lab-Q4_K_M.gguf──────────────╮
+│ Instructlab is a web-based educational software that enables instructors to create interactive online courses. It offers features such as content authoring, quizzing, grading,                     │
+│ student management, and reporting.                                                                                                   
+╰──────────────────────────────────────── elapsed 0.641 seconds ─╯
+>>> 
