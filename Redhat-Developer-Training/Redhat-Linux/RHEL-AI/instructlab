@@ -107,3 +107,8 @@ document:
   commit: 83d9852ad97c6b27d4b24508f7cfe7ff5dd04d0d
   patterns:
     - README.md
+
+
+(venv) [instruct@instructlab instructlab]$ ilab diff
+knowledge/instructlab/overview/qna.yaml
+Taxonomy in /taxonomy/ is valid :)
