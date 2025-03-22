@@ -112,3 +112,7 @@ document:
 (venv) [instruct@instructlab instructlab]$ ilab diff
 knowledge/instructlab/overview/qna.yaml
 Taxonomy in /taxonomy/ is valid :)
+
+
+(venv) [instruct@instructlab instructlab]$ ilab serve --model-path models/merlinite-7b-lab-Q4_K_M.gguf
+INFO 2024-07-02 20:19:26,989 lab.py:340 Using model 'models/merlinite-7b-lab-Q4_K_M.gguf' with -1 gpu-layers and 4096 max context size.
