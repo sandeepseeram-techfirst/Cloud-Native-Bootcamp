@@ -116,3 +116,46 @@ Taxonomy in /taxonomy/ is valid :)
 
 (venv) [instruct@instructlab instructlab]$ ilab serve --model-path models/merlinite-7b-lab-Q4_K_M.gguf
 INFO 2024-07-02 20:19:26,989 lab.py:340 Using model 'models/merlinite-7b-lab-Q4_K_M.gguf' with -1 gpu-layers and 4096 max context size.
+
+(venv) [instruct@instructlab instructlab]$ ilab generate --num-instructions 5
+Generating synthetic data using 'models/merlinite-7b-lab-Q4_K_M.gguf' model, taxonomy:'taxonomy' against http://127.0.0.1:8000/v1 server
+Cannot find prompt.txt. Using default prompt depending on model-family.
+  0%|                                                                              | 0/5 [00:00<?, ?it/s]Synthesizing new instructions. If you aren't satisfied with the generated instructions, interrupt training (Ctrl-C) and try adjusting your YAML files. Adding more examples may help.
+INFO 2024-07-02 20:21:30,734 generate_data.py:506 Selected taxonomy path knowledge->instructlab->overview
+Q> How can I contribute to InstructLab?
+I> 
+A> You can contribute to InstructLab by visiting our GitHub organization page at https://github.com/instructlab, forking our repository, and submitting your contributions as pull requests. We have a set of guidelines for contributors that you should follow to make the process smoother and easier for everyone involved.
+
+ 20%|██████████████                                                        | 1/5 [00:07<00:30,  7.56s/it]INFO 2024-07-02 20:21:38,296 generate_data.py:506 Selected taxonomy path knowledge->instructlab->overview
+Q> What can I do with InstructLab?
+I> 
+A> InstructLab is a platform that allows you to make updates to existing LLMs. This means that if there's an AI model out there that you think could use some improvements, or if you have an idea for a completely new LLM, InstructLab gives you the tools and resources to bring your vision to life. By contributing your updates to InstructLab, you can help shape the future of generative AI and make a real impact on the world around you.
+
+ 40%|████████████████████████████                                          | 2/5 [00:14<00:21,  7.04s/it]INFO 2024-07-02 20:21:44,968 generate_data.py:506 Selected taxonomy path knowledge->instructlab->overview
+Q> How can I contribute to the development of LLMs in Instructlab?
+I> 
+A> To contribute to the development of LLMs in InstructLab, you'll first need to create an account and log in. Once you're logged in, you can view and edit existing LLMs or submit your own new models for review. The InstructLab community is a great place to share ideas and collaborate with other developers who are also passionate about generative AI. So if you have a new model or update that you think could benefit the broader community, feel free to contribute it!
+
+ 60%|██████████████████████████████████████████                            | 3/5 [00:21<00:13,  6.99s/it]INFO 2024-07-02 20:21:51,889 generate_data.py:506 Selected taxonomy path knowledge->instructlab->overview
+INFO 2024-07-02 20:22:12,824 generate_data.py:506 Selected taxonomy path knowledge->instructlab->overview
+INFO 2024-07-02 20:22:15,330 generate_data.py:506 Selected taxonomy path knowledge->instructlab->overview
+Q> How does InstructLab help me create new knowledge?
+I> 
+A> InstructLab encourages users to contribute ideas and expertise to expand the capabilities of models. By doing so, you can help build more accurate and robust models that better understand your data and the world around us.
+
+ 80%|████████████████████████████████████████████████████████              | 4/5 [00:56<00:18, 18.00s/it]INFO 2024-07-02 20:22:26,784 generate_data.py:506 Selected taxonomy path knowledge->instructlab->overview
+INFO 2024-07-02 20:22:33,161 generate_data.py:506 Selected taxonomy path knowledge->instructlab->overview
+INFO 2024-07-02 20:22:34,224 generate_data.py:506 Selected taxonomy path knowledge->instructlab->overview
+Q> What is the difference between a LLM and an LLM in the InstructLab?
+I> 
+A> The InstructLab supports two types of LLMs: General-purpose LLMs, which can be used for a variety of tasks such as chatbots, language translation, sentiment analysis, etc., and Task-specific LLMs, which are designed to perform specific tasks with high accuracy. General-purpose LLMs are trained on a diverse set of data and can handle various kinds of inputs and outputs. On the other hand, Task-specific LLMs are trained on a specialized dataset tailored to the task at hand. This results in better performance for that particular task compared to general models.
+
+Q> What is the goal of InstructLab?
+I> 
+A> InstructLab aims to empower developers with cutting-edge AI technologies, making it possible for them to create innovative applications and services that cater to diverse user needs. It helps in building intelligent agents that can understand complex human tasks, making interactions smoother and more engaging.
+6it [01:24, 14.06s/it]                                                                                   
+INFO 2024-07-02 20:22:55,081 generate_data.py:608 6 instructions generated, 18 discarded due to format (see generated/discarded_merlinite-7b-lab-Q4_K_M_2024-07-02T20_21_30.log), 1 discarded due to rouge score
+INFO 2024-07-02 20:22:55,081 generate_data.py:612 Generation took 84.67s
+(venv) [instruct@instructlab instructlab]$ 
+
+
