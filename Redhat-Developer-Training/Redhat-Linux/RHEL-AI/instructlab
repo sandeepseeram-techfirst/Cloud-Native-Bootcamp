@@ -190,3 +190,6 @@ LINUX_TRAIN.PY: Model device cpu
 LINUX_TRAIN.PY: SANITY CHECKING THE BASE MODEL
 ..
 ….
+
+(venv) [instruct@instructlab instructlab]$ ilab serve --model-path models/ggml-ilab-pretrained-Q4_K_M.gguf
+INFO 2024-07-02 20:27:47,000 lab.py:340 Using model 'models/ggml-ilab-pretrained-Q4_K_M.gguf' with -1 gpu-layers and 4096 max context size.
