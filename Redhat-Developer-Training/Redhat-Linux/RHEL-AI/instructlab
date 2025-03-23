@@ -159,3 +159,34 @@ INFO 2024-07-02 20:22:55,081 generate_data.py:612 Generation took 84.67s
 (venv) [instruct@instructlab instructlab]$ 
 
 
+(venv) [instruct@instructlab instructlab]$ ilab train
+Found multiple files from `ilab generate`. Using the most recent generation.
+LINUX_TRAIN.PY: NUM EPOCHS IS:  1
+LINUX_TRAIN.PY: TRAIN FILE IS:  generated/train_merlinite-7b-lab-Q4_K_M_2024-07-02T20_21_30.jsonl
+LINUX_TRAIN.PY: TEST FILE IS:  generated/test_merlinite-7b-lab-Q4_K_M_2024-07-02T20_21_30.jsonl
+LINUX_TRAIN.PY: Using device 'cpu'
+LINUX_TRAIN.PY: LOADING DATASETS
+Generating train split: 6 examples [00:00, 183.37 examples/s]
+Generating train split: 8 examples [00:00, 4561.51 examples/s]
+/home/instruct/instructlab/venv/lib64/python3.11/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+tokenizer_config.json: 100%|████████████████████████████████████████| 2.33k/2.33k [00:00<00:00, 28.9MB/s]
+tokenizer.model: 100%|████████████████████████████████████████████████| 493k/493k [00:00<00:00, 43.8MB/s]
+tokenizer.json: 100%|███████████████████████████████████████████████| 1.80M/1.80M [00:00<00:00, 26.7MB/s]
+added_tokens.json: 100%|████████████████████████████████████████████████| 119/119 [00:00<00:00, 1.47MB/s]
+special_tokens_map.json: 100%|██████████████████████████████████████████| 655/655 [00:00<00:00, 3.74MB/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+LINUX_TRAIN.PY: NOT USING 4-bit quantization
+LINUX_TRAIN.PY: LOADING THE BASE MODEL
+config.json: 100%|██████████████████████████████████████████████████████| 644/644 [00:00<00:00, 7.85MB/s]
+model.safetensors.index.json: 100%|██████████████████████████████████| 23.9k/23.9k [00:00<00:00, 133MB/s]
+model-00001-of-00003.safetensors: 100%|██████████████████████████████| 4.94G/4.94G [00:11<00:00, 414MB/s]
+model-00002-of-00003.safetensors: 100%|██████████████████████████████| 5.00G/5.00G [00:18<00:00, 265MB/s]
+model-00003-of-00003.safetensors: 100%|██████████████████████████████| 4.54G/4.54G [00:16<00:00, 268MB/s]
+Downloading shards: 100%|██████████████████████████████████████████████████| 3/3 [00:48<00:00, 16.01s/it]
+Loading checkpoint shards: 100%|███████████████████████████████████████████| 3/3 [00:01<00:00,  2.71it/s]
+generation_config.json: 100%|███████████████████████████████████████████| 136/136 [00:00<00:00, 1.89MB/s]
+LINUX_TRAIN.PY: Model device cpu
+LINUX_TRAIN.PY: SANITY CHECKING THE BASE MODEL
+..
+….
