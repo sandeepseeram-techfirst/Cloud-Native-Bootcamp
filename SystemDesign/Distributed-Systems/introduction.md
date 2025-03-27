@@ -2,6 +2,8 @@
 # Introduction to Distributed File Systems
 Distributed file systems extend the abstractions of local file systems and are one of the primary building blocks of any distributed service.
 
+A Distributed File System is a type of file system that allows files and data to be stored across multiple physical machines or nodes, but appears to users as a single unified system.
+
 
 ### Local File System	 
 FAT32 - Legacy file system, compatible across OSs, but supports only files < 4GB
