@@ -13,3 +13,12 @@ Traditional storage is static and manually managed. CNS, on the other hand:
 - Uses **CSI (Container Storage Interface)** to interact with backends
 - Is **scalable on demand**, across **zones/regions**
 - Offers built-in **replication, backups, snapshots**, and more
+
+## 🔄 Key Components in Kubernetes CNS
+
+| **Component**             | **Role**                                       |
+|---------------------------|------------------------------------------------|
+| Persistent Volume (PV)    | Abstraction of a storage resource              |
+| Persistent Volume Claim (PVC) | User request for storage                    |
+| CSI Driver                | Interface between Kubernetes and storage backend |
+| StorageClass              | Defines behavior for dynamic provisioning      |
