@@ -11,3 +11,5 @@
 | **Azure Files**                   | Fully-managed DFS with SMB/NFS access in Azure                                 |
 | **Google Filestore**              | Managed NFS file server for GCP workloads                                      |
 | **IPFS (InterPlanetary File System)** | Peer-to-peer distributed file system; focused on decentralization            |
+
+
