@@ -27,3 +27,10 @@ Distributed databases operate by **splitting and replicating data** across nodes
 
 
 
+## 🎯 Benefits of Distributed Databases
+
+- ✅ **High availability** (even during node failures)
+- ✅ **Scalability** (can grow horizontally by adding nodes)
+- ✅ **Fault tolerance**
+- ✅ **Geographical distribution** (low latency access globally)
+- ✅ **Disaster recovery** support
