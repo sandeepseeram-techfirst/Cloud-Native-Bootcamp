@@ -34,3 +34,4 @@ Distributed databases operate by **splitting and replicating data** across nodes
 - ✅ **Fault tolerance**
 - ✅ **Geographical distribution** (low latency access globally)
 - ✅ **Disaster recovery** support
+
