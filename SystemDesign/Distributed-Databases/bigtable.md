@@ -12,3 +12,6 @@ Bigtable is a column-family database that introduced many innovations like SSTab
 
 
 # Megastore 
+
+While Bigtable was suitable for many use cases, developers of online transactional processing (OLTP) applications were challenged to build applications without a strong schema, cross row, cross-shard transactions, and the familiar SQL query language. Megastore was the response to that need. Megastore was built on top of Bigtable and provided stronger consistency within a shard of a table. However, the application code needed a lot of work in its code to do more complicated transactions. Additionally, the performance of such applications was often low.
+
