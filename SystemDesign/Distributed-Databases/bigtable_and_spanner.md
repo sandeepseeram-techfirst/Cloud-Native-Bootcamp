@@ -19,4 +19,4 @@ While Bigtable was suitable for many use cases, developers of online transaction
 Spanner provided the ability of transactions across shards with external consistency, and many lock-free operations like read snapshots. Surprisingly, the innovations of Spanner were due to a special kind of timing mechanism (called TrueTime), where Google could control the clock's skew and construct linearizability guarantees on top of that. Additionally, Google's private wide-area network between data centers with redundant paths made the network partitions less often, and therefore resulted in high availability. Additionally, Spanner provided an SQL language to interface with the system.
 
 
-![Bigtable-Megastore-Spanner](image.png)
+![Bigtable-Megastore-Spanner](image.png) 
