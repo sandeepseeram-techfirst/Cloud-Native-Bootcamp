@@ -1,5 +1,7 @@
 # Bigtable
 
+Bigtable is a sparse, distributed, persistent multi-dimensional sorted map. 
+
 With the advent of **hyperscale services** such as:
 
 - Worldwide search engines
