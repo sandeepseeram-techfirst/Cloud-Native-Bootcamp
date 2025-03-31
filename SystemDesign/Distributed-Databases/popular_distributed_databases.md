@@ -13,3 +13,4 @@
 | **Vitess**            | MySQL clustering    | Scales MySQL across multiple shards with Kubernetes integration                |
 | **FaunaDB**           | Serverless / Document | Globally distributed with native GraphQL support                             |
 
+ 
