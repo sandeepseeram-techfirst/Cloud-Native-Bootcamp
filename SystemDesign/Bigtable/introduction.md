@@ -23,3 +23,6 @@ Row key: It uniquely determines the row.
 Column family: This depicts a group of columns.
 Column name: It uniquely determines the column.
 Timestamp: The columns can have different versions of a value uniquely determined by timestamps.
+
+
+![Bigtable Dimensions](image.png)
