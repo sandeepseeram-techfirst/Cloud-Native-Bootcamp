@@ -3,7 +3,6 @@
 # 🕵️‍♂️ What is OSINT?
 
 **OSINT** (Open Source Intelligence) refers to the process of collecting and analyzing information from publicly available sources to produce actionable intelligence. It's used in cybersecurity, threat intelligence, journalism, law enforcement, ethical hacking, and more.
-
 ---
 
 ## 🔍 How Does OSINT Work?
