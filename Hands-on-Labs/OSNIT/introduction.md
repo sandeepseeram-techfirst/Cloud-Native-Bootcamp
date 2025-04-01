@@ -81,4 +81,3 @@
 - **Military & Defense**: Monitor open signals from adversaries via public platforms.
 
 ---
- 
