@@ -42,7 +42,7 @@
 | **Shodan**     | Search engine for discovering internet-connected devices and systems.       |
 | **FOCA**       | Extracts metadata from public documents (PDFs, Word, etc.).                |
 
-### 👤 Social Media OSINT
+### 👤 Social Media OSINT 
 
 | Tool             | Description                                                              |
 |------------------|--------------------------------------------------------------------------|
