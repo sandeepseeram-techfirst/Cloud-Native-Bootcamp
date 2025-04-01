@@ -22,7 +22,7 @@
    Structuring and converting raw, unstructured data into usable formats for analysis.
 
 3. **Analysis**  
-   Correlating data, identifying patterns, anomalies, and connections between different data points.
+   Correlating data, identifying patterns, anomalies, and connections between different data points. 
 
 4. **Reporting**  
    Summarizing the findings to present actionable insights for security, investigative, or strategic purposes.
@@ -35,7 +35,7 @@
 
 | Tool           | Description                                                                 |
 |----------------|-----------------------------------------------------------------------------|
-| **Maltego**    | Graph-based data visualization for link and entity analysis.               |
+| **Maltego**    | Graph-based data visualization for link and entity analysis.                |
 | **Recon-ng**   | Web reconnaissance framework with automation capabilities.                 |
 | **theHarvester** | Gathers emails, subdomains, and other data using public sources.         |
 | **SpiderFoot** | Fully automated OSINT framework with over 100 modules.                     |
