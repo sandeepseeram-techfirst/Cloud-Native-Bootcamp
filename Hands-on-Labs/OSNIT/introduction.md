@@ -50,7 +50,7 @@
 | **Creepy**        | Geolocation OSINT tool for tracking location metadata in posts/images. |
 | **Twint**         | Twitter scraping tool that doesn't require API access.                 |
 
-### 🌐 Domain & IP Intelligence 
+### 🌐 Domain & IP Intelligence
 
 | Tool          | Description                                                              |
 |---------------|--------------------------------------------------------------------------|
