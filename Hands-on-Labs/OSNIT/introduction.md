@@ -71,7 +71,7 @@
 
 ---
 
-## 🎯 OSINT Use Cases
+## 🎯 OSINT Use Cases 
 
 - **Cybersecurity**: Detect data breaches, credential leaks, and exposed infrastructure.
 - **Threat Intelligence**: Track threat actors, campaigns, and infrastructure.
