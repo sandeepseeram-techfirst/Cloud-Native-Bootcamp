@@ -12,7 +12,7 @@
 |------|-----|-------------|
 | **whois.domaintools** | [https://whois.domaintools.com](https://whois.domaintools.com) | View WHOIS data, domain history, and DNS. |
 | **DNSDumpster** | [https://dnsdumpster.com](https://dnsdumpster.com) | DNS recon and subdomain mapping. |
-| **crt.sh** | [https://crt.sh](https://crt.sh) | Search certificate transparency logs for subdomains. |
+| **crt.sh** | [https://crt.sh](https://crt.sh) | Search certificate transparency logs for subdomains.                 |
 | **ViewDNS.info** | [https://viewdns.info](https://viewdns.info) | Multiple tools for WHOIS, reverse IP, geolocation. |
 | **IPinfo** | [https://ipinfo.io](https://ipinfo.io) | IP lookup with location, ASN, and abuse info.                  |
 | **SecurityTrails** | [https://securitytrails.com](https://securitytrails.com) | Historical DNS, IP, and domain data. |
