@@ -14,7 +14,7 @@
 | **DNSDumpster** | [https://dnsdumpster.com](https://dnsdumpster.com) | DNS recon and subdomain mapping. |
 | **crt.sh** | [https://crt.sh](https://crt.sh) | Search certificate transparency logs for subdomains. |
 | **ViewDNS.info** | [https://viewdns.info](https://viewdns.info) | Multiple tools for WHOIS, reverse IP, geolocation. |
-| **IPinfo** | [https://ipinfo.io](https://ipinfo.io) | IP lookup with location, ASN, and abuse info. |
+| **IPinfo** | [https://ipinfo.io](https://ipinfo.io) | IP lookup with location, ASN, and abuse info.                  |
 | **SecurityTrails** | [https://securitytrails.com](https://securitytrails.com) | Historical DNS, IP, and domain data. |
 | **Robtex** | [https://www.robtex.com](https://www.robtex.com) | DNS graph mapping and IP/domain correlation.         |
 | **Shodan** | [https://www.shodan.io](https://www.shodan.io) | Internet-wide scanner for exposed devices/services.    |
