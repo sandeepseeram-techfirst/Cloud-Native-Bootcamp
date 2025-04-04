@@ -23,3 +23,16 @@
 ---
 
 ## 👤 People & Social Media Intelligence
+
+| Tool | URL | Description |
+|------|-----|-------------|
+| **Hunter.io** | [https://hunter.io](https://hunter.io) | Find and verify email addresses by domain.             |
+| **Emailrep.io** | [https://emailrep.io](https://emailrep.io) | Analyze reputation of email addresses.           |
+| **Social-Searcher** | [https://www.social-searcher.com](https://www.social-searcher.com) | Real-time search across multiple social networks. |
+| **Namechk** | [https://namechk.com](https://namechk.com) | Check username availability across social platforms. |
+| **WhatsMyName** | [https://whatsmyname.app](https://whatsmyname.app) | Username enumeration across 500+ sites. |
+| **Pipl (limited)** | [https://pipl.com](https://pipl.com) | People search engine (commercial). |
+| **PeekYou** | [https://www.peekyou.com](https://www.peekyou.com) | Public people search engine. |
+| **Spokeo** | [https://www.spokeo.com](https://www.spokeo.com) | Aggregates public records and social media. |
+
+---
