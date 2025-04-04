@@ -68,3 +68,4 @@
 | **Google Cache** | `cache:<URL>` | Access the cached version of a page using Google.                              |
 
 ---
+
