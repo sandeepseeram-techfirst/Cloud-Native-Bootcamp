@@ -64,7 +64,7 @@
 | Tool | URL | Description |
 |------|-----|-------------|
 | **Wayback Machine** | [https://archive.org/web](https://archive.org/web) | View historical snapshots of websites. |
-| **Archive.today** | [https://archive.today](https://archive.today) | Snapshot and preserve web pages. |
-| **Google Cache** | `cache:<URL>` | Access the cached version of a page using Google. |
+| **Archive.today** | [https://archive.today](https://archive.today) | Snapshot and preserve web pages.             |
+| **Google Cache** | `cache:<URL>` | Access the cached version of a page using Google.                              |
 
 ---
