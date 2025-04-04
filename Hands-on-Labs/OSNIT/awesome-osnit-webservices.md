@@ -47,3 +47,24 @@
 | **IntelX** | [https://intelx.io](https://intelx.io) | Search breaches, dark web, and public data.                   |
 
 ---
+
+## 📷 Metadata & File Analysis
+
+| Tool | URL | Description |
+|------|-----|-------------|
+| **ExifTool (Online)** | [https://exif.tools](https://exif.tools) | View metadata of uploaded images and files.     |
+| **Metadefender** | [https://metadefender.opswat.com](https://metadefender.opswat.com) | Scans files for hidden data/malware.                                                                                                             |
+| **FOCA Online (via web)** | [https://tools.kali.org/information-gathering/foca](https://tools.kali.org/information-gathering/foca) | Extracts metadata from documents (requires local install, web links available).        |
+| **PDF Examiner** | [https://www.pdfexaminer.com](https://www.pdfexaminer.com) | Analyzes embedded data in PDFs.    |
+
+---
+
+## 🕸️ Archive & Cached Content
+
+| Tool | URL | Description |
+|------|-----|-------------|
+| **Wayback Machine** | [https://archive.org/web](https://archive.org/web) | View historical snapshots of websites. |
+| **Archive.today** | [https://archive.today](https://archive.today) | Snapshot and preserve web pages. |
+| **Google Cache** | `cache:<URL>` | Access the cached version of a page using Google. |
+
+---
