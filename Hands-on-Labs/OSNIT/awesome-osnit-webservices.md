@@ -69,3 +69,14 @@
 
 ---
 
+## ☠️ Threat Intelligence
+
+| Tool | URL | Description |
+|------|-----|-------------|
+| **VirusTotal** | [https://www.virustotal.com](https://www.virustotal.com) | Analyze files, domains, and URLs for malware. |
+| **AbuseIPDB** | [https://www.abuseipdb.com](https://www.abuseipdb.com) | Check IPs for reported abuse/malicious activity. |
+| **AlienVault OTX** | [https://otx.alienvault.com](https://otx.alienvault.com) | Browse threat indicators and threat actor profiles. |
+| **ThreatFox** | [https://threatfox.abuse.ch](https://threatfox.abuse.ch) | IOC feeds (IPs, hashes, URLs) from abuse.ch. |
+
+---
+
