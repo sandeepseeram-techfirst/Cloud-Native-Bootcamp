@@ -36,3 +36,14 @@
 | **Spokeo** | [https://www.spokeo.com](https://www.spokeo.com) | Aggregates public records and social media.     |
 
 ---
+
+## 🧾 Breach & Leak Monitoring
+
+| Tool | URL | Description |
+|------|-----|-------------|
+| **Have I Been Pwned** | [https://haveibeenpwned.com](https://haveibeenpwned.com) | Check if email/password was in a breach.                                                                                                               |
+| **DeHashed** | [https://www.dehashed.com](https://www.dehashed.com) | Search breached data (email, IPs, usernames). |
+| **LeakCheck** | [https://leakcheck.io](https://leakcheck.io) | Breach data lookup (limited free use).               |
+| **IntelX** | [https://intelx.io](https://intelx.io) | Search breaches, dark web, and public data.                   |
+
+---
