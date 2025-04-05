@@ -88,3 +88,13 @@
 | **Hashes.com** | [https://hashes.com/en/decrypt/hash](https://hashes.com/en/decrypt/hash) | Decrypt leaked password hashes (free/paid). |
 
 --- 
+
+
+## 📦 Code & Repo Analysis
+
+| Tool | URL | Description |
+|------|-----|-------------|
+| **GitHub Dorking** | [https://github.com/search](https://github.com/search) | Use advanced search for secrets/leaks in repos. |
+| **Google Dorking** | [https://www.google.com](https://www.google.com) | Use queries like: `site:github.com "password"` |
+
+---
