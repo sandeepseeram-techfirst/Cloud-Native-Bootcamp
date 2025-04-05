@@ -80,3 +80,11 @@
 
 ---
 
+## 🔐 Passwords & Hashes
+
+| Tool | URL | Description |
+|------|-----|-------------|
+| **CrackStation** | [https://crackstation.net](https://crackstation.net) | Hash cracking dictionary for MD5/SHA1. |
+| **Hashes.com** | [https://hashes.com/en/decrypt/hash](https://hashes.com/en/decrypt/hash) | Decrypt leaked password hashes (free/paid). |
+
+---
