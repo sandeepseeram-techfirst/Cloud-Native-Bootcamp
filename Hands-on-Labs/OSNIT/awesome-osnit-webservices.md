@@ -106,6 +106,6 @@
 | **SpiderFoot HX (Cloud)** | [https://www.spiderfoot.net](https://www.spiderfoot.net) | Automates OSINT collection (cloud or self-hosted). |
 | **IntelTechniques Tools (by Michael Bazzell)** | [https://inteltechniques.com/tools/](https://inteltechniques.com/tools/) | Free online OSINT toolset for people search and more. |
 
----
+--- 
 
 
