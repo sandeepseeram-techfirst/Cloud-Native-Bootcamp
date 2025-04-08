@@ -99,7 +99,7 @@
 
 ---
 
-## ⚡ All-in-One OSINT Dashboards
+## ⚡ All-in-One OSINT Dashboards 
 
 | Tool | URL | Description |
 |------|-----|-------------|
