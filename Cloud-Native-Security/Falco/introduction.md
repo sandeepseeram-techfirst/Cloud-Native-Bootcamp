@@ -10,3 +10,6 @@ Falco enables the detection of abnormal behavior, potential security threats, an
 
 ### Threat Detection
 Detect malicious behavior in hosts and containers, no matter what scale, using the power of eBPF.
+
+### Regulatory Compliance
+Stay compliant in cloud-native systems with Falco's intelligent monitoring and rule-based detection.
