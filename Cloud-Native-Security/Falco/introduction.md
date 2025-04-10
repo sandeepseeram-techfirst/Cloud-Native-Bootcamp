@@ -13,3 +13,11 @@ Detect malicious behavior in hosts and containers, no matter what scale, using t
 
 ### Regulatory Compliance
 Stay compliant in cloud-native systems with Falco's intelligent monitoring and rule-based detection.
+
+
+## How does Falco works? 
+Falco uses syscalls to monitor a system's activity, by:
+
+1. Parsing the Linux syscalls from the kernel at runtime
+2. Asserting the stream against a powerful rules engine
+3. Alerting when a rule is violated
