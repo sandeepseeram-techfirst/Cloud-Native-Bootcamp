@@ -4,3 +4,26 @@ apt-get update -y
 apt-get install -y linux-headers-$(uname -r)
 apt-get install -y falco=0.40.0
 
+ubuntu:~$ service falco start
+ubuntu:~$ service falco status
+● falco-modern-bpf.service - Falco: Container Native Runtime Security with modern ebpf
+     Loaded: loaded (/usr/lib/systemd/system/falco-modern-bpf.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2025-07-06 09:35:38 UTC; 27s ago
+       Docs: https://falco.org/docs/
+   Main PID: 2752 (falco)
+      Tasks: 10 (limit: 2320)
+     Memory: 24.2M (peak: 34.2M)
+        CPU: 1.619s
+     CGroup: /system.slice/falco-modern-bpf.service
+             └─2752 /usr/bin/falco -o engine.kind=modern_ebpf
+
+Jul 06 09:35:39 ubuntu falco[2752]: Loading rules from:
+Jul 06 09:35:39 ubuntu falco[2752]:    /etc/falco/falco_rules.yaml | schema validation: ok
+Jul 06 09:35:39 ubuntu falco[2752]:    /etc/falco/falco_rules.local.yaml | schema validation: none
+Jul 06 09:35:39 ubuntu falco[2752]: The chosen syscall buffer dimension is: 8388608 bytes (8 MBs)
+Jul 06 09:35:39 ubuntu falco[2752]: you required a buffer every '2' CPUs but there are only '1' online CPUs. Falco changed the config to: one bu>
+Jul 06 09:35:39 ubuntu falco[2752]: Starting health webserver with threadiness 1, listening on 0.0.0.0:8765
+Jul 06 09:35:39 ubuntu falco[2752]: Loaded event sources: syscall
+Jul 06 09:35:39 ubuntu falco[2752]: Enabled event sources: syscall
+Jul 06 09:35:39 ubuntu falco[2752]: Opening 'syscall' source with modern BPF probe.
+Jul 06 09:35:39 ubuntu falco[2752]: One ring buffer every '1' CPUs.
