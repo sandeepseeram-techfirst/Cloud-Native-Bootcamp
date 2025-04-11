@@ -1,0 +1,17 @@
+ubuntu:~$ docker run -d --name test nginx:alpine
+Unable to find image 'nginx:alpine' locally
+alpine: Pulling from library/nginx
+fe07684b16b8: Pull complete 
+3b7062d09e02: Pull complete 
+fb746e72516f: Pull complete 
+a9ff9baf1741: Pull complete 
+2c127093dfc7: Pull complete 
+63dda2adf85b: Pull complete 
+b55ed7d7b2de: Pull complete 
+92971aeb101e: Pull complete 
+Digest: sha256:b2e814d28359e77bd0aa5fed1939620075e4ffa0eb20423cc557b375bd5c14ad
+Status: Downloaded newer image for nginx:alpine
+6a2b2d74bb8a81f5e30bd169f9670f1bfb803fd5dfd678e83b9fde131eacd789
+ubuntu:~$ 
+
+
