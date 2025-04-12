@@ -5,3 +5,6 @@ With the libsinsp Falco can enrich the events with metadata from the container e
 
 ## Drivers
 The global term for the software that sends events from the kernel.
+
+## eBPF
+eBPF is a technology to collect metrics and events from the kernel in a secure way.
