@@ -15,3 +15,6 @@ Status: Downloaded newer image for nginx:alpine
 ubuntu:~$ 
 
 
+ubuntu:~$ docker exec -it test sh # run "exit"
+/ # 
+
