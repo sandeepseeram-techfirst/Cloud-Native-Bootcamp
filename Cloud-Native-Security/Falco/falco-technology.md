@@ -8,3 +8,7 @@ The global term for the software that sends events from the kernel.
 
 ## eBPF
 eBPF is a technology to collect metrics and events from the kernel in a secure way.
+
+## Falcoctl
+The official CLI tool for working with Falco and its ecosystem components.
+
