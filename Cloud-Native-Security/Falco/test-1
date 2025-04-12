@@ -18,3 +18,90 @@ ubuntu:~$
 ubuntu:~$ docker exec -it test sh # run "exit"
 / # 
 
+controlplane:~$ cat /var/log/syslog | grep falco
+2025-07-06T09:39:37.616139+00:00 controlplane systemd[1]: Started falco-modern-bpf.service - Falco: Container Native Runtime Security with modern ebpf.
+2025-07-06T09:39:37.625605+00:00 controlplane systemd[1]: Started falcoctl-artifact-follow.service - Falcoctl Artifact Follow: automatic artifacts update service.
+2025-07-06T09:39:38.594328+00:00 controlplane falco: Falco version: 0.40.0 (x86_64)
+2025-07-06T09:39:38.595931+00:00 controlplane falco: Falco initialized with configuration files:
+2025-07-06T09:39:38.596015+00:00 controlplane falco:    /etc/falco/config.d/engine-kind-falcoctl.yaml | schema validation: ok
+2025-07-06T09:39:38.596121+00:00 controlplane falco:    /etc/falco/falco.yaml | schema validation: ok
+2025-07-06T09:39:38.596181+00:00 controlplane falco: System info: Linux version 6.8.0-51-generic (buildd@lcy02-amd64-091) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #52-Ubuntu SMP PREEMPT_DYNAMIC Thu Dec  5 13:09:44 UTC 2024
+2025-07-06T09:39:38.599463+00:00 controlplane falco: Loading rules from:
+2025-07-06T09:39:38.822626+00:00 controlplane falco:    /etc/falco/falco_rules.yaml | schema validation: ok
+2025-07-06T09:39:38.902376+00:00 controlplane falco:    /etc/falco/falco_rules.local.yaml | schema validation: none
+2025-07-06T09:39:38.903975+00:00 controlplane falco: The chosen syscall buffer dimension is: 8388608 bytes (8 MBs)
+2025-07-06T09:39:38.904621+00:00 controlplane falco: you required a buffer every '2' CPUs but there are only '1' online CPUs. Falco changed the config to: one buffer every '1' CPUs
+2025-07-06T09:39:38.904717+00:00 controlplane falco: Starting health webserver with threadiness 1, listening on 0.0.0.0:8765
+2025-07-06T09:39:38.905368+00:00 controlplane falco: Loaded event sources: syscall
+2025-07-06T09:39:38.905508+00:00 controlplane falco: Enabled event sources: syscall
+2025-07-06T09:39:38.906159+00:00 controlplane falco: Opening 'syscall' source with modern BPF probe.
+2025-07-06T09:39:38.906181+00:00 controlplane falco: One ring buffer every '1' CPUs.
+2025-07-06T09:39:39.098847+00:00 controlplane falcoctl[35602]: 2025-07-06 09:39:39 INFO  Creating follower
+2025-07-06T09:39:39.099300+00:00 controlplane falcoctl[35602]:                       ├ artifact: falco-rules:3
+2025-07-06T09:39:39.100876+00:00 controlplane falcoctl[35602]:                       └ check every: 6h0m0s
+2025-07-06T09:39:39.100898+00:00 controlplane falcoctl[35602]: 2025-07-06 09:39:39 INFO  Starting follower
+2025-07-06T09:39:39.100914+00:00 controlplane falcoctl[35602]:                       └ artifact: ghcr.io/falcosecurity/rules/falco-rules:3
+2025-07-06T09:39:39.777035+00:00 controlplane falcoctl[35602]: 2025-07-06 09:39:39 INFO  Found new artifact version
+2025-07-06T09:39:39.777139+00:00 controlplane falcoctl[35602]:                       ├ followerName: ghcr.io/falcosecurity/rules/falco-rules:3
+2025-07-06T09:39:39.777151+00:00 controlplane falcoctl[35602]:                       └ tag: 3
+2025-07-06T09:39:46.877237+00:00 controlplane falcoctl[35602]: 2025-07-06 09:39:46 INFO  Artifact correctly installed
+2025-07-06T09:39:46.877290+00:00 controlplane falcoctl[35602]:                       ├ followerName: ghcr.io/falcosecurity/rules/falco-rules:3
+2025-07-06T09:39:46.877334+00:00 controlplane falcoctl[35602]:                       ├ artifactName: ghcr.io/falcosecurity/rules/falco-rules:3
+2025-07-06T09:39:46.877367+00:00 controlplane falcoctl[35602]:                       ├ type: rulesfile
+2025-07-06T09:39:46.877387+00:00 controlplane falcoctl[35602]:                       ├ digest: sha256:de2cd036fd7f9bb87de5d62b36d0f35ff4fa8afbeb9a41aa9624e5f6f9a004e1
+2025-07-06T09:39:46.877423+00:00 controlplane falcoctl[35602]:                       └ directory: /etc/falco
+2025-07-06T09:40:08.677898+00:00 controlplane falcoctl[35602]: 2025-07-06 09:40:08 INFO  Received signal, terminating...
+2025-07-06T09:40:08.692040+00:00 controlplane falcoctl[35602]: 2025-07-06 09:40:08 INFO  Closing followers...
+2025-07-06T09:40:08.692120+00:00 controlplane falcoctl[35602]: 2025-07-06 09:40:08 INFO  Follower stopped
+2025-07-06T09:40:08.692132+00:00 controlplane falcoctl[35602]:                       └ followerName: ghcr.io/falcosecurity/rules/falco-rules:3
+2025-07-06T09:40:08.692151+00:00 controlplane falcoctl[35602]: 2025-07-06 09:40:08 INFO  Followers correctly stopped.
+2025-07-06T09:40:08.692386+00:00 controlplane systemd[1]: Stopping falcoctl-artifact-follow.service - Falcoctl Artifact Follow: automatic artifacts update service...
+2025-07-06T09:40:08.698787+00:00 controlplane systemd[1]: falcoctl-artifact-follow.service: Deactivated successfully.
+2025-07-06T09:40:08.698959+00:00 controlplane falco: SIGINT received, exiting...
+2025-07-06T09:40:08.698999+00:00 controlplane systemd[1]: Stopped falcoctl-artifact-follow.service - Falcoctl Artifact Follow: automatic artifacts update service.
+2025-07-06T09:40:08.699354+00:00 controlplane systemd[1]: Stopping falco-modern-bpf.service - Falco: Container Native Runtime Security with modern ebpf...
+2025-07-06T09:40:08.905138+00:00 controlplane systemd[1]: falco-modern-bpf.service: Deactivated successfully.
+2025-07-06T09:40:08.905233+00:00 controlplane systemd[1]: Stopped falco-modern-bpf.service - Falco: Container Native Runtime Security with modern ebpf.
+2025-07-06T09:40:08.905278+00:00 controlplane systemd[1]: falco-modern-bpf.service: Consumed 3.011s CPU time.
+2025-07-06T09:40:08.925968+00:00 controlplane systemd[1]: Started falco-modern-bpf.service - Falco: Container Native Runtime Security with modern ebpf.
+2025-07-06T09:40:08.926106+00:00 controlplane systemd[1]: Started falcoctl-artifact-follow.service - Falcoctl Artifact Follow: automatic artifacts update service.
+2025-07-06T09:40:09.157930+00:00 controlplane falco: Falco version: 0.40.0 (x86_64)
+2025-07-06T09:40:09.158240+00:00 controlplane falco: Falco initialized with configuration files:
+2025-07-06T09:40:09.158414+00:00 controlplane falco:    /etc/falco/config.d/engine-kind-falcoctl.yaml | schema validation: ok
+2025-07-06T09:40:09.159074+00:00 controlplane falco:    /etc/falco/falco.yaml | schema validation: ok
+2025-07-06T09:40:09.159112+00:00 controlplane falco: System info: Linux version 6.8.0-51-generic (buildd@lcy02-amd64-091) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #52-Ubuntu SMP PREEMPT_DYNAMIC Thu Dec  5 13:09:44 UTC 2024
+2025-07-06T09:40:09.159128+00:00 controlplane falco: Loading rules from:
+2025-07-06T09:40:09.216793+00:00 controlplane falco:    /etc/falco/falco_rules.yaml | schema validation: ok
+2025-07-06T09:40:09.238735+00:00 controlplane falco:    /etc/falco/falco_rules.local.yaml | schema validation: none
+2025-07-06T09:40:09.238791+00:00 controlplane falco: The chosen syscall buffer dimension is: 8388608 bytes (8 MBs)
+2025-07-06T09:40:09.239039+00:00 controlplane falco: you required a buffer every '2' CPUs but there are only '1' online CPUs. Falco changed the config to: one buffer every '1' CPUs
+2025-07-06T09:40:09.239150+00:00 controlplane falco: Starting health webserver with threadiness 1, listening on 0.0.0.0:8765
+2025-07-06T09:40:09.239388+00:00 controlplane falco: Loaded event sources: syscall
+2025-07-06T09:40:09.239468+00:00 controlplane falco: Enabled event sources: syscall
+2025-07-06T09:40:09.239642+00:00 controlplane falco: Opening 'syscall' source with modern BPF probe.
+2025-07-06T09:40:09.239658+00:00 controlplane falco: One ring buffer every '1' CPUs.
+2025-07-06T09:40:09.343149+00:00 controlplane falcoctl[36019]: 2025-07-06 09:40:09 INFO  Creating follower
+2025-07-06T09:40:09.343224+00:00 controlplane falcoctl[36019]:                       ├ artifact: falco-rules:3
+2025-07-06T09:40:09.343242+00:00 controlplane falcoctl[36019]:                       └ check every: 6h0m0s
+2025-07-06T09:40:09.344487+00:00 controlplane falcoctl[36019]: 2025-07-06 09:40:09 INFO  Starting follower
+2025-07-06T09:40:09.344547+00:00 controlplane falcoctl[36019]:                       └ artifact: ghcr.io/falcosecurity/rules/falco-rules:3
+2025-07-06T09:40:10.001169+00:00 controlplane falcoctl[36019]: 2025-07-06 09:40:09 INFO  Found new artifact version
+2025-07-06T09:40:10.001273+00:00 controlplane falcoctl[36019]:                       ├ followerName: ghcr.io/falcosecurity/rules/falco-rules:3
+2025-07-06T09:40:10.001304+00:00 controlplane falcoctl[36019]:                       └ tag: 3
+2025-07-06T09:40:15.908813+00:00 controlplane falcoctl[36019]: 2025-07-06 09:40:15 INFO  Artifact correctly installed
+2025-07-06T09:40:15.910216+00:00 controlplane falcoctl[36019]:                       ├ followerName: ghcr.io/falcosecurity/rules/falco-rules:3
+2025-07-06T09:40:15.910238+00:00 controlplane falcoctl[36019]:                       ├ artifactName: ghcr.io/falcosecurity/rules/falco-rules:3
+2025-07-06T09:40:15.910247+00:00 controlplane falcoctl[36019]:                       ├ type: rulesfile
+2025-07-06T09:40:15.910257+00:00 controlplane falcoctl[36019]:                       ├ digest: sha256:de2cd036fd7f9bb87de5d62b36d0f35ff4fa8afbeb9a41aa9624e5f6f9a004e1
+2025-07-06T09:40:15.910267+00:00 controlplane falcoctl[36019]:                       └ directory: /etc/falco
+2025-07-06T09:41:02.833130+00:00 controlplane falco: Falco version: 0.40.0 (x86_64)
+2025-07-06T09:41:02.833362+00:00 controlplane falco: Falco initialized with configuration files:
+2025-07-06T09:41:02.833409+00:00 controlplane falco:    /etc/falco/config.d/engine-kind-falcoctl.yaml | schema validation: ok
+2025-07-06T09:41:02.833438+00:00 controlplane falco:    /etc/falco/falco.yaml | schema validation: ok
+2025-07-06T09:41:02.833458+00:00 controlplane falco: System info: Linux version 6.8.0-51-generic (buildd@lcy02-amd64-091) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #52-Ubuntu SMP PREEMPT_DYNAMIC Thu Dec  5 13:09:44 UTC 2024
+2025-07-06T09:42:52.351179+00:00 controlplane falco: Falco version: 0.40.0 (x86_64)
+2025-07-06T09:42:52.351651+00:00 controlplane falco: Falco initialized with configuration files:
+2025-07-06T09:42:52.351962+00:00 controlplane falco:    /etc/falco/config.d/engine-kind-falcoctl.yaml | schema validation: ok
+2025-07-06T09:42:52.352039+00:00 controlplane falco:    /etc/falco/falco.yaml | schema validation: ok
+2025-07-06T09:42:52.352603+00:00 controlplane falco: System info: Linux version 6.8.0-51-generic (buildd@lcy02-amd64-091) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #52-Ubuntu SMP PREEMPT_DYNAMIC Thu Dec  5 13:09:44 UTC 2024
+controlplane:~$ 
