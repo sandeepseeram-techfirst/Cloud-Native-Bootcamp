@@ -15,3 +15,5 @@ The official CLI tool for working with Falco and its ecosystem components.
 ## Falcosdidekick-UI
 A simple WebUI for displaying the latest events from Falco, it works as an output for Falcosidekick.
 
+## Kernel
+The kernel is the operating system's core and generally has complete control over everything in the system.
