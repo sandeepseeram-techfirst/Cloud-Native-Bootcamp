@@ -12,3 +12,6 @@ eBPF is a technology to collect metrics and events from the kernel in a secure w
 ## Falcoctl
 The official CLI tool for working with Falco and its ecosystem components.
 
+## Falcosdidekick-UI
+A simple WebUI for displaying the latest events from Falco, it works as an output for Falcosidekick.
+
