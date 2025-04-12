@@ -26,3 +26,15 @@ falco --list
 
 # Merge multiple rule files
 falco --merge /path/to/rule1.yaml /path/to/rule2.yaml -o /path/to/merged.yaml
+
+
+
+controlplane:~$ kubectl run pod --image=nginx:alpine
+pod/pod created
+
+controlplane:~$ kubectl wait --for=condition=ready pod pod
+pod/pod condition met
+ 
+controlplane:~$ kubectl exec -it pod -- sh 
+
+/ # cat /var/log/syslog
