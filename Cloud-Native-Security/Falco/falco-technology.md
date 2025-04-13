@@ -17,3 +17,6 @@ A simple WebUI for displaying the latest events from Falco, it works as an outpu
 
 ## Kernel
 The kernel is the operating system's core and generally has complete control over everything in the system.
+
+## Kernel Space
+The memory space where the kernel executes and provides its services.
