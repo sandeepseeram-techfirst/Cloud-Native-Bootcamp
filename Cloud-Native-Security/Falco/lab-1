@@ -1,0 +1,19 @@
+controlplane:~$ which falco
+/usr/bin/falco
+
+
+controlplane:~$ falco --version
+Sun Jul  6 10:20:10 2025: Falco version: 0.40.0 (x86_64)
+Sun Jul  6 10:20:10 2025: Falco initialized with configuration files:
+Sun Jul  6 10:20:10 2025:    /etc/falco/config.d/engine-kind-falcoctl.yaml | schema validation: ok
+Sun Jul  6 10:20:10 2025:    /etc/falco/falco.yaml | schema validation: ok
+Sun Jul  6 10:20:11 2025: System info: Linux version 6.8.0-51-generic (buildd@lcy02-amd64-091) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #52-Ubuntu SMP PREEMPT_DYNAMIC Thu Dec  5 13:09:44 UTC 2024
+Falco version: 0.40.0
+Libs version:  0.20.0
+Plugin API:    3.10.0
+Engine:        0.46.0
+Driver:
+  API version:    8.0.0
+  Schema version: 3.5.0
+  Default driver: 8.0.0+driver
+controlplane:~$ 
