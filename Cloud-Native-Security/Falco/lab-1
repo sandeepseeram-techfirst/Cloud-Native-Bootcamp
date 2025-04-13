@@ -17,3 +17,21 @@ Driver:
   Schema version: 3.5.0
   Default driver: 8.0.0+driver
 controlplane:~$ 
+
+
+controlplane:~$ falco -U  
+Sun Jul  6 10:21:38 2025: Falco version: 0.40.0 (x86_64)
+Sun Jul  6 10:21:38 2025: Falco initialized with configuration files:
+Sun Jul  6 10:21:38 2025:    /etc/falco/config.d/engine-kind-falcoctl.yaml | schema validation: ok
+Sun Jul  6 10:21:38 2025:    /etc/falco/falco.yaml | schema validation: ok
+Sun Jul  6 10:21:38 2025: System info: Linux version 6.8.0-51-generic (buildd@lcy02-amd64-091) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #52-Ubuntu SMP PREEMPT_DYNAMIC Thu Dec  5 13:09:44 UTC 2024
+Sun Jul  6 10:21:38 2025: Loading rules from:
+Sun Jul  6 10:21:38 2025:    /etc/falco/falco_rules.yaml | schema validation: ok
+Sun Jul  6 10:21:38 2025:    /etc/falco/falco_rules.local.yaml | schema validation: none
+Sun Jul  6 10:21:38 2025: The chosen syscall buffer dimension is: 8388608 bytes (8 MBs)
+Sun Jul  6 10:21:38 2025: you required a buffer every '2' CPUs but there are only '1' online CPUs. Falco changed the config to: one buffer every '1' CPUs
+Sun Jul  6 10:21:38 2025: Starting health webserver with threadiness 1, listening on 0.0.0.0:8765
+Sun Jul  6 10:21:38 2025: Loaded event sources: syscall
+Sun Jul  6 10:21:38 2025: Enabled event sources: syscall
+Sun Jul  6 10:21:38 2025: Opening 'syscall' source with modern BPF probe.
+Sun Jul  6 10:21:38 2025: One ring buffer every '1' CPUs.
