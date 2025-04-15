@@ -51,3 +51,26 @@ Add the rule to check any container running with access to memory addresses
 Run Falco and see if the Rule has any effect
 
 falco -U
+
+controlplane:~$ falco -U
+Sun Jul  6 10:23:10 2025: Falco version: 0.40.0 (x86_64)
+Sun Jul  6 10:23:10 2025: Falco initialized with configuration files:
+Sun Jul  6 10:23:10 2025:    /etc/falco/config.d/engine-kind-falcoctl.yaml | schema validation: ok
+Sun Jul  6 10:23:10 2025:    /etc/falco/falco.yaml | schema validation: ok
+Sun Jul  6 10:23:10 2025: System info: Linux version 6.8.0-51-generic (buildd@lcy02-amd64-091) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #52-Ubuntu SMP PREEMPT_DYNAMIC Thu Dec  5 13:09:44 UTC 2024
+Sun Jul  6 10:23:10 2025: Loading rules from:
+Sun Jul  6 10:23:11 2025:    /etc/falco/falco_rules.yaml | schema validation: ok
+Sun Jul  6 10:23:11 2025:    /etc/falco/falco_rules.local.yaml | schema validation: none
+Sun Jul  6 10:23:11 2025:    /etc/falco/rules.d/custom-rule.yaml | schema validation: ok
+Sun Jul  6 10:23:11 2025: The chosen syscall buffer dimension is: 8388608 bytes (8 MBs)
+Sun Jul  6 10:23:11 2025: you required a buffer every '2' CPUs but there are only '1' online CPUs. Falco changed the config to: one buffer every '1' CPUs
+Sun Jul  6 10:23:11 2025: Starting health webserver with threadiness 1, listening on 0.0.0.0:8765
+Sun Jul  6 10:23:11 2025: Loaded event sources: syscall
+Sun Jul  6 10:23:11 2025: Enabled event sources: syscall
+Sun Jul  6 10:23:11 2025: Opening 'syscall' source with modern BPF probe.
+Sun Jul  6 10:23:11 2025: One ring buffer every '1' CPUs.
+10:23:21.480257090: Warning Unexpected process trying to access memory on host (command=devmem 0x12345678 container.id=e15c5154a4ab container.name=b01)
+10:23:31.485768806: Warning Unexpected process trying to access memory on host (command=devmem 0x12345678 container.id=e15c5154a4ab container.name=b01)
+10:23:41.488406461: Warning Unexpected process trying to access memory on host (command=devmem 0x12345678 container.id=e15c5154a4ab container.name=b01)
+10:23:51.495333583: Warning Unexpected process trying to access memory on host (command=devmem 0x12345678 container.id=e15c5154a4ab container.name=b01)
+10:24:01.497815992: Warning Unexpected process trying to access memory on host (command=devmem 0x12345678 container.id=e15c5154a4ab container.name=b01)
