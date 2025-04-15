@@ -15,6 +15,7 @@ There are four possible “stages” for each event:
 ### ResponseComplete: The server has finished processing the request and has sent a response.
 ### Panic: This stage happens when the API server “panics” in response to a request.
 
+## Example: 
 
 {
   "kind": "Event",
