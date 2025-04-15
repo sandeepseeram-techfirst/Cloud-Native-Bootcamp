@@ -107,3 +107,6 @@ rules:
     # generate an audit event in RequestReceived.
     omitStages:
       - "RequestReceived"
+
+## Webhooks 
+Send events over HTTP: You can use webhooks to send event data to an external security tool over HTTP. This way, your security tool can run entirely separately from your cluster.
