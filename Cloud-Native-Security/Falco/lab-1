@@ -68,7 +68,7 @@ Sun Jul  6 10:23:11 2025: Starting health webserver with threadiness 1, listenin
 Sun Jul  6 10:23:11 2025: Loaded event sources: syscall
 Sun Jul  6 10:23:11 2025: Enabled event sources: syscall
 Sun Jul  6 10:23:11 2025: Opening 'syscall' source with modern BPF probe.
-Sun Jul  6 10:23:11 2025: One ring buffer every '1' CPUs.
+Sun Jul  6 10:23:11 2025: One ring buffer every '1' CPUs. 
 10:23:21.480257090: Warning Unexpected process trying to access memory on host (command=devmem 0x12345678 container.id=e15c5154a4ab container.name=b01)
 10:23:31.485768806: Warning Unexpected process trying to access memory on host (command=devmem 0x12345678 container.id=e15c5154a4ab container.name=b01)
 10:23:41.488406461: Warning Unexpected process trying to access memory on host (command=devmem 0x12345678 container.id=e15c5154a4ab container.name=b01)
