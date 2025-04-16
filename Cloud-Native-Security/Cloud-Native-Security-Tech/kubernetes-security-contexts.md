@@ -24,3 +24,10 @@ Thus, you can think of Kubernetes security context as a way to define certain pe
 
 RBAC can be applied to a variety of Kubernetes resources, such as pods, Kubernetes nodes, and even entire clusters. 
 Security context assigns permissions only to pods.
+
+## Example: 
+
+Spec:
+  securityContext:
+    runAsUser: 1000
+    fsGroup: 2000
