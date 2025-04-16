@@ -110,3 +110,18 @@ rules:
 
 ## Webhooks 
 Send events over HTTP: You can use webhooks to send event data to an external security tool over HTTP. This way, your security tool can run entirely separately from your cluster.
+
+apiVersion: v1
+kind: Config
+clusters:
+- name: falco
+ cluster:
+   server: http://$FALCO_SERVICE_CLUSTERIP:8765/k8s_audit
+contexts:
+- context:
+   cluster: falco
+   user: ""
+ name: default-context
+current-context: default-context
+preferences: {}
+users: []
