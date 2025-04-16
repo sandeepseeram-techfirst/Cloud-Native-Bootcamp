@@ -13,3 +13,9 @@ As such, it makes it possible to assign each resource the specific permissions t
 ## What Is Kubernetes Security Context?
 In Kubernetes, a security context defines privileges for individual pods or containers. 
 You can use security context to grant containers or pods permissions such as the right to access an external file or run in privileged mode.
+
+
+## Internal vs. External Security Contexts
+Kubernetes security context is a bit complicated in the sense that some of the rules that you can define are enforced internally via Kubernetes itself, whereas others integrate with external security context tools – namely, AppArmor and SELinux.
+
+Thus, you can think of Kubernetes security context as a way to define certain permissions for pods and containers, as well as to integrate Kubernetes with external security tools that run on the host rather than in Kubernetes itself.
