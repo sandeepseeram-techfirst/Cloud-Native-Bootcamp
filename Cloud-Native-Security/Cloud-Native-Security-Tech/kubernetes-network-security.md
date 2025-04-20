@@ -24,3 +24,6 @@ Kubernetes uses a Container Network Interface (CNI) plugin to create a virtual n
 CNI plugins are also available to support platforms like Project Calico and Weave Net, which are designed to provide a way to standardize networking configurations across heterogeneous or hybrid environments (i.e., environments that combine multiple types of platforms, such as Kubernetes and a public cloud or a private data center).
 
 ## Service Meshes 
+Service meshes automate the discovery of different resources on a network. Most service meshes also provide network observability and security functionality.
+
+Kubernetes itself does not provide a native service mesh, but it can integrate with most mainstream service meshes, such as Istio, Traefik, and NGINX.
