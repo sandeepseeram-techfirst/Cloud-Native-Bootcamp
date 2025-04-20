@@ -27,3 +27,23 @@ CNI plugins are also available to support platforms like Project Calico and Weav
 Service meshes automate the discovery of different resources on a network. Most service meshes also provide network observability and security functionality.
 
 Kubernetes itself does not provide a native service mesh, but it can integrate with most mainstream service meshes, such as Istio, Traefik, and NGINX.
+
+
+## Network Policy 
+
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: deny-backend-egress
+  namespace: default
+  spec:
+    podSelector:
+    matchLabels:
+      tier: backend
+      policyTypes:
+      - Egress
+      egress:
+      - to:
+         - podSelector:
+        matchLabels:
+        tier: backend
