@@ -18,3 +18,5 @@ On the backend, kube-proxy relies on OS-level network services, such as iptables
 But because kube-proxy abstracts these services from Kubernetes resources, the underlying network management layer at the node level is not especially important from a Kubernetes network security perspective.
 
 ## CNI Plugins 
+
+Kubernetes uses a Container Network Interface (CNI) plugin to create a virtual network interface that containers can use. CNI plugins can be used to integrate Kubernetes with a variety of third-party network configuration management platforms, such as those that run natively on public clouds (like Azure Virtual Networks and AWS Network Interfaces).
