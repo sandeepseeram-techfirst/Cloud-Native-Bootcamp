@@ -20,3 +20,5 @@ But because kube-proxy abstracts these services from Kubernetes resources, the u
 ## CNI Plugins 
 
 Kubernetes uses a Container Network Interface (CNI) plugin to create a virtual network interface that containers can use. CNI plugins can be used to integrate Kubernetes with a variety of third-party network configuration management platforms, such as those that run natively on public clouds (like Azure Virtual Networks and AWS Network Interfaces).
+
+CNI plugins are also available to support platforms like Project Calico and Weave Net, which are designed to provide a way to standardize networking configurations across heterogeneous or hybrid environments (i.e., environments that combine multiple types of platforms, such as Kubernetes and a public cloud or a private data center).
