@@ -6,6 +6,10 @@
 2. AI Agents are dynamic. 
 3. AI Agents are good at replacing the need for a human to be in the loop. 
 
+# Agents vs. Automations 
+
+
+
 
 
 
