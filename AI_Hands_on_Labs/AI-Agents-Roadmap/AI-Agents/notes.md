@@ -8,6 +8,9 @@
 
 # Agents vs. Automations 
 
+1. Automations are predefined workflows that perform structured tasks. 
+2. Agents are non-deterministic and can adapt to situations in real time. 
+
 
 
 
