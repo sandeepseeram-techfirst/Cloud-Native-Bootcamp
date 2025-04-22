@@ -27,3 +27,22 @@
 ---
 
 
+## ✅ Phase 2: Tools & Libraries for AI Agents
+
+- **Python**: Preferred language for AI agent development.
+- **LangChain**: Framework for building LLM-powered applications.
+- **LlamaIndex**: Interface for using LLMs with external data sources.
+- **OpenAI API**: For GPT-4, GPT-4o, etc.
+- **Vector DBs**: Pinecone, FAISS, Weaviate, Chroma – used for memory and context.
+
+## ✅ Phase 3: Hands-On Roadmap
+
+We’ll build agents in this order:
+
+1. ✅ Rule-based Agent
+2. ✅ LLM Agent with LangChain
+3. ✅ Agent with Tools (search, calculator, web access)
+4. ✅ Agent with Memory
+5. ✅ Retrieval-Augmented Generation (RAG) Agent
+6. ✅ Multi-Agent Collaboration (AutoGen style)
+7. ✅ Autonomous Agent (AutoGPT/BabyAGI style)
