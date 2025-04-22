@@ -12,7 +12,7 @@ AI Agent: Uses intelligence (logic, learning, reasoning) to make decisions
 # Agents vs. Automations 
 
 1. Automations are predefined workflows that perform structured tasks. 
-2. Agents are non-deterministic and can adapt to situations in real time. 
+2. Agents are non-deterministic and can adapt to situations in real time.
 
 
 
