@@ -14,3 +14,16 @@
 - **Action**: Executes output or calls (e.g., text response, API call).
 - **Memory**: Stores context or previous interactions.
 - **Planning** *(Optional)*: Breaks goals into steps and organizes execution.
+
+### 3. Types of AI Agents
+| Type                    | Description                                            |
+|-------------------------|--------------------------------------------------------|
+| Reactive Agents         | Act based on current input without memory              |
+| Model-based Agents      | Maintain an internal state or model of the world       |
+| Goal-based Agents       | Act to achieve a defined goal                          |
+| Utility-based Agents    | Try to maximize a utility function                     |
+| Learning Agents         | Learn and improve behavior over time                   |
+
+---
+
+
