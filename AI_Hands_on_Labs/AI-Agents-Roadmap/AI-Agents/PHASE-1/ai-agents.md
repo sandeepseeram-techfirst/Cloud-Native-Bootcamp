@@ -12,3 +12,12 @@ An **AI agent** is a system that:
 ## 🔹 2. The AI Agent Loop
 
 [Perception] → [Reasoning / Decision-Making] → [Action] → (Feedback / Learning)
+
+### Example:
+**Input**: "Turn on the lights"  
+**Agent**:
+- Understands the command (Perception)
+- Decides what to do (Reasoning)
+- Calls a smart-home API (Action)
+
+---
