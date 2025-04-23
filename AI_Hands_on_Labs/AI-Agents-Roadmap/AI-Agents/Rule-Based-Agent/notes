@@ -1,0 +1,12 @@
+$ python3 app.py
+🤖 Simple AI Agent (Type 'exit' to quit)
+You: Hello
+Agent: Hi there! How can I help you today?
+You: how are you 
+Agent: I'm just code, but I'm doing great! 😄
+You: weather 
+Agent: I'm not connected to weather services yet, but it's always sunny in the terminal.
+You: can you give a nice joke? 
+Agent: Why did the developer go broke? Because he used up all his cache!
+You: bye
+Agent: Goodbye! Have a great day! 👋
