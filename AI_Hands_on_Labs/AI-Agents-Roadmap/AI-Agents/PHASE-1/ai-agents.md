@@ -33,3 +33,16 @@ An **AI agent** is a system that:
 | **Action**     | Executes a function, command, or output |
 
 ---
+
+## 🔹 4. Agent Environments
+
+Agents operate in **environments**, which can be:
+
+- **Fully Observable**: The agent has access to all relevant data (e.g., chess).
+- **Partially Observable**: Some data is hidden or uncertain (e.g., autonomous driving).
+- **Deterministic**: Actions have predictable results.
+- **Stochastic**: Outcomes are uncertain.
+- **Episodic**: Each input is independent (e.g., spam filter).
+- **Sequential**: Actions affect future states (e.g., chatbots, games).
+
+---
