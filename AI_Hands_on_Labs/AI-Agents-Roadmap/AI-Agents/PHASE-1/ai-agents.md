@@ -58,3 +58,12 @@ Agents operate in **environments**, which can be:
 | **Learning Agent**          | Learns and improves over time              | GPT, AlphaGo, ML models        |
 
 ---
+
+## 🔹 6. Reactive vs Deliberative Agents
+
+| Category          | Description                                                  |
+|------------------|--------------------------------------------------------------|
+| **Reactive Agent**     | Quick responses, no internal model or planning              |
+| **Deliberative Agent** | Thinks ahead, plans based on outcomes, slower but smarter |
+
+---
