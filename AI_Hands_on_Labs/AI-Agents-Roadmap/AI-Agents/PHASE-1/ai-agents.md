@@ -9,3 +9,6 @@ An **AI agent** is a system that:
 - **Thinks** using logic, rules, or learned behavior.
 - **Acts** to achieve specific goals.
 
+## 🔹 2. The AI Agent Loop
+
+[Perception] → [Reasoning / Decision-Making] → [Action] → (Feedback / Learning)
