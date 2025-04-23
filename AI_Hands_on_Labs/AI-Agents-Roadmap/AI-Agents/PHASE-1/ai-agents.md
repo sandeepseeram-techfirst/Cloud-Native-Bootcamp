@@ -8,3 +8,4 @@ An **AI agent** is a system that:
 - **Perceives** its environment (via inputs).
 - **Thinks** using logic, rules, or learned behavior.
 - **Acts** to achieve specific goals.
+
