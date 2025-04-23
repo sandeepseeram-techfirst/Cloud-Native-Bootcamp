@@ -46,3 +46,15 @@ Agents operate in **environments**, which can be:
 - **Sequential**: Actions affect future states (e.g., chatbots, games).
 
 ---
+
+## 🔹 5. Types of AI Agents
+
+| Type                        | Description                                | Example                        |
+|-----------------------------|--------------------------------------------|--------------------------------|
+| **Simple Reflex Agent**     | Responds to current input using rules      | Basic rule-based chatbot       |
+| **Model-Based Reflex Agent**| Maintains internal state                   | Self-driving car logic         |
+| **Goal-Based Agent**        | Uses goal-driven logic for decision-making | Pathfinding or game AI         |
+| **Utility-Based Agent**     | Maximizes a utility function               | Recommendation systems         |
+| **Learning Agent**          | Learns and improves over time              | GPT, AlphaGo, ML models        |
+
+---
