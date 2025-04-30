@@ -4,3 +4,4 @@ Generative AI is a subset of machine learning that focuses on creating new conte
 
 ## Inference
 Using a trained generative model to create new content based on patterns learned from the training data is known as inference.
+
