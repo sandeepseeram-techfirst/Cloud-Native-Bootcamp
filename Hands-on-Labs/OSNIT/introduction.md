@@ -36,19 +36,19 @@
 | Tool           | Description                                                                 |
 |----------------|-----------------------------------------------------------------------------|
 | **Maltego**    | Graph-based data visualization for link and entity analysis.                |
-| **Recon-ng**   | Web reconnaissance framework with automation capabilities.                 |
-| **theHarvester** | Gathers emails, subdomains, and other data using public sources.         |
-| **SpiderFoot** | Fully automated OSINT framework with over 100 modules.                     |
+| **Recon-ng**   | Web reconnaissance framework with automation capabilities.                  |
+| **theHarvester** | Gathers emails, subdomains, and other data using public sources.          |
+| **SpiderFoot** | Fully automated OSINT framework with over 100 modules.                      |
 | **Shodan**     | Search engine for discovering internet-connected devices and systems.       |
-| **FOCA**       | Extracts metadata from public documents (PDFs, Word, etc.).                |
+| **FOCA**       | Extracts metadata from public documents (PDFs, Word, etc.).                 |
 
 ### 👤 Social Media OSINT 
 
 | Tool             | Description                                                              |
 |------------------|--------------------------------------------------------------------------|
-| **Social-Searcher** | Real-time social media monitoring and analytics tool.                |
-| **Creepy**        | Geolocation OSINT tool for tracking location metadata in posts/images. |
-| **Twint**         | Twitter scraping tool that doesn't require API access.                 |
+| **Social-Searcher** | Real-time social media monitoring and analytics tool.                 |
+| **Creepy**        | Geolocation OSINT tool for tracking location metadata in posts/images.  |
+| **Twint**         | Twitter scraping tool that doesn't require API access.                  |
 
 ### 🌐 Domain & IP Intelligence
 
@@ -67,7 +67,7 @@
 | **Ahmia**     | Search engine for Tor hidden services (onion sites).                       |
 | **OnionScan** | Analyzes the security of dark web services.                                |
 | **IntelX**    | Archives data from public, deep, and dark web sources.                     |
-| **Pastebin Scrapers** | Search for leaked data or credentials on paste sites.             |
+| **Pastebin Scrapers** | Search for leaked data or credentials on paste sites.              |
 
 ---
 
