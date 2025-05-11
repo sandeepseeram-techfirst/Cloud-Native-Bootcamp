@@ -8,3 +8,15 @@
 
 3. **Reduce time-to-market**  
    Automate data ingestion, preprocessing, model training, and deployment pipelines so every code or data change triggers reliable, reproducible builds and rollouts.
+
+
+# Technologies 
+
+**Kubernetes** 
+**Python**
+**Spark**
+**MLFlow**
+**Seldon**
+**Airflow** 
+
+
