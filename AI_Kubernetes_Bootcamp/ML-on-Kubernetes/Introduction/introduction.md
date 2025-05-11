@@ -10,13 +10,11 @@
    Automate data ingestion, preprocessing, model training, and deployment pipelines so every code or data change triggers reliable, reproducible builds and rollouts.
 
 
-# Technologies 
+# Technologies
 
-**Kubernetes** 
-**Python**
-**Spark**
-**MLFlow**
-**Seldon**
-**Airflow** 
-
-
+- **Kubernetes** – Container orchestration and infrastructure automation  
+- **Python** – Primary language for data science, model development, and glue code  
+- **Apache Spark** – Distributed data processing and large-scale feature engineering  
+- **MLflow** – Experiment tracking, model registry, and reproducibility  
+- **Seldon** – Model serving, A/B testing, and advanced inference on Kubernetes  
+- **Apache Airflow** – Workflow orchestration for data and ML pipelines
