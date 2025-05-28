@@ -1,4 +1,8 @@
 # Generative AI shortcomings 
 
 1. Hallucinations 
-2. 
+Why it happens: The AI predicts words that “sound right” instead of fact-checking.
+
+2. Knowledge Attribution 
+3. Knowledge Cutoff 
+4. Context Window Size
