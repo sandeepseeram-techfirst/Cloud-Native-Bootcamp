@@ -11,3 +11,4 @@ controlplane:~$
 
 Create ClusterIP Services for both Deployments for port 80 . 
 The Services should have the same name as the Deployments.
+
