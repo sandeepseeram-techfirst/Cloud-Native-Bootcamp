@@ -12,3 +12,7 @@ controlplane:~$
 Create ClusterIP Services for both Deployments for port 80 . 
 The Services should have the same name as the Deployments.
 
+controlplane:~$ kubectl -n world expose deploy europe --port 80 
+service/europe exposed
+controlplane:~$ 
+
