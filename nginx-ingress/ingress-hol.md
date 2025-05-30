@@ -16,3 +16,6 @@ controlplane:~$ kubectl -n world expose deploy europe --port 80
 service/europe exposed
 controlplane:~$ 
 
+controlplane:~$ kubectl -n world expose deploy asia --port 80 
+service/asia exposed
+controlplane:~$ 
