@@ -1,5 +1,7 @@
 # Create Ingress for existing Services
 
+The NGINX Ingress Controller is production‑grade Ingress controller (daemon) that runs alongside NGINX Open Source or NGINX Plus instances in a Kubernetes environment.
+
 controlplane:~$ kubectl get pods -n ingress-nginx
 NAME                                        READY   STATUS      RESTARTS   AGE
 ingress-nginx-admission-create-5twz7        0/1     Completed   0          11m
