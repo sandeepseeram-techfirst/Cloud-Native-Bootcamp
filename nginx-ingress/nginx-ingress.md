@@ -9,7 +9,7 @@ ingress-nginx-admission-patch-d94cd         0/1     Completed   0          11m
 ingress-nginx-controller-59867d49f9-654qp   1/1     Running     0          11m
 controlplane:~$ 
 
-The Nginx Ingress Controller has been installed. 
+The Nginx Ingress Controller has been installed.
 
 
 controlplane:~$ vi ingress.yaml
