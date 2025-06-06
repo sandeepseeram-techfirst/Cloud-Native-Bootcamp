@@ -1,4 +1,4 @@
-# Nginx Ingress
+# Nginx Ingress 
 
 controlplane:~$ kubectl get deployments -n world
 NAME     READY   UP-TO-DATE   AVAILABLE   AGE
