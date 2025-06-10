@@ -12,5 +12,5 @@ controlplane:~$
 
 controlplane:~$ kubectl -n world create secret tls ingress-tls --key cert.key --cert cert.crt
 secret/ingress-tls created
-controlplane:~$ 
+controlplane:~$
 
