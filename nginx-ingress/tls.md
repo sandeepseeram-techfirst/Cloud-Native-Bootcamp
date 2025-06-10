@@ -8,7 +8,7 @@ controlplane:~$ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout cert
 -----
 controlplane:~$ 
 
-#### Kubernetes Secret 
+#### Kubernetes Secret
 
 controlplane:~$ kubectl -n world create secret tls ingress-tls --key cert.key --cert cert.crt
 secret/ingress-tls created
