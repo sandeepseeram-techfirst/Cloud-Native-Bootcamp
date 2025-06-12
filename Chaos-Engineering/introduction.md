@@ -13,5 +13,12 @@ It helps identify weaknesses by intentionally injecting failures, observing the 
 2. **Hypothesize on Behavior**  
    Predict how the system will respond under certain failure scenarios.
 
-2. **Hypothesize on Behavior**  
-   Predict how the system will respond under certain failure scenarios.
+3. **Introduce Controlled Chaos**  
+   Inject faults such as:
+   - Latency injection  
+   - Network blackholes  
+   - Service crashes  
+   - Resource exhaustion (CPU, memory, disk)  
+   - Region/zone outages  
+
+
