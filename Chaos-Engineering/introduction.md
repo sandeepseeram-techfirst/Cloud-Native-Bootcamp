@@ -12,3 +12,4 @@ It helps identify weaknesses by intentionally injecting failures, observing the 
 
 2. **Hypothesize on Behavior**  
    Predict how the system will respond under certain failure scenarios.
+ 
