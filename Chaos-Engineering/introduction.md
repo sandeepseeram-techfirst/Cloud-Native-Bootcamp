@@ -21,4 +21,10 @@ It helps identify weaknesses by intentionally injecting failures, observing the 
    - Resource exhaustion (CPU, memory, disk)  
    - Region/zone outages  
 
+4. **Observe and Learn**  
+   Monitor metrics, logs, and traces to validate if the hypothesis holds.
 
+5. **Improve Resilience**  
+   Apply learnings to strengthen fault tolerance, redundancy, and recovery mechanisms.
+
+---
