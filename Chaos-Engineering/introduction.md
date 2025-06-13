@@ -37,3 +37,11 @@ It helps identify weaknesses by intentionally injecting failures, observing the 
 
 ---
 
+## Example Chaos Tools
+- **Gremlin** – Fault injection platform  
+- **Chaos Mesh** – Chaos engineering for Kubernetes  
+- **LitmusChaos** – CNCF-hosted chaos engineering project  
+- **AWS Fault Injection Simulator** – Cloud-native chaos tool  
+- **Chaos Monkey (Netflix)** – The original chaos tool  
+
+---
