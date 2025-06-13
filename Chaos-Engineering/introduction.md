@@ -28,3 +28,12 @@ It helps identify weaknesses by intentionally injecting failures, observing the 
    Apply learnings to strengthen fault tolerance, redundancy, and recovery mechanisms.
 
 ---
+
+## Benefits
+- Identifies hidden failures before they cause outages  
+- Improves **system reliability** and **availability**  
+- Builds **team confidence** in production systems  
+- Encourages a **proactive failure-first mindset**  
+
+---
+
