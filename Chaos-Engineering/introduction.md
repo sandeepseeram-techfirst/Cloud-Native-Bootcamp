@@ -53,4 +53,4 @@ It helps identify weaknesses by intentionally injecting failures, observing the 
 - Simulating **network partitioning** in microservices  
 - Verifying **disaster recovery (DR) strategies**  
 
---- 
+---
