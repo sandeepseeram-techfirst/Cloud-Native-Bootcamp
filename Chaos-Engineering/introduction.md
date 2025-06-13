@@ -45,3 +45,12 @@ It helps identify weaknesses by intentionally injecting failures, observing the 
 - **Chaos Monkey (Netflix)** – The original chaos tool  
 
 ---
+
+## Real-World Use Cases
+- Testing **multi-region failover** in cloud systems  
+- Validating **auto-scaling** under load  
+- Ensuring **circuit breakers** and **retry logic** work as expected  
+- Simulating **network partitioning** in microservices  
+- Verifying **disaster recovery (DR) strategies**  
+
+---
