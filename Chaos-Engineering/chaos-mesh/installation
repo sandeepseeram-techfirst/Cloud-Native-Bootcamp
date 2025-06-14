@@ -1,2 +1,3 @@
 curl -sSL https://mirrors.chaos-mesh.org/v2.7.2/install.sh | bash 
 
+kubectl get pods -n chaos-mesh -l app.kubernetes.io/instance=chaos-mesh 
