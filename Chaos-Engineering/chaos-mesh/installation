@@ -1,3 +1,11 @@
 curl -sSL https://mirrors.chaos-mesh.org/v2.7.2/install.sh | bash 
 
 kubectl get pods -n chaos-mesh -l app.kubernetes.io/instance=chaos-mesh 
+
+NAME                                       READY   STATUS    RESTARTS   AGE
+chaos-controller-manager-7b8c86cc9-44dzf   1/1     Running   0          17m
+chaos-controller-manager-7b8c86cc9-mxw99   1/1     Running   0          17m
+chaos-controller-manager-7b8c86cc9-xmc5v   1/1     Running   0          17m
+chaos-daemon-sg2k2                         1/1     Running   0          17m
+chaos-dashboard-b9dbc6b68-hln25            1/1     Running   0          17m
+chaos-dns-server-546675d89d-qkjqq          1/1     Running   0          17m
