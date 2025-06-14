@@ -56,4 +56,4 @@ It helps identify weaknesses by intentionally injecting failures, observing the 
 ---
 
 Chaos Engineering isn’t about creating outages — it’s about learning how systems behave under stress and **proactively building resilience**.  
-By deliberately injecting failure, organizations can **reduce downtime**, **improve user experience**, and **increase confidence** in their production systems.
+By deliberately injecting failure, organizations can **reduce downtime**, **improve user experience**, and **increase confidence** in their production systems. 
