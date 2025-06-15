@@ -14,3 +14,4 @@ chaos-dns-server-546675d89d-qkjqq          1/1     Running   0          17m
 HELM 
 
 helm repo add chaos-mesh https://charts.chaos-mesh.org
+helm search repo chaos-mesh
