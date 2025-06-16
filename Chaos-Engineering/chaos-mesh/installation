@@ -11,7 +11,7 @@ chaos-dashboard-b9dbc6b68-hln25            1/1     Running   0          17m
 chaos-dns-server-546675d89d-qkjqq          1/1     Running   0          17m
 
 
-HELM 
+HELM
 
 helm repo add chaos-mesh https://charts.chaos-mesh.org
 helm search repo chaos-mesh
