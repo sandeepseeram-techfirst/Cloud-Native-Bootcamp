@@ -7,10 +7,10 @@ It helps identify weaknesses by intentionally injecting failures, observing the 
 ---
 
 ## Key Principles
-1. **Define Steady State**  
+1. **Define Steady State** 
    Establish measurable outputs (e.g., latency, error rate, throughput) that indicate normal system behavior.
 
-2. **Hypothesize on Behavior**  
+2. **Hypothesize on Behavior**
    Predict how the system will respond under certain failure scenarios.
 
 3. **Introduce Controlled Chaos**  
