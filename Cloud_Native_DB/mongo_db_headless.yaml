@@ -6,6 +6,6 @@ metadata:
   labels:
     app: mongodb-store
 spec:
-  clusterIP: None
+  clusterIP: None 
   selector:
     app: mongodb-store
