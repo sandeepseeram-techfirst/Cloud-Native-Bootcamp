@@ -6,7 +6,7 @@ spec:
   type: NodePort
   selector:
     app: store-service
-  ports:
+  ports: 
     - protocol: TCP
       nodePort: 30000
       port: 80
