@@ -1,1 +1,2 @@
 # Istio 
+Istio provides a huge step forward in simplifying and improving service-to-service communication in microservices architectures. Istio helps enterprises construct durable and scalable distributed systems by solving difficulties such as traffic management, security, observability, and resilience. 
