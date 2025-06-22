@@ -6,7 +6,7 @@ spec:
   source:
     repoURL: https://github.com/my-org/my-helm-chart
     path: charts/my-app
-    targetRevision: main
+    targetRevision: main 
     helm:
       valueFiles:
         - values.yaml
