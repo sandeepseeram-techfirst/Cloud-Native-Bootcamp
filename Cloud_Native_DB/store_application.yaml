@@ -11,7 +11,7 @@ spec:
       app: store-service
   template:
     metadata:
-      labels:
+      labels: 
         app: store-service
     spec:
       containers:
