@@ -11,4 +11,5 @@ Two planes:
 
 #### Control plane: 
 Istiod — issues certs, distributes configuration, service discovery, policies, telemetry hooks.
-Data plane: Envoy (sidecar or shared proxies in ambient mode) — intercepts traffic, enforces policies, collects telemetry.
+#### Data plane: 
+Envoy (sidecar or shared proxies in ambient mode) — intercepts traffic, enforces policies, collects telemetry.
