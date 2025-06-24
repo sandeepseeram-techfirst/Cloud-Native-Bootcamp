@@ -6,6 +6,7 @@ A service mesh can be defined as a dedicated infrastructure layer designed to ha
 
 
 ## High-level Istio architecture
+
 Two planes:
 
 #### Control plane: 
