@@ -8,8 +8,8 @@ A service mesh can be defined as a dedicated infrastructure layer designed to ha
 ## High-level Istio architecture
 
 Two planes:
-
 #### Control plane: 
 Istiod — issues certs, distributes configuration, service discovery, policies, telemetry hooks.
+
 #### Data plane: 
 Envoy (sidecar or shared proxies in ambient mode) — intercepts traffic, enforces policies, collects telemetry.
