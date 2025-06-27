@@ -1,4 +1,4 @@
-### MLOps includes some distinctive practices:
+### MLOps includes some distinctive practices: 
 
 ##### Data versioning and management: Ensuring that datasets are version-controlled, and hence that their use is reproducible.
 
